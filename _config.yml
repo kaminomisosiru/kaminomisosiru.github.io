@@ -1,0 +1,51 @@
+name: World of Kaminomisosiru
+author: keitaro Hashimoto
+penname: 神のミソ汁
+description: kaminomisosiruのメモ
+url: "https://kaminomisosiru.github.io"
+
+# SNS
+twitter_id: kaminomisosiru_
+facebook_id: 100014692623727
+github_id: kaminomisosiru
+
+google_analytics: 'UA-101783670-2'
+
+markdown: kramdown
+highlighter: pygments
+
+paginate: 10
+paginate_path: '/blog/page:num'
+
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+            permalink: '/blog/:year/:month/:day/:title/'
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+            permalink: '/blog/:year/:month/:day/:title/'
+
+include:
+  - _pages
+
+exclude:
+  - .git
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,25 @@
+<div id="post-share">
+    <!-- <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }} - {{ site.name }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_id }}&related={{ site.twitter_id }}" rel="nofollow" target="_blank" title="Share on Twitter" class="btn twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a> -->
+    <a class="btn twitter" href="#" onclick="
+        window.open(
+          'https://twitter.com/intent/tweet?text={{ page.title }} - {{ site.name }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_id }}',
+          'twitter-share-dialog',
+          'width=550,height=400');
+        return false;"><i class="fab fa-twitter"></i> Tweet</span>
+    </a>
+    <a class="btn facebook" href="#" onclick="
+        window.open(
+          'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+          'facebook-share-dialog',
+          'width=626,height=436');
+        return false;"><i class="fab fa-facebook"></i> Share</span>
+    </a>
+    <a class="btn google-plus" href="#" onclick="
+        window.open(
+          'https://plus.google.com/share?url='+encodeURIComponent(location.href),
+          'googleplus-share-dialog',
+          'width=400,height=600');
+        return false;"><i class="fab fa-google-plus-g"></i> Share</span>
+    </a>
+</div>

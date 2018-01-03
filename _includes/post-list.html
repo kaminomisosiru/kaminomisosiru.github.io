@@ -1,0 +1,24 @@
+<ul id="post-list">
+    {% for post in paginator.posts %}
+        <li class="{{post.tags | join: ' '}}">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <h2> {{ post.title }} </h2>
+            </a>
+            <p class="post-description">
+                {% if post.description %}
+                    {{ post.description | strip_html | strip_newlines | truncate: 100 }}
+                {% else %}
+                    {{ post.content | strip_html | strip_newlines | truncate: 100 }}
+                {% endif %}
+            </p>
+            <div class="post-meta">
+                {{ post.date | date: "%b %-d, %Y" }}  |  
+                <i class="fa fa-tags" aria-hidden="true" style="margin-right: 2px;"></i> {{post.tags | join: ', '}}
+            </div>
+        </li>
+    {% endfor %}
+</ul>
+
+{% if paginator.previous_page or paginator.next_page %}
+    {% include pagination.html %}
+{% endif %}

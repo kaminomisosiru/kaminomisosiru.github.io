@@ -1,0 +1,23 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101783670-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %} {{ page.title }} -{% endif %} {{ site.name }}</title>
+  <link rel="shortcut icon" href="{{ "/" | relative_url  }}assets/img/favicon.ico">
+  <!-- Bootstrap CSS -->
+  <link href="{{ "/" | relative_url  }}assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/style.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/highlight.css">
+</head>
