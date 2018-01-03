@@ -114,7 +114,10 @@ ul#contact-list li{
 }
 /* share button*/
 #post-share{
-    margin: 40px 15% 20px;
+    margin: 40px 10% 20px;
+}
+#post-share a{
+    margin: 5px;
 }
 #post-share a.twitter{
     color: white;
