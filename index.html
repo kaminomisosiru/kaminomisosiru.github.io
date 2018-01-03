@@ -1,1 +1,68 @@
-Hello World
+---
+layout: default
+---
+<section id="toppage-header">
+    <img id="avatar" src="{{ "/" | relative_url  }}assets/img/avatar.png"/>
+    <h1>神のミソ汁 / 橋本 啓太郎</h1>
+</section>
+
+<div id="toppage-profile" class="container">
+
+<section>
+    <h2><span><i class="fa fa-user" aria-hidden="true"></i> Profile</span></h2>
+    <p>
+        暗号理論や情報セキュリティの研究をしている大学生です。研究では公開鍵暗号やディジタル署名に興味があります。<br>
+        個人的には数学(整数論・代数学)とネットワークセキュリティについて勉強しています。
+        {% comment %}最近は耐量子暗号について勉強しています。{% endcomment %}
+    </p>
+    <div>
+        <h4>Licence</h4>
+        <ul>
+            <li>基本情報技術者 (2014年 11月)</li>
+            <li>応用情報技術者 (2015年 12月)</li>
+        </ul>
+    </div>
+    <h3>Favorites</h3>
+    <p>
+        神社巡り、読書、お酒を嗜むこと
+    </p>
+</section>
+
+<section>
+    <h2><span><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</span></h2>
+    <dl>
+        <dt>2011年 4月 &ndash; 2014年 3月</dt>
+        <dd>埼玉県立熊谷高等学校</dd>
+        <dt>2014年 4月 &ndash; 現在</dt>
+        {% comment %}<dt>2014年 4月 &ndash; 2018年 3月</dt>{% endcomment %}
+        <dd>東京工業大学 工学部 情報工学科</dd>
+        {% comment %}
+        <dt>2018年 4月 &ndash; 現在</dt>
+        <dd>東京工業大学 工学院 情報通信系 修士課程 (<a href="http://www.security.mot.titech.ac.jp/" target="_blank">尾形研究室</a>)</dd>
+        {% endcomment %}
+    </dl>
+</section>
+
+<section>
+    <h2><span><i class="fa fa-book" aria-hidden="true"></i> Publications</span></h2>
+    <div>
+        <h3>口頭発表</h3>
+        <ol>
+            <li>橋本啓太郎, 尾形わかは, <i class="text-primary">Certificateless Aggregate Signature Schemeの構成法と安全性に関する研究</i>, 暗号と情報セキュリティシンポジウム 2018(SCIS2018), 新潟市, 2018年1月.</li>
+        </ol>
+    </div>
+</section>
+
+<section>
+    <h2><span><i class="fas fa-address-card"></i> Contact</span></h2>
+    <ul id="contact-list" class="list-unstyled list-inline text-center">
+        {% comment %}
+        <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/{{site.twitter_id}}">Twitter</a></li>
+        {% endcomment %}
+        <li><i class="fab fa-facebook"></i>  <a href="https://www.facebook.com/profile.php?id={{site.facebook_id}}">Facebook</a></li>
+        <li><i class="fab fa-github"></i> <a href="https://github.com/{{site.github_id}}">Github</a></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i> hashimoto.k.au [at] m.titech.ac.jp</li>
+    </ul>
+</section>
+
+</div>
