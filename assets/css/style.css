@@ -83,7 +83,7 @@ ul#contact-list li{
 
 /* post page */
 #post-header{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 #post-header h1{
     font-size: 40px;
@@ -107,6 +107,7 @@ ul#contact-list li{
     color: #999;
     font-size: 20px;
     margin-top: 0;
+    margin-bottom: 15px;
 }
 #post-body{
     max-width: 800px;
