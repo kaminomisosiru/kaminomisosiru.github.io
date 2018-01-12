@@ -44,6 +44,7 @@ frameに`allowframebreaks`オプションをつけると自動で分割。`\fram
 
 frameを`allowframebreaks`オプションで分割したとき、frame titleの後ろに`[現在の枚数/全枚数]`を付ける。
 
+{% raw %}
 ```tex
 % プリアンブル
 \newcounter{cont}
@@ -56,6 +57,7 @@ frameを`allowframebreaks`オプションで分割したとき、frame titleの�
     \fi%
 }
 ```
+{% endraw %}
 
 <!--上記の`[\insertcontinuationcount/\arabic{cont}]`を修正すれば表示を変更可能。例えば、`#\insertcontinuationcount`とすれば、`#現在の枚数`が表示される。-->
 
@@ -75,12 +77,14 @@ frameを`allowframebreaks`オプションで分割したとき、frame titleの�
 
 ## 新しいblock環境を作る
 
+{% raw %}
 ```tex
 % プリアンブル
 \newenvironment<>{newblock}[1]{%
   \setbeamercolor{block title}{fg=black,bg=white}% titleの文字色と背景色を指定
   \begin{block}#2{#1}}{\end{block}}
 ```
+{% endraw %}
 
 ## blockをframeの中央に配置する
 
