@@ -1,7 +1,7 @@
 ---
 title: "JekyllでLaTeXの数式を表示する"
 description: "MathJaxを使うことでJekyllで作成した記事にLaTeXの数式を用いることができる。"
-tags: [jekyll, TeX, メモ]
+tags: [jekyll, tex, メモ]
 ---
 
 MathJaxを使うことでJekyllで作成した記事にLaTeXの数式を用いることができる。
