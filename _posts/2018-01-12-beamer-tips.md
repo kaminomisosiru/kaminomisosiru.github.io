@@ -126,3 +126,10 @@ minipage環境を使う。
 % プリアンブル
 \renewcommand*{\bibfont}{\footnotesize}
 ```
+
+## 特定のframeをページ番号に加えない
+ページ番号に加えたくないframeに`noframenumbering`オプションを付ける
+
+```tex
+\begin{frame}[noframenumbering]{...}
+```
