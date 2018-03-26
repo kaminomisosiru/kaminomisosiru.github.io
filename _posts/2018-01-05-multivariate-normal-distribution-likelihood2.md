@@ -1,11 +1,11 @@
 ---
 title: "多次元正規分布の最尤推定(計算編)"
 description: "授業で学んだパターン認識に関するメモ(以前使っていたブログに投稿していた記事の再アップ)。準備編の続き"
-tags: [数学, パターン認識, メモ]
+tags: [数学, パターン認識, 大学の授業]
 ---
 
 ## はじめに
-前回の記事[多次元正規分布の最尤推定(準備編)]({{ site.baseurl }}{% post_url 2018-1-5-multivariate-normal-distribution-likelihood1 %}
+前回の記事[多次元正規分布の最尤推定(準備編)]({{ site.baseurl }}{% post_url 2018-01-05-multivariate-normal-distribution-likelihood1 %}
 )では多次元正規分布の最尤推定に必要な微分の知識をまとめた。今回は実際に多次元正規分布に従うパターンの最尤推定を計算してみる。
 
 ## 多次元正規分布モデルの尤度関数

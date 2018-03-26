@@ -1,7 +1,7 @@
 ---
 title: "beamerで使える小技まとめ"
 description: "今まで調べた使えるbeamerの小技を貯めておく。随時更新予定"
-tags: [tex, beamer, メモ]
+tags: [tex, beamer]
 ---
 
 beamerでやりたいことを検索した中で、使えそうだと思った小技のメモ。
