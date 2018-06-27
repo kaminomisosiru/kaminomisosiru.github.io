@@ -25,7 +25,7 @@ $$
 # C++での実装
 
 C++で書いてみた。
-int型を使っているので、$$(k,n)$$の値を大きくするとオーバーフローするので小さな値で試してみる。
+本来は$Z_q$上で計算をするのだけど、簡単のために$Z$上で実装する。int型を使っているので、$$(k,n)$$の値を大きくするとオーバーフローするので小さな値で試してみる。
 
 ラグランジュ補間のコーソは[C++ - ラグランジュ補間！](https://www.mk-mode.com/octopress/2013/03/10/cpp-interpolate-lagrange/)を参考にした。
 
@@ -67,7 +67,7 @@ void generateShare(vector<int> &share, int k, int n, int data){
 
     std::random_device rnd;
     std::mt19937 mt(rnd());
-    std::uniform_int_distribution<> rand_(1, prime-1);
+    std::uniform_int_distribution<> rand_(0, prime-1);
 
     for (int i = 0; i < k; i++) {
         coefficients[i] = rand_(mt);
@@ -106,7 +106,6 @@ double recoveryData(int x[], vector<int> &y, int k)
 
     return s;
 }
-
 ```
 
 実行結果
