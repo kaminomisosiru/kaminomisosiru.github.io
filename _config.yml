@@ -1,7 +1,7 @@
 name: 神のミソ汁のセカイ
 author: keitaro Hashimoto
 penname: 神のミソ汁
-description: kaminomisosiruのプロフィールとメモなど
+description: 橋本のプロフィールとメモなど
 url: "https://kaminomisosiru.github.io"
 
 # SNS
@@ -15,7 +15,7 @@ markdown: kramdown
 highlighter: rouge
 
 paginate: 10
-paginate_path: '/blog/page:num'
+paginate_path: '/memo/page:num'
 
 
 defaults:
@@ -31,14 +31,14 @@ defaults:
             type: posts
         values:
             layout: post
-            permalink: '/blog/:year/:month/:day/:title/'
+            permalink: '/memo/:title/'
     -
         scope:
             path: ""
             type: drafts
         values:
             layout: post
-            permalink: '/blog/:year/:month/:day/:title/'
+            permalink: '/memo/:title/'
 
 include:
   - _pages

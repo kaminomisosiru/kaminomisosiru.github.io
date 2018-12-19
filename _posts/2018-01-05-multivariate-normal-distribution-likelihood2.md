@@ -9,16 +9,16 @@ tags: [数学, パターン認識, 大学の授業]
 )では多次元正規分布の最尤推定に必要な微分の知識をまとめた。今回は実際に多次元正規分布に従うパターンの最尤推定を計算してみる。
 
 ## 多次元正規分布モデルの尤度関数
-多次元正規分布 $$\mathcal{N}(\mathbf{x} ; \mathbf{\mu}, \mathbf{Σ})$$ に対する$$d$$次元のパターン$$\mathbf{x}$$の一般形は次式で表される。
+多次元正規分布 $\mathcal{N}(\mathbf{x} ; \mathbf{\mu}, \mathbf{Σ})$ に対する$d$次元のパターン$\mathbf{x}$の一般形は次式で表される。
 
 $$
 q(\mathbf{x} ; \mathbf{\mu}, \mathbf{Σ}) = \frac{1}{(2\pi)^{\frac{d}{2}}\det(Σ)^\frac{1}{2}}\exp\left( -\frac{1}{2}(\mathbf{x}-\mathbf{\mu})^\mathrm{T}\mathbf{Σ}^{-1}(\mathbf{x}-\mathbf{\mu}) \right)
 $$
 
-ここで、平均ベクトル$$\mathbf{\mu}$$は$$d$$次元の列ベクトル、分散共分散行列$$\mathbf{Σ}$$は$$d\times d$$の正定値行列である。そのため$$\mathbf{Σ}^\mathrm{T} = \mathbf{Σ}$$が成り立つ。
-また、$$\det(\cdot)$$は行列式を表す。
+ここで、平均ベクトル$\mathbf{\mu}$は$d$次元の列ベクトル、分散共分散行列$\mathbf{Σ}$は$d\times d$の正定値行列である。そのため$\mathbf{Σ}^\mathrm{T} = \mathbf{Σ}$が成り立つ。
+また、$\det(\cdot)$は行列式を表す。
 
-まず、対数尤度関数$$\log L(\mathbf{\mu}, \mathbf{Σ})$$を計算する。訓練標本を$$\{\mathbf{x_i}\}_{i=1}^n$$とすると、
+まず、対数尤度関数$\log L(\mathbf{\mu}, \mathbf{Σ})$を計算する。訓練標本を$\{\mathbf{x_i}\}_{i=1}^n$とすると、
 
 $$
 \begin{align}
@@ -31,10 +31,10 @@ $$
 
 正規分布モデルでのパラメータの最尤推定値は対数尤度関数を各パラメータで偏微分して極値を求めることで得ることができる。(実際には2次導関数を調べて、尤度関数の極値でのパラメータが大域的最適解になるかを確かめる必要がある。)
 
-## パラメータ$$\mathbf{\mu}$$の最尤推定値
-式(1)を$$\mathbf{\mu}$$で偏微分した式が$$\mathbf{0}$$となるような$$\hat{\mu}$$がパラメータ$$\mu$$の最尤推定値である。
+## パラメータ$\mathbf{\mu}$の最尤推定値
+式(1)を$\mathbf{\mu}$で偏微分した式が$\mathbf{0}$となるような$\hat{\mu}$がパラメータ$\mu$の最尤推定値である。
 
-式(1)を$$\mu$$で偏微分すると
+式(1)を$\mu$で偏微分すると
 
 $$
 \begin{align}
@@ -55,23 +55,23 @@ $$
 
 を用いた。
 
-式(2)は$$\mu = \hat{\mu}$$で$$\mathbf{0}$$に等しくなるから
+式(2)は$\mu = \hat{\mu}$で$\mathbf{0}$に等しくなるから
 
 $$
 \sum_{i=1}^n\mathbf{Σ}(\mathbf{x}_i - \hat{\mu}) = \mathbf{0}
 $$
 
-よってパラメータ$$\mu$$の最尤推定値は
+よってパラメータ$\mu$の最尤推定値は
 
 $$
 \hat{\mu} = \frac{1}{n}\sum_{i=1}^n \mathbf{x}_i
 $$
 
 
-## パラメータ$$\mathbf{Σ}$$の最尤推定値
-式(1)を$$\mathbf{Σ}$$で偏微分した式が$$\mathbf{O}$$(零行列)となるような$$Σ$$がパラメータ$$Σ$$の最尤推定値である。これを$$\hat{Σ}$$とする。
+## パラメータ$\mathbf{Σ}$の最尤推定値
+式(1)を$\mathbf{Σ}$で偏微分した式が$\mathbf{O}$(零行列)となるような$Σ$がパラメータ$Σ$の最尤推定値である。これを$\hat{Σ}$とする。
 
-式(1)を$$\mathbf{Σ}$$で偏微分すると
+式(1)を$\mathbf{Σ}$で偏微分すると
 
 $$
 \begin{align}
@@ -91,7 +91,7 @@ $$
 
 を用いた。
 
-式(3)は$$\mathbf{Σ} = \hat{\mathbf{Σ}}$$で$$\mathbf{O}$$となるから
+式(3)は$\mathbf{Σ} = \hat{\mathbf{Σ}}$で$\mathbf{O}$となるから
 
 $$
 \begin{align}
@@ -101,13 +101,13 @@ n\hat{\mathbf{Σ}}^{-1} = \sum_{i=1}^n \hat{\mathbf{Σ}}^{-1}(\mathbf{x}_i-\math
 \end{align}
 $$
 
-よってパラメータ$$\mathbf{Σ}$$の最尤推定値は
+よってパラメータ$\mathbf{Σ}$の最尤推定値は
 
 $$
 \hat{\mathbf{Σ}} = \frac{1}{n}\sum_{i=1}^n (\mathbf{x}_i-\mathbf{\hat{\mu}})(\mathbf{x}_i-\mathbf{\hat{\mu}})^\mathrm{T}
 $$
 
-このとき$$\mu$$も最尤推定値$$\hat{\mu}$$となる。
+このとき$\mu$も最尤推定値$\hat{\mu}$となる。
 
 
 ## 参考資料
