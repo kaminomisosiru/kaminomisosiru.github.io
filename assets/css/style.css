@@ -113,6 +113,10 @@ ul#contact-list li{
     max-width: 800px;
     margin: 0 auto;
 }
+img {
+  max-width: 100%;
+  border: 1px solid #eee;
+}
 /* share button*/
 #post-share{
     max-width: 800px;
@@ -134,13 +138,6 @@ ul#contact-list li{
 }
 #post-share a.facebook:hover{
     background: #254078;
-}
-#post-share a.google-plus{
-    color: white;
-    background: #db4437;
-}
-#post-share a.google-plus:hover{
-    background: #c33a2e;
 }
 
 /* post page - pagenation*/
