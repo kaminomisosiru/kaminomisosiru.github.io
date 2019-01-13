@@ -1,5 +1,5 @@
 ---
-title: "AzureのTranslator Text APIを使ってSublime Text3の翻訳プラグインを作った"
+title: "AzureのTranslator Text APIを使ってSublime Text 3の翻訳プラグインを作った"
 description: ""
 tags: [Sublime Text, Azure]
 ---
