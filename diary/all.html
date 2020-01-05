@@ -1,0 +1,18 @@
+---
+layout: default
+title: All posts
+css-include: diary
+---
+	<nav>
+		<h2>All posts</h2>
+	</nav>
+	<section>
+		{% for post in site.posts %}
+		<article>
+			<h1 title="Posted on {{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "<span>%Y-%m-%d</span>" }}</h1>
+			<div class="content">
+				{{ post.content }}
+			</div>
+		</article>
+		{% endfor %}
+	</section>

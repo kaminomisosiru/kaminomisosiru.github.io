@@ -1,34 +1,36 @@
 ---
 layout: default
 ---
-<div class="container">
-    <article id="post">
-        <div id="post-header" class="text-center">
-            <h1>{{ page.title }}</h1>
-            <h2 class="headline">{{ page.date | date: "%Y-%m-%d" }}</h2>
-            <div class="tags">
-                <i class="fa fa-tags" aria-hidden="true" style="margin-right: 2px;"></i>
-                {% for tag in page.tags %}
-                <a href="{{ root_url }}/blog?tag={{ tag }}">{{ tag }}</a>
-                {% endfor %}
-            </div>
-        </div>
-        <section id="post-body">
-            {{ content }}
-        </section>
-    </article>
-
-    {% include share.html %}
-
-    <div id="post-pagination">
-        {% if page.next.url %}
-        <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-        {% endif %}
-        {% if page.previous.url %}
-        <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-        {% endif %}
-
-        <a href="/blog/" class="top">Memo Top</a>
-    </div>
-
-</div>
+{% capture paginat %}
+			{% if page.previous %}
+			<a href="{{ page.previous.url }}" class="btn previous">{{ page.previous.date | date: "%B %d, %Y" }}</a>
+			{% else %}
+			<a class="btn previous disabled">Previous</a>
+			{% endif %}
+			<a class="page_number">&nbsp;</a>
+			{% if page.next %}
+			<a href="{{ page.next.url }}" class="btn next">{{ page.next.date | date: "%B %d, %Y" }}</a>
+			{% else %}
+			<a class="btn next disabled">Next</a>
+			{% endif %}
+{% endcapture %}<!--
+	<header>
+		<h1>ambrosechua's personal diary</h1>
+		<h2>for my eyes only, unless...</h2>
+		<nav>
+			{{ paginat }}
+		</nav>
+	</header> -->
+	<main>
+		<article>
+			<h1 title="Posted on {{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "<span>%d</span><span>%B</span><span>%Y</span>" }}<a href="{{ page.url }}">#{{ page.title }}</a></h1>
+			<div class="content">
+				{{ content }}
+			</div>
+		</article>
+	</main>
+	<footer>
+		<nav>
+			{{ paginat }}
+		</nav>
+	</footer>

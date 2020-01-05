@@ -10,6 +10,9 @@
 
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/style.css">
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/highlight.css">
+  {% if page.css-include %}
+    <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/{{page.css-include}}.css">
+  {% endif %}
 
   <!-- Google Analytics -->
 <script>
