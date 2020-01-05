@@ -29,7 +29,7 @@ defaults:
             type: posts
         values:
             layout: post
-            permalink: '/diary/:year-:month-:day/'
+            permalink: '/diary/:year-:month-:day-:title/'
     -
         scope:
             path: ""

@@ -9,7 +9,7 @@
 main {
 	line-height: 1.35em;
 	/*line-height: 1em;*/
-	font-size: 20px;
+	font-size: 17px;
 	font-family: "Lato", "Helvetica Neue", sans-serif;
 	background-color: #fff;
 	color: #444;
@@ -163,7 +163,7 @@ article h1 *:nth-child(1){
 }
 article h1 *:nth-child(2) {
 	/*margin-top: 10px;*/
-	font-size: 0.4em;
+	font-size: 0.45em;
 	box-shadow: none;
 	float: right;
 }
