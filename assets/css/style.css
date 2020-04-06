@@ -14,6 +14,7 @@ footer{
 }
 #toppage-profile h2{
     position: relative;
+    padding-bottom: 5px;
 }
 #toppage-profile h2:before{
     content: "";
@@ -21,7 +22,7 @@ footer{
     border-top: 1px solid #87ccff;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 100%;
     z-index: 1;
 }
 #toppage-profile h2 span{
