@@ -1,0 +1,81 @@
+---
+---
+
+@inproceedings{PKC:HKKP21,
+  abbr = {PKC},
+  author    = {Keitaro Hashimoto and Shuichi Katsumata and Kris Kwiatkowski and Thomas Prest},
+  editor    = {Garay, Juan A.},
+  title     = {An Efficient and Generic Construction for Signal's Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable},
+  booktitle = {Public-Key Cryptography -- PKC 2021},
+  year      = {2021},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {410--440},
+  abstract  = {The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype, Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt'19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited.
+
+  <br><br>In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior work on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong (or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to strengthen it using ring signatures. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available.},
+  isbn      = {978-3-030-75248-4},
+  url={https://doi.org/10.1007/978-3-030-75248-4_15},
+  html={https://doi.org/10.1007/978-3-030-75248-4_15},
+  video={https://youtu.be/VO4fw0UHdMI},
+  eprint={2021/616},
+  selected={true}
+}
+
+@article{InfSci:HO19,
+  abbr = {Inf. Sci.},
+  title    = {Unrestricted and compact certificateless aggregate signature scheme},
+  journal  = {Information Sciences},
+  volume   = {487},
+  pages    = {97-114},
+  year     = {2019},
+  issn     = {0020-0255},
+  html      = {https://doi.org/10.1016/j.ins.2019.03.005},
+  url      = {https://www.sciencedirect.com/science/article/pii/S002002551930194X},
+  author   = {Keitaro Hashimoto and Wakaha Ogata},
+  keywords = {Information security, Message authentication, Digital signature, Certificateless signature, Aggregate signature},
+  abstract = {A certificateless aggregate signature (CLAS) scheme employing a reduced signature size eliminates the complexity of certificate management in a traditional public key cryptosystem. A compact aggregate signature, where the size does not depend on the aggregate number, is desirable when the objective is to reduce storage cost and bandwidth. However, in conventional compact CLAS schemes, aggregation of signatures is restricted. The state information is meant to be used only once for security; it is generally used to restrict aggregation to signatures generated with the same state information. This paper proposes the first unrestricted and compact CLAS scheme where the signature size is constant and any combination of signatures can be aggregated. Aside from convenient storage and communication costs, our scheme is also equipped with a secure system against realistic adversaries. Moreover, we evaluate the performance of our CLAS scheme and demonstrate its effectiveness. Finally, this paper reveals that it is not possible to construct an unrestricted and compact CLAS scheme for a widely used structure with constant pairing computation.},
+  selected={true}
+}
+
+@misc{cryptoeprint:2019:1367,
+  abbr = {eprint},
+  author       = {Keitaro Hashimoto and Wakaha Ogata and Toi Tomita},
+  title        = {Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption},
+  howpublished = {Cryptology ePrint Archive, Report 2019/1367},
+  year         = {2019},
+  eprint         = {2019/1367}
+}
+
+@inproceedings{SCIS:HO18,
+  abbr = {SCIS},
+  lang = {ja},
+  author    = {橋本啓太郎 and 尾形わかは},
+  title     = {Certificateless Aggregate Signature Scheme の構成法と安全性に関する研究},
+  booktitle = {2018年暗号と情報セキュリティシンポジウム (SCIS2018)},
+  year      = {2018},
+  publisher = {電子情報通信学会},
+  address   = {新潟, 日本}
+}
+
+@inproceedings{SCIS:HOT20,
+  abbr      = {SCIS},
+  lang = {ja},
+  author    = {橋本啓太郎 and 尾形わかは and 冨田斗威},
+  title     = {Certificateless signature の一般的構成法に対するタイトな帰着とDDH仮定に基づく構成},
+  booktitle = {2020年暗号と情報セキュリティシンポジウム (SCIS2020)},
+  year      = {2020},
+  publisher = {電子情報通信学会},
+  address   = {高知, 日本}
+}
+
+@inproceedings{SCIS:HOT20,
+  abbr      = {SCIS},
+  lang = {ja},
+  author    = {橋本啓太郎 and 勝又秀一 and Kris Kwiatkowski and Thomas Prest},
+  title     = {Signal に適用可能な耐量子認証鍵交換プロトコルの設計と実装},
+  booktitle = {2021年暗号と情報セキュリティシンポジウム (SCIS2021)},
+  year      = {2021},
+  publisher = {電子情報通信学会},
+  address   = {オンライン}
+}
