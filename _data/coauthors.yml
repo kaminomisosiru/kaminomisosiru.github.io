@@ -1,18 +1,15 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Katsumata":
+  - firstname: ["Shuichi", "S."]
+    url: https://sites.google.com/view/shuichi-katsumata
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Prest":
+  - firstname: ["Thomas", "T."]
+    url: https://tprest.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Kwiatkowski":
+  - firstname: ["Kris", "K."]
+    url: http://www.amongbytes.com/author/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Ogata":
+  - firstname: ["Wakaha", "W."]
+    url: http://www.crypt.ict.e.titech.ac.jp/users/wakaha/index.html

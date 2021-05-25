@@ -1,4 +1,4 @@
-I"ö2<div class="publications">
+I"a6<div class="publications">
 
 
   <h2 class="year">2021</h2>
@@ -26,8 +26,26 @@
           
             
               
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
                 
-                  Keitaro Hashimoto,
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
                 
               
             
@@ -37,27 +55,17 @@
           
           
           
-          
-          
             
               
                 
-                  Shuichi Katsumata,
                 
-              
-            
-          
-        
-          
-          
-          
           
           
           
             
               
                 
-                  Kris Kwiatkowski,
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Kris Kwiatkowski</a>,
                 
               
             
@@ -67,12 +75,17 @@
           
           
           
+            
+              
+                
+                
+          
           
           
             
               
                 
-                   and  Thomas Prest
+                   and  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
                 
               
             
@@ -174,12 +187,17 @@
           
           
           
+            
+              
+                
+                
+          
           
           
             
               
                 
-                  Kris Kwiatkowski,
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Kris Kwiatkowski</a>,
                 
               
             
@@ -189,12 +207,17 @@
           
           
           
+            
+              
+                
+                
+          
           
           
             
               
                 
-                   Thomas Prest
+                   <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
                 
               
             
@@ -353,9 +376,7 @@
           
             
               
-                
-                  Keitaro Hashimoto,
-                
+                <em>Keitaro Hashimoto</em>,
               
             
           
@@ -364,12 +385,17 @@
           
           
           
+            
+              
+                
+                
+          
           
           
             
               
                 
-                   and  Wakaha Ogata
+                   and  <a href="http://www.amongbytes.com/author/" target="_blank">Wakaha Ogata</a>
                 
               
             
@@ -439,9 +465,7 @@
           
             
               
-                
-                  Keitaro Hashimoto,
-                
+                <em>Keitaro Hashimoto</em>,
               
             
           
@@ -450,12 +474,17 @@
           
           
           
+            
+              
+                
+                
+          
           
           
             
               
                 
-                  Wakaha Ogata,
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Wakaha Ogata</a>,
                 
               
             
@@ -510,7 +539,7 @@
     <!-- Hidden abstract block -->
     
     <div class="abstract hidden">
-      <p>Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme.However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme. </p>
+      <p>Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme.However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme.</p>
     </div>
     
   </div>
