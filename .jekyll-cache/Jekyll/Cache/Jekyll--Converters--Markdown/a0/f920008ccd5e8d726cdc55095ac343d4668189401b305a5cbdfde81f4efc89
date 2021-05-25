@@ -1,4 +1,4 @@
-I"R/<div class="publications">
+I"ö2<div class="publications">
 
 
   <h2 class="year">2021</h2>
@@ -92,7 +92,7 @@
 
     <div class="links">
     
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
     
     
       <a href="https://doi.org/10.1007/978-3-030-75248-4_15" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -389,7 +389,7 @@
 
     <div class="links">
     
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
     
     
       <a href="https://doi.org/10.1016/j.ins.2019.03.005" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -490,6 +490,8 @@
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
     
     
     
@@ -506,6 +508,10 @@
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme.However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme. </p>
+    </div>
     
   </div>
 </div>
