@@ -1,4 +1,4 @@
-I"./<div class="publications">
+I"R/<div class="publications">
 
 
   <h2 class="year">2021</h2>
@@ -11,7 +11,9 @@
   
   </div>
 
+  
   <div id="PKC:HKKP21" class="col-sm-8">
+  
     
       <div class="title">An Efficient and Generic Construction for Signal’s Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable</div>
       <div class="author">
@@ -131,7 +133,9 @@
   
   </div>
 
+  
   <div id="SCIS:HOT21" class="col-sm-8">
+  
     
       <div class="title">Signal に適用可能な耐量子認証鍵交換プロトコルの設計と実装</div>
       <div class="author">
@@ -239,7 +243,9 @@
   
   </div>
 
+  
   <div id="SCIS:HOT20" class="col-sm-8">
+  
     
       <div class="title">Certificateless signature の一般的構成法に対するタイトな帰着とDDH仮定に基づく構成</div>
       <div class="author">
@@ -332,7 +338,9 @@
   
   </div>
 
+  
   <div id="InfSci:HO19" class="col-sm-8">
+  
     
       <div class="title">Unrestricted and compact certificateless aggregate signature scheme</div>
       <div class="author">
@@ -416,7 +424,9 @@
   
   </div>
 
+  
   <div id="cryptoeprint:2019:1367" class="col-sm-8">
+  
     
       <div class="title">Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption</div>
       <div class="author">
@@ -511,7 +521,9 @@
   
   </div>
 
+  
   <div id="SCIS:HO18" class="col-sm-8">
+  
     
       <div class="title">Certificateless Aggregate Signature Scheme の構成法と安全性に関する研究</div>
       <div class="author">
