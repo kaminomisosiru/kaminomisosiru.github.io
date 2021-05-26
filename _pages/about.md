@@ -25,4 +25,4 @@ I have been working as a research assistant at [National Institute of Advanced I
 I am skilled at provable security in cryptography. My research interests include public-key cryptography, post-quantum cryptography, and secure messaging.
 
 I am a compassionate and cooperative professional.
-I wrote a research article for Information Sciences in 2019. I received Outstanding Student Award in 2020, and Tsujii Shigeo Security Award in 2021.
+I wrote a research article for Information Sciences in 2019. I received Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021.
