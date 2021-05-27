@@ -8,8 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Native of Saitama, Japan</p>
-    <p>Living in Tokyo, Japan</p>
 
 news: false  # includes a list of news items
 awards: true  # includes a list of awards items
