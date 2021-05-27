@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ph.D. Student at Tokyo Tech&#x3a; Researching cryptography to develop secure systems 
+description: Ph.D. Student at Tokyo Tech | Researching cryptography to develop secure systems 
 
 profile:
   align: right
@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a second-year Ph.D. student at [Tokyo Institute of Technology (Tokyo Tech)](https://www.titech.ac.jp/english){:target="\_blank"}.
+I am a second-year Ph.D. student at [Tokyo Institute of Technology (Tokyo Tech)](https://www.titech.ac.jp/english){:target="\_blank"}, advised by Prof. [Wakaha Ogata](http://www.security.mot.titech.ac.jp/users/wakaha/index.html){:target="\_blank"}.
 I received my Bachelor's degree in Engineering and Master's degree in Engineering from Tokyo Institute of Technology in 2018 and 2020, respectively. I also completed Progressive Graduate Minor in Cybersecurity in 2020.
 I have been working as a research assistant at [National Institute of Advanced Industrial Science and Technology (AIST)](https://www.aist.go.jp/index_en.html) since June 2020.
 
