@@ -148,7 +148,7 @@ github: [metadata]
 scholar:
 
   last_name: Hashimoto
-  first_name: Keitaro
+  first_name: ["Keitaro", "K."]
 
   style: ieee
   locale: en
