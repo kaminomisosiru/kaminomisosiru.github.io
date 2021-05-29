@@ -1,19 +1,19 @@
-I"n7<div class="publications">
+I"�9<div class="publications">
 
 
   
   <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
   
   <ol class="bibliography"><li><div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">PKC</abbr>
+    <abbr class="badge">PKC:HKKP21</abbr>
     
   
   </div>
 
-  <div id="PKC:HKKP21" class="col-sm-10">
+  <div id="PKC:HKKP21" class="col-sm-9">
     
       <div class="title">An Efficient and Generic Construction for Signal’s Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable</div>
       <div class="author">
@@ -102,6 +102,10 @@
         2021
       
       </div>
+
+      <div class="periodical">
+        
+      </div>
     
 
     <div class="links">
@@ -141,15 +145,15 @@
 </div>
 </li>
 <li><div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">Inf. Sci.</abbr>
+    <abbr class="badge">Inf. Sci.:HasOga19</abbr>
     
   
   </div>
 
-  <div id="InfSci:HO19" class="col-sm-10">
+  <div id="InfSci:HasOga19" class="col-sm-9">
     
       <div class="title">Unrestricted and compact certificateless aggregate signature scheme</div>
       <div class="author">
@@ -198,6 +202,10 @@
         2019
       
       </div>
+
+      <div class="periodical">
+        
+      </div>
     
 
     <div class="links">
@@ -229,15 +237,15 @@
 </div>
 </li>
 <li><div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">eprint</abbr>
+    <abbr class="badge">EPRINT:HasOgaTom19</abbr>
     
   
   </div>
 
-  <div id="cryptoeprint:2019:1367" class="col-sm-10">
+  <div id="EPRINT:HasOgaTom19" class="col-sm-9">
     
       <div class="title">Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption</div>
       <div class="author">
@@ -301,6 +309,10 @@
         2019
       
       </div>
+
+      <div class="periodical">
+        
+      </div>
     
 
     <div class="links">
@@ -336,15 +348,15 @@
   <h2 class="pubtype">Domestic Symsioum/Conference/Workshop</h2>
   
   <ol class="bibliography"><li><div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">SCIS</abbr>
+    <abbr class="badge">SCIS:HKKP21</abbr>
     
   
   </div>
 
-  <div id="SCIS:HOT21" class="col-sm-10">
+  <div id="SCIS:HKKP21" class="col-sm-9">
     
       <div class="title">Signal に適用可能な耐量子認証鍵交換プロトコルの設計と実装</div>
       <div class="author">
@@ -432,6 +444,12 @@
         2021
       
       </div>
+
+      <div class="periodical">
+        
+          See also [<a href="#PKC:HKKP21">PKC:HKKP21</a>]
+        
+      </div>
     
 
     <div class="links">
@@ -455,15 +473,15 @@
 </div>
 </li>
 <li><div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">SCIS</abbr>
+    <abbr class="badge">SCIS:HasOgaTom20</abbr>
     
   
   </div>
 
-  <div id="SCIS:HOT20" class="col-sm-10">
+  <div id="SCIS:HasOgaTom20" class="col-sm-9">
     
       <div class="title">Certificateless signature の一般的構成法に対するタイトな帰着とDDH仮定に基づく構成</div>
       <div class="author">
@@ -526,6 +544,12 @@
         2020
       
       </div>
+
+      <div class="periodical">
+        
+          See also [<a href="#EPRINT:HasOgaTom19">EPRINT:HasOgaTom19</a>]
+        
+      </div>
     
 
     <div class="links">
@@ -549,15 +573,15 @@
 </div>
 </li>
 <li><div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">SCIS</abbr>
+    <abbr class="badge">SCIS:HasOga18</abbr>
     
   
   </div>
 
-  <div id="SCIS:HO18" class="col-sm-10">
+  <div id="SCIS:HasOga18" class="col-sm-9">
     
       <div class="title">Certificateless Aggregate Signature Scheme の構成法と安全性に関する研究</div>
       <div class="author">
@@ -604,6 +628,12 @@
       
         2018
       
+      </div>
+
+      <div class="periodical">
+        
+          See also [<a href="#InfSci:HasOga19">Inf. Sci.:HasOga19</a>]
+        
       </div>
     
 

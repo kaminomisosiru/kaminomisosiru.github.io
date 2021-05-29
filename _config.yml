@@ -27,7 +27,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -59,8 +59,9 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
+  The easiest way to get in contact with me is by email or Linkedin.
 
-google_analytics: UA-101783670-2 # out your google-analytics code
+google_analytics: G-J0YH1PHTV1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
