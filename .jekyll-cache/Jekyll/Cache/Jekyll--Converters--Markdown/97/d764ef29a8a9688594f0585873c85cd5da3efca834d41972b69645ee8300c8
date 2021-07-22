@@ -1,10 +1,149 @@
-I"�9<div class="publications">
+I"8D<div class="publications">
 
 
   
   <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
   
   <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">CCS:HKPPW21</abbr>
+    
+  
+  </div>
+
+  <div id="CCS:HKPPW21" class="col-sm-9">
+    
+      <div class="title">A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://pure.royalholloway.ac.uk/portal/en/persons/eamonn-postlethwaite(124eb90c-f5f3-4f6a-86f6-f75b4962bffe).html" target="_blank">Eamonn W. Postlethwaite</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="https://bas.westerbaan.name/" target="_blank">Bas Westerbaan</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>ACM CCS 2021,</em>
+      
+      
+      
+        2021
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="btn btn-sm z-depth-0" role="button">To appear</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p></p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
   <div class="col-sm-3 abbr">
   
     
@@ -95,7 +234,7 @@
 
       <div class="periodical">
       
-        <em>In Public-Key Cryptography – PKC 2021,</em>
+        <em>Public-Key Cryptography – PKC 2021,</em>
       
       
       
@@ -110,26 +249,28 @@
 
     <div class="links">
     
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a href="https://doi.org/10.1007/978-3-030-75248-4_15" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer</a>
-    
-    
-    
-      <a href="https://eprint.iacr.org/2021/616" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
-    
-    
-    
-    
-    
-      <a href="https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-    
-    
-    
-    
-    
-      <a href="https://youtu.be/VO4fw0UHdMI" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+        <a href="https://doi.org/10.1007/978-3-030-75248-4_15" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer</a>
+      
+      
+      
+        <a href="https://eprint.iacr.org/2021/616" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
+      
+      
+      
+      
+      
+        <a href="https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      
+      
+      
+      
+      
+        <a href="https://youtu.be/VO4fw0UHdMI" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+      
     
     </div>
 
@@ -210,20 +351,22 @@
 
     <div class="links">
     
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a href="https://doi.org/10.1016/j.ins.2019.03.005" class="btn btn-sm z-depth-0" role="button" target="_blank">Elsevier</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+        <a href="https://doi.org/10.1016/j.ins.2019.03.005" class="btn btn-sm z-depth-0" role="button" target="_blank">Elsevier</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     
     </div>
 
@@ -317,20 +460,22 @@
 
     <div class="links">
     
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-    
-    
-      <a href="https://eprint.iacr.org/2019/1367" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
-    
-    
-    
-    
-    
-    
-    
-    
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+      
+      
+        <a href="https://eprint.iacr.org/2019/1367" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
     
     </div>
 
@@ -435,7 +580,7 @@
 
       <div class="periodical">
       
-        <em>In 2021年暗号と情報セキュリティシンポジウム (SCIS2021),</em>
+        <em>2021年暗号と情報セキュリティシンポジウム (SCIS2021),</em>
       
       
         3B1-4,
@@ -454,16 +599,18 @@
 
     <div class="links">
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     
     </div>
 
@@ -535,7 +682,7 @@
 
       <div class="periodical">
       
-        <em>In 2020年暗号と情報セキュリティシンポジウム (SCIS2020),</em>
+        <em>2020年暗号と情報セキュリティシンポジウム (SCIS2020),</em>
       
       
         2A2-1,
@@ -554,16 +701,18 @@
 
     <div class="links">
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     
     </div>
 
@@ -620,7 +769,7 @@
 
       <div class="periodical">
       
-        <em>In 2018年暗号と情報セキュリティシンポジウム (SCIS2018),</em>
+        <em>2018年暗号と情報セキュリティシンポジウム (SCIS2018),</em>
       
       
         2C3-5,
@@ -639,16 +788,18 @@
 
     <div class="links">
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     
     </div>
 

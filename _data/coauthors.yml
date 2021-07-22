@@ -9,7 +9,14 @@
 "Kwiatkowski":
   - firstname: ["Kris", "K."]
     url: http://www.amongbytes.com/author/
-
+    
+"Westerbaan":
+  - firstname: ["Bas", "B."]
+    url: https://bas.westerbaan.name/
+    
+"Postlethwaite":
+  - firstname: ["Eamonn", "Eamonn W."]
+    url: https://pure.royalholloway.ac.uk/portal/en/persons/eamonn-postlethwaite(124eb90c-f5f3-4f6a-86f6-f75b4962bffe).html
 "Ogata":
   - firstname: ["Wakaha", "W."]
     url: http://www.crypt.ict.e.titech.ac.jp/users/wakaha/index.html
