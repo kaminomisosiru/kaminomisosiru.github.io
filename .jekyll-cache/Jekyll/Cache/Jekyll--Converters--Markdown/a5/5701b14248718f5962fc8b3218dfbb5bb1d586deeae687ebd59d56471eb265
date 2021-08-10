@@ -1,4 +1,4 @@
-I"8D<div class="publications">
+I"�C<div class="publications">
 
 
   
@@ -289,12 +289,12 @@
   <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">Inf. Sci.:HasOga19</abbr>
+    <abbr class="badge">Inf. Sci.:HO19</abbr>
     
   
   </div>
 
-  <div id="InfSci:HasOga19" class="col-sm-9">
+  <div id="InfSci:HO19" class="col-sm-9">
     
       <div class="title">Unrestricted and compact certificateless aggregate signature scheme</div>
       <div class="author">
@@ -383,12 +383,12 @@
   <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">EPRINT:HasOgaTom19</abbr>
+    <abbr class="badge">EPRINT:HOT19</abbr>
     
   
   </div>
 
-  <div id="EPRINT:HasOgaTom19" class="col-sm-9">
+  <div id="EPRINT:HOT19" class="col-sm-9">
     
       <div class="title">Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption</div>
       <div class="author">
@@ -623,12 +623,12 @@
   <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">SCIS:HasOgaTom20</abbr>
+    <abbr class="badge">SCIS:HOT20</abbr>
     
   
   </div>
 
-  <div id="SCIS:HasOgaTom20" class="col-sm-9">
+  <div id="SCIS:HOT20" class="col-sm-9">
     
       <div class="title">Certificateless signature の一般的構成法に対するタイトな帰着とDDH仮定に基づく構成</div>
       <div class="author">
@@ -694,7 +694,7 @@
 
       <div class="periodical">
         
-          See also [<a href="#EPRINT:HasOgaTom19">EPRINT:HasOgaTom19</a>]
+          See also [<a href="#EPRINT:HOT19">EPRINT:HOT19</a>]
         
       </div>
     
@@ -725,12 +725,12 @@
   <div class="col-sm-3 abbr">
   
     
-    <abbr class="badge">SCIS:HasOga18</abbr>
+    <abbr class="badge">SCIS:HO18</abbr>
     
   
   </div>
 
-  <div id="SCIS:HasOga18" class="col-sm-9">
+  <div id="SCIS:HO18" class="col-sm-9">
     
       <div class="title">Certificateless Aggregate Signature Scheme の構成法と安全性に関する研究</div>
       <div class="author">
@@ -781,7 +781,7 @@
 
       <div class="periodical">
         
-          See also [<a href="#InfSci:HasOga19">Inf. Sci.:HasOga19</a>]
+          See also [<a href="#InfSci:HO19">Inf. Sci.:HO19</a>]
         
       </div>
     
