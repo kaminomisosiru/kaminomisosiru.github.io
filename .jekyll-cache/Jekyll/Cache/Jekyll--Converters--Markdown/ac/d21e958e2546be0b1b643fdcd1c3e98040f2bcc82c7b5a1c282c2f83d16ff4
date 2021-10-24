@@ -1,4 +1,4 @@
-I"�C<div class="publications">
+I"hJ<div class="publications">
 
 
   
@@ -65,7 +65,7 @@
             
               
                 
-                  <a href="https://pure.royalholloway.ac.uk/portal/en/persons/eamonn-postlethwaite(124eb90c-f5f3-4f6a-86f6-f75b4962bffe).html" target="_blank">Eamonn W. Postlethwaite</a>,
+                  <a href="https://www.cwi.nl/people/eamonn-walter-postlethwaite" target="_blank">Eamonn W. Postlethwaite</a>,
                 
               
             
@@ -131,12 +131,18 @@
     <div class="links">
     
       
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+      
+      
+        <a href="https://eprint.iacr.org/2021/1407" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
       
       
       
       
       
-      
+        <a href="https://github.com/PQShield/chained-cmpke" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
       
       
       
@@ -146,6 +152,14 @@
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Continuous group key agreements (CGKAs) are a class of protocols that can provide strong security guarantees to secure group messaging protocols such as Signal and MLS. Protection against device compromise is provided by commit messages: at a regular rate, each group member may refresh their key material by uploading a commit message, which is then downloaded and processed by all the other members. In practice, propagating commit messages dominates the bandwidth consumption of existing CGKAs.
+  
+  <br /><br />We propose Chained CmPKE, a CGKA with an asymmetric band- width cost: in a group of 𝑁 members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
+  
+  <br /><br />We go one step further and propose post-quantum primitives that are tailored to Chained CmPKE, which allows us to cut the growth rate of uploaded commit messages by two or three orders of magnitude compared to naive instantiations. Finally, we realize a software implementation of Chained CmPKE. Our experiments show that even for groups with a size as large as N=2^10, commit messages can be computed and processed in less than 100 ms.</p>
+    </div>
     
   </div>
 </div>
