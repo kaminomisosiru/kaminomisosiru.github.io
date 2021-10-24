@@ -70,6 +70,12 @@
       <div class="periodical">
       {% if entry.type == "article" %}
         <em>{{entry.journal}},</em>
+        {% if entry.volume %}
+          Vol. {{entry.volume}},
+        {% endif %}
+        {% if entry.number %}
+          No. {{entry.number}},
+        {% endif %}
       {% elsif entry.type == "inproceedings" %}
         <em>{{entry.booktitle}},</em>
       {% elsif entry.type == "misc" %}
