@@ -1,4 +1,4 @@
-I"�K<div class="publications">
+I"�L<div class="publications">
 
 
   
@@ -148,6 +148,10 @@
       
       
       
+        
+        <a href="/assets/pdf/HKPPW-CCS2021.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+        
+      
       
       
         <a href="https://dl.acm.org/doi/10.1145/3460120.3484817#sec-supp" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
@@ -160,7 +164,7 @@
     <div class="abstract hidden">
       <p>Continuous group key agreements (CGKAs) are a class of protocols that can provide strong security guarantees to secure group messaging protocols such as Signal and MLS. Protection against device compromise is provided by commit messages: at a regular rate, each group member may refresh their key material by uploading a commit message, which is then downloaded and processed by all the other members. In practice, propagating commit messages dominates the bandwidth consumption of existing CGKAs.
   
-  <br /><br />We propose Chained CmPKE, a CGKA with an asymmetric band- width cost: in a group of 𝑁 members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
+  <br /><br />We propose Chained CmPKE, a CGKA with an asymmetric band- width cost: in a group of N members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
   
   <br /><br />We go one step further and propose post-quantum primitives that are tailored to Chained CmPKE, which allows us to cut the growth rate of uploaded commit messages by two or three orders of magnitude compared to naive instantiations. Finally, we realize a software implementation of Chained CmPKE. Our experiments show that even for groups with a size as large as N=2^10, commit messages can be computed and processed in less than 100 ms.</p>
     </div>
@@ -292,6 +296,10 @@
       
       
       
+        
+        <a href="/assets/pdf/HKKP-PKC2021.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+        
+      
       
       
         <a href="https://youtu.be/VO4fw0UHdMI" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
@@ -302,7 +310,7 @@
     <!-- Hidden abstract block -->
     
     <div class="abstract hidden">
-      <p>The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype, Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt’19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited.
+      <p>The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype, Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt’19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited.
 
   <br /><br />In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior work on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong (or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to strengthen it using ring signatures. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available.</p>
     </div>
