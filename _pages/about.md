@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Ph.D. Student at Tokyo Tech | Researching cryptography to realize secure world!
+description: Ph.D. Student at Tokyo Tech | Researching cryptography to realize a secure world!
 
 profile:
   align: right
@@ -17,10 +17,10 @@ social: true  # includes social icons at the bottom of the page
 
 
 I am a final-year Ph.D. student at [Tokyo Institute of Technology (Tokyo Tech)](https://www.titech.ac.jp/english){:target="\_blank"}, advised by Prof. [Wakaha Ogata](http://www.security.mot.titech.ac.jp/users/wakaha/index.html){:target="\_blank"}.
-I received my Bachelor's degree in Engineering and Master's degree in Engineering from Tokyo Institute of Technology in 2018 and 2020, respectively. I also completed Progressive Graduate Minor in Cybersecurity in 2020.
+I received my Bachelor's degree in Engineering and Master's degree in Engineering from Tokyo Institute of Technology in 2018 and 2020, respectively. Furthermore, I completed Progressive Graduate Minor in Cybersecurity in 2020.
 I have been working as a research assistant at [National Institute of Advanced Industrial Science and Technology (AIST)](https://www.aist.go.jp/index_en.html) since June 2020, and as a [research fellowship for young scientists](https://www.jsps.go.jp/english/e-pd/index.html) since April 2022.
 
-I am skilled at provable security in cryptography. My research interests include public-key cryptography, post-quantum cryptography, and real-world protocols e.g., secure messaging.
+I am skilled at provable security in cryptography. My research interests include public-key cryptography, post-quantum cryptography, and real-world protocols such as secure messaging.
 
 I am a compassionate and cooperative professional.
-I wrote a research article for Information Sciences in 2019. I received Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021.
+I received the Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021.
