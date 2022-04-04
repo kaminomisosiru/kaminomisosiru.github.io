@@ -1,10 +1,144 @@
-I"ÍL<div class="publications">
+I"šU<div class="publications">
 
 
   
   <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
   
   <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">J. Cryptol.:HKKP22</abbr>
+    
+  
+  </div>
+
+  <div id="JoC:HKKP22" class="col-sm-9">
+    
+      <div class="title">An Efficient and Generic Construction for Signalâ€™s Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Kris Kwiatkowski</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Cryptology,</em>
+        
+          Vol. ???,
+        
+        
+      
+      
+      
+        2022
+      
+      </div>
+
+      <div class="periodical">
+        
+          Full version of [<a href="./publications/#PKC:HKKP21">PKC:HKKP21</a>]
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+      
+        <a href="https://doi.org/???" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
   <div class="col-sm-3 abbr">
   
     

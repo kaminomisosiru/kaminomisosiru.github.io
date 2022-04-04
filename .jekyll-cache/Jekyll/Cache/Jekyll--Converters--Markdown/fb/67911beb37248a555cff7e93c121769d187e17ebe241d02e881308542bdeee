@@ -1,0 +1,983 @@
+I"RU<div class="publications">
+
+
+  
+  <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
+  
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">JoC:HKKP22</abbr>
+    
+  
+  </div>
+
+  <div id="JoC:HKKP22" class="col-sm-9">
+    
+      <div class="title">An Efficient and Generic Construction for Signal’s Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Kris Kwiatkowski</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Cryptology,</em>
+        
+          Vol. ???,
+        
+        
+      
+      
+      
+        2022
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+      
+        <a href="https://doi.org/???" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer International Publishing</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">CCS:HKPPW21</abbr>
+    
+  
+  </div>
+
+  <div id="CCS:HKPPW21" class="col-sm-9">
+    
+      <div class="title">A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://www.cwi.nl/people/eamonn-walter-postlethwaite" target="_blank">Eamonn W. Postlethwaite</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="https://bas.westerbaan.name/" target="_blank">Bas Westerbaan</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>ACM CCS 2021,</em>
+      
+      
+      
+        2021
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+        <a href="https://doi.org/10.1145/3460120.3484817" class="btn btn-sm z-depth-0" role="button" target="_blank">ACM DL</a>
+      
+      
+      
+        <a href="https://eprint.iacr.org/2021/1407" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
+      
+      
+      
+      
+      
+        <a href="https://github.com/PQShield/chained-cmpke" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      
+      
+      
+        
+        <a href="/assets/pdf/HKPPW-CCS2021.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+        
+      
+      
+      
+        <a href="https://dl.acm.org/doi/10.1145/3460120.3484817#sec-supp" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Continuous group key agreements (CGKAs) are a class of protocols that can provide strong security guarantees to secure group messaging protocols such as Signal and MLS. Protection against device compromise is provided by commit messages: at a regular rate, each group member may refresh their key material by uploading a commit message, which is then downloaded and processed by all the other members. In practice, propagating commit messages dominates the bandwidth consumption of existing CGKAs.
+  
+  <br /><br />We propose Chained CmPKE, a CGKA with an asymmetric band- width cost: in a group of N members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
+  
+  <br /><br />We go one step further and propose post-quantum primitives that are tailored to Chained CmPKE, which allows us to cut the growth rate of uploaded commit messages by two or three orders of magnitude compared to naive instantiations. Finally, we realize a software implementation of Chained CmPKE. Our experiments show that even for groups with a size as large as N=2^10, commit messages can be computed and processed in less than 100 ms.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">PKC:HKKP21</abbr>
+    
+  
+  </div>
+
+  <div id="PKC:HKKP21" class="col-sm-9">
+    
+      <div class="title">An Efficient and Generic Construction for Signal’s Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Kris Kwiatkowski</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Public-Key Cryptography – PKC 2021,</em>
+      
+      
+      
+        2021
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+        <a href="https://doi.org/10.1007/978-3-030-75248-4_15" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer</a>
+      
+      
+      
+        <a href="https://eprint.iacr.org/2021/616" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
+      
+      
+      
+      
+      
+        <a href="https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      
+      
+      
+        
+        <a href="/assets/pdf/HKKP-PKC2021.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+        
+      
+      
+      
+        <a href="https://youtu.be/VO4fw0UHdMI" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype, Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt’19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited.
+
+  <br /><br />In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior work on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong (or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to strengthen it using ring signatures. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">Inf. Sci.:HO19</abbr>
+    
+  
+  </div>
+
+  <div id="InfSci:HO19" class="col-sm-9">
+    
+      <div class="title">Unrestricted and compact certificateless aggregate signature scheme</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="http://www.crypt.ict.e.titech.ac.jp/users/wakaha/index.html" target="_blank">Wakaha Ogata</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Information Sciences,</em>
+        
+          Vol. 487,
+        
+        
+      
+      
+      
+        2019
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+        <a href="https://doi.org/10.1016/j.ins.2019.03.005" class="btn btn-sm z-depth-0" role="button" target="_blank">Elsevier</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>A certificateless aggregate signature (CLAS) scheme employing a reduced signature size eliminates the complexity of certificate management in a traditional public key cryptosystem. A compact aggregate signature, where the size does not depend on the aggregate number, is desirable when the objective is to reduce storage cost and bandwidth. However, in conventional compact CLAS schemes, aggregation of signatures is restricted. The state information is meant to be used only once for security; it is generally used to restrict aggregation to signatures generated with the same state information. This paper proposes the first unrestricted and compact CLAS scheme where the signature size is constant and any combination of signatures can be aggregated. Aside from convenient storage and communication costs, our scheme is also equipped with a secure system against realistic adversaries. Moreover, we evaluate the performance of our CLAS scheme and demonstrate its effectiveness. Finally, this paper reveals that it is not possible to construct an unrestricted and compact CLAS scheme for a widely used structure with constant pairing computation.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">EPRINT:HOT19</abbr>
+    
+  
+  </div>
+
+  <div id="EPRINT:HOT19" class="col-sm-9">
+    
+      <div class="title">Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="http://www.crypt.ict.e.titech.ac.jp/users/wakaha/index.html" target="_blank">Wakaha Ogata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                   and  Toi Tomita
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Cryptology ePrint Archive, Report 2019/1367,</em>
+      
+      
+      
+        2019
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+      
+      
+        <a href="https://eprint.iacr.org/2019/1367" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme.However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+  
+  <h2 class="pubtype">Domestic Symsioum/Conference/Workshop</h2>
+  
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">SCIS:HKKP21</abbr>
+    
+  
+  </div>
+
+  <div id="SCIS:HKKP21" class="col-sm-9">
+    
+      <div class="title">Signal に適用可能な耐量子認証鍵交換プロトコルの設計と実装</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                   橋本啓太郎,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                   勝又秀一,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="http://www.amongbytes.com/author/" target="_blank">Kris Kwiatkowski</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>2021年暗号と情報セキュリティシンポジウム (SCIS2021),</em>
+      
+      
+        3B1-4,
+      
+      
+        2021
+      
+      </div>
+
+      <div class="periodical">
+        
+          See also [<a href="#PKC:HKKP21">PKC:HKKP21</a>]
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">SCIS:HOT20</abbr>
+    
+  
+  </div>
+
+  <div id="SCIS:HOT20" class="col-sm-9">
+    
+      <div class="title">Certificateless signature の一般的構成法に対するタイトな帰着とDDH仮定に基づく構成</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                   橋本啓太郎,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                   尾形わかは,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                    冨田斗威
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>2020年暗号と情報セキュリティシンポジウム (SCIS2020),</em>
+      
+      
+        2A2-1,
+      
+      
+        2020
+      
+      </div>
+
+      <div class="periodical">
+        
+          See also [<a href="#EPRINT:HOT19">EPRINT:HOT19</a>]
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">SCIS:HO18</abbr>
+    
+  
+  </div>
+
+  <div id="SCIS:HO18" class="col-sm-9">
+    
+      <div class="title">Certificateless Aggregate Signature Scheme の構成法と安全性に関する研究</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                   橋本啓太郎,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                    尾形わかは
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>2018年暗号と情報セキュリティシンポジウム (SCIS2018),</em>
+      
+      
+        2C3-5,
+      
+      
+        2018
+      
+      </div>
+
+      <div class="periodical">
+        
+          See also [<a href="#InfSci:HO19">Inf. Sci.:HO19</a>]
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+:ET
