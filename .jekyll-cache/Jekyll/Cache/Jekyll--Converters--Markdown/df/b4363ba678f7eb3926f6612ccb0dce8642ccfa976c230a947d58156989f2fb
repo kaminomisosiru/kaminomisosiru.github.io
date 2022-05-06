@@ -1,4 +1,4 @@
-I"™U<div class="publications">
+I"Ò^<div class="publications">
 
 
   
@@ -97,7 +97,7 @@
       
         <em>Journal of Cryptology,</em>
         
-          Vol. ???,
+          Vol. 35,
         
         
       
@@ -117,14 +117,18 @@
     <div class="links">
     
       
-      
-        <a href="https://doi.org/???" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer</a>
-      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
       
       
+        <a href="https://doi.org/10.1007/s00145-022-09427-1" class="btn btn-sm z-depth-0" role="button" target="_blank">Springer</a>
       
       
       
+      
+      
+      
+      
+        <a href="https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
       
       
       
@@ -134,6 +138,10 @@
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype,Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocryptâ€™19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited. In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior works on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol based on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong(or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to progressively strengthen it using ring signatures and/or non-interactive zero-knowledge proof systems. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available</p>
+    </div>
     
   </div>
 </div>
