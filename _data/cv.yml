@@ -1,0 +1,92 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Keitaro Hashimoto
+    - name: Date of Birth
+      value: 14th April 1995
+    - name: Languages
+      value: Japanese, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D.
+      institution: Tokyo Institute of Technology
+      year: 2023 (expected)
+    - title:  Master of Engineering
+      institution: Tokyo Institute of Technology
+      year: 2020
+    - title: Bachelor of Engineering
+      institution: Tokyo Institute of Technology
+      year: 2018
+    - title: High school diploma
+      institution: Kumagaya High School, Saitama, Japan
+      year: 2014
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Visiting Internship
+      institution: PQShield SAS, Paris, France
+      year: 2022.7
+    - title: Research fellowship for young scientists
+      institution: Tokyo Institute of Technology, Tokyo, Japan
+      year: 2022.4 - 
+    - title: Research assistant
+      institution: National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
+      year: 2020.6 - 2023.3
+    - title: Teaching assistant
+      institution: Tokyo Institute of Technology, Tokyo, Japan
+      year: 2019.4 - 2019.8
+    - title: Summer Internship
+      institution: NTT Secure Platform Laboratory, Tokyo, Japan
+      year: 2018.8
+    - title: Teaching assistant
+      institution: Tokyo Institute of Technology, Tokyo, Japan
+      year: 2018.6 - 2018.8
+
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Improve Your English Communication Skills
+      institution: Georgia Institute of Technology
+      year: 2021
+    - title: Introduction to Mathematical Thinking
+      institution: Stanford University
+      year: 2021
+    - title: Progressive Graduate Minor in Cybersecurity
+      institution: Tokyo Institute of Technology
+      year: 2018
+    - title: Applied Information Technology Engineer
+      institution: Ministry of Economy, Trade and Industry
+      year: 2015
+    - title: Fundamental Information Technology Engineer
+      institution: Ministry of Economy, Trade and Industry
+      year: 2014
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items: 
+        - Tsujii Shigeo Security Award 2021
+        - Best Paper Award in Symposium on Cryptography and Information Security 2021 (SCIS 2021) 
+    - year: 2020
+      items: 
+        - Outstanding Student Award 
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Secure messaging
+    - title: Advanced signature schemes
+      items:
+        - Aggregate signature
+        - Multi signature
+        - Threshold signature
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Reading, Drinking, etc.

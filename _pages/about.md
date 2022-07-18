@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Ph.D. Student at Tokyo Tech | Researching cryptography to realize a secure world!
+subtitle: Ph.D. Student at Tokyo Tech | Researching cryptography to realize a secure world!
 
 profile:
   align: right
