@@ -6,7 +6,11 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %} ({{ site.jp_name }})
+    {% if site.active_lang == "ja" %}
+    {{ site.jp_name }}
+    {% else %}
+    <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }} ({{ site.jp_name }})
+    {% endif %}
     </h1>
      <p class="desc">{{ page.subtitle }}</p>
   </header>
