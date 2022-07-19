@@ -11,14 +11,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
-      institution: Tokyo Institute of Technology
+    - title: Doctor of Engineering, Ph. D.
+      institution: Tokyo Institute of Technology, Tokyo, Japan
       year: 2023 (expected)
     - title:  Master of Engineering
-      institution: Tokyo Institute of Technology
+      institution: Tokyo Institute of Technology, Tokyo, Japan
       year: 2020
     - title: Bachelor of Engineering
-      institution: Tokyo Institute of Technology
+      institution: Tokyo Institute of Technology, Tokyo, Japan
       year: 2018
     - title: High school diploma
       institution: Kumagaya High School, Saitama, Japan
@@ -50,19 +50,19 @@
   type: time_table
   contents:
     - title: Improve Your English Communication Skills
-      institution: Georgia Institute of Technology
+      institution: Georgia Institute of Technology (Coursera)
       year: 2021
     - title: Introduction to Mathematical Thinking
-      institution: Stanford University
+      institution: Stanford University (Coursera)
       year: 2021
     - title: Progressive Graduate Minor in Cybersecurity
-      institution: Tokyo Institute of Technology
+      institution: Tokyo Institute of Technology, Tokyo, Japan
       year: 2018
     - title: Applied Information Technology Engineer
-      institution: Ministry of Economy, Trade and Industry
+      institution: Ministry of Economy, Trade and Industry, Tokyo, Japan
       year: 2015
     - title: Fundamental Information Technology Engineer
-      institution: Ministry of Economy, Trade and Industry
+      institution: Ministry of Economy, Trade and Industry, Tokyo, Japan
       year: 2014
 
 - title: Honors and Awards
