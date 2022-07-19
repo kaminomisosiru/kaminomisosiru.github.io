@@ -79,8 +79,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Secure messaging
-    - title: Advanced signature schemes
+    - title: Real-world protocol
+      items:
+        - Secure messaging
+        - Bluetooth
+    - title: Advanced signature
       items:
         - Aggregate signature
         - Multi signature
