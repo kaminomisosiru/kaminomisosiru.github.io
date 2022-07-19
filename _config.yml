@@ -6,14 +6,14 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Keitaro
 middle_name: 
 last_name: Hashimoto
-jp_name: 橋本 啓太郎
+jp_name: 𣘺本 啓太郎
 email: hashimoto.k.au@m.titech.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: cryptography, tokyo-institute-of-technology, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 
