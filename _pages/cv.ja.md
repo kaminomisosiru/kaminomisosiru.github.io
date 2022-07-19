@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: 経歴
 nav: true
 nav_order: 3
-lang: en
+lang: ja
 cv_pdf: 
 ---

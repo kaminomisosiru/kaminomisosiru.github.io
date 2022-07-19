@@ -1,0 +1,34 @@
+---
+layout: page
+permalink: /activities/
+title: 各種活動
+description: 
+lang: ja
+nav: true
+---
+
+<h3>学術</h3>
+<ul>
+  <li><strong>論文査読 :</strong> ACNS 2021, PKC 2022</li>
+  <li><strong>学生スタッフ :</strong> IWSEC 2019</li>
+</ul>
+
+<h3>招待講演</h3>
+<dl>
+    <dt>Design and Implementation of a Post-Quantum Authenticated Key Exchange Protocol for Signal.</dt>
+    <dd>SCIS/CSS Invited Session in IWSEC, September, 2021.</dd>
+</dl>
+
+
+
+<h3>授業</h3>
+<dl>
+    <dt>2019年6月 &ndash; 2019年8月</dt>
+    <dd>ティーチングアシスタント@浙江大学との交換留学サマースクール</dd>
+    <dt>2019年4月 &ndash; 2019年8月</dt>
+    <dd>ティーチングアシスタント (C言語)@東京工業大学</dd>
+    <dt>2019年4月 &ndash; 2019年6月</dt>
+    <dd>ティーチングアシスタント (アセンブリ言語)@東京工業大学</dd>
+    <dt>2018年6月 &ndash; 2018年8月</dt>
+    <dd>ティーチングアシスタント (C言語)@東京工業大学</dd>
+</dl>

@@ -175,6 +175,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-polyglot
 
 # Sitemap settings
 defaults:
@@ -206,6 +207,18 @@ jekyll-archives:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
+
+# -----------------------------------------------------------------------------
+# Polyglot
+# -----------------------------------------------------------------------------
+
+languages: ["en", "ja"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "img", "js"]
+parallel_localization: true
+
+sass:
+  sourcemap: never
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

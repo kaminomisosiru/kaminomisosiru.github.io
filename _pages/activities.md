@@ -3,6 +3,7 @@ layout: page
 permalink: /activities/
 title: Activities
 description: 
+lang: en
 nav: true
 ---
 

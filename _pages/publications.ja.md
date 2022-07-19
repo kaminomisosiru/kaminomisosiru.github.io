@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: publications in reversed chronological order.
-lang: en
+title: 研究業績
+description: 業績は年代が新しいものから順に並んでいます。
+lang: ja
 years: [2021, 2020, 2019, 2018]
 pubtype: [international, domestic]
 nav: true
@@ -13,9 +13,9 @@ nav: true
 
 {% for t in page.pubtype %}
   {% if t=="international" %}
-  <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
+  <h2 class="pubtype">論文誌、国際会議、プレプリント</h2>
   {% else %}
-  <h2 class="pubtype">Domestic Symsioum/Conference/Workshop</h2>
+  <h2 class="pubtype">国内会議、ワークショップ</h2>
   {% endif %}
   {% bibliography -f papers -q @*[pubtype={{t}}]* %}
 {% endfor %}

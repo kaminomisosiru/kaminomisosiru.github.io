@@ -24,7 +24,11 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
           <li class="nav-item {% if page.title == 'About' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            {% if site.active_lang == "ja" %}
+              <a class="nav-link" href="{{ '/ja' | relative_url }}">
+            {% else %}
+              <a class="nav-link" href="{{ '/' | relative_url }}">
+            {% endif %}
               About
               {% if page.title == "About" %}
                 <span class="sr-only">(current)</span>
@@ -47,7 +51,11 @@
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+              {% if site.active_lang == "ja" %}
+              <a class="nav-link" href="/ja{{ p.url | relative_url }}">
+              {% else %}
               <a class="nav-link" href="{{ p.url | relative_url }}">
+              {% endif %}
                 {{ p.title }}
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
@@ -64,6 +72,16 @@
               </a>
             </div>
           {% endif %}
+        <!-- Blog -->
+          <li class="nav-item">
+            {% if site.active_lang == "ja" %}
+            <a class="nav-link" href="{{ page.url }}">
+            {% else %}
+            <a class="nav-link" href="/ja{{ page.url }}">
+            {% endif %}
+              <i class="fas fa-language"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

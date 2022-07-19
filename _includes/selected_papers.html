@@ -1,4 +1,8 @@
 <div class="publications">
-  <h2>Selected publications <font size="5">[<a href="{{ '/publications/' | relative_url }}">full list</a>]</font></h2>
+  {% if site.active_lang == "ja" %}
+    <h2>主な研究業績 <font size="5">[<a href="{{ '/publications/' | relative_url }}">一覧</a>]</font></h2>
+  {% else %}
+    <h2>Selected publications <font size="5">[<a href="{{ '/publications/' | relative_url }}">full list</a>]</font></h2>
+  {% endif %}
   {% bibliography -f papers -q @*[selected=true]* %}
 </div>
