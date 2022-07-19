@@ -5,6 +5,7 @@ title: Activities
 description: 
 lang: en
 nav: true
+nav_order: 4
 ---
 
 <h3>Academic</h3>

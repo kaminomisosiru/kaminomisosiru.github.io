@@ -51,7 +51,7 @@
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "nav_order" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
@@ -69,22 +69,27 @@
           {% endif %}
           {% endfor %}
           {% if site.enable_darkmode %}
-            <div class = "toggle-container">
+            <li class = "nav-item toggle-container">
               <a id = "light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
-            </div>
+            </li>
           {% endif %}
         <!-- Blog -->
           <li class="nav-item">
-            {% if site.active_lang == "ja" %}
+            <!-- {% if site.active_lang == "ja" %}
             <a class="nav-link" href="{{ page.url }}">
             {% else %}
             <a class="nav-link" href="/ja{{ page.url }}">
             {% endif %}
-              <i class="fas fa-language"></i>
-            </a>
+              <i style="font-size: 25px;" class="fas fa-language"></i>
+            </a> -->
+            {% if site.active_lang == "ja" %}
+            <a class="nav-link" href="{{ page.url }}">English</a>
+            {% else %}
+            <a class="nav-link" href="/ja{{ page.url }}">日本語</a>
+            {% endif %}
           </li>
         </ul>
       </div>

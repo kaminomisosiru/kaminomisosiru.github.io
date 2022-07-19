@@ -12,17 +12,23 @@
   type: time_table
   contents:
     - title: 博士（工学）
-      institution: 東京工業大学
-      year: 2023 (見込み)
+      institution: 東京工業大学工学院情報通信系
+      year: 2020.4 - 2023.3 (見込み)
     - title:  修士（工学）
-      institution: 東京工業大学
-      year: 2020
+      institution: 東京工業大学工学院情報通信系
+      year: 2018.4 - 2020.3
     - title: 学士（工学）
-      institution: 東京工業大学
-      year: 2018
-    - title: 高等学校卒業
+      institution: 東京工業大学工学部情報工学科
+      year: 2014.4 - 2018.3
+    - title: 後期中等教育
       institution: 埼玉県立熊谷高等学校
-      year: 2014
+      year: 2011.4 - 2014.3
+    - title: 前期中等教育
+      institution: 深谷市立上柴中学校
+      year: 2008.4 - 2011.3
+    - title: 初等教育
+      institution: 深谷市立上柴東小学校
+      year: 2002.4 - 2008.3
 
 - title: 職歴
   type: time_table

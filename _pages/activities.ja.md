@@ -5,6 +5,7 @@ title: 各種活動
 description: 
 lang: ja
 nav: true
+nav_order: 4
 ---
 
 <h3>学術</h3>
@@ -16,7 +17,7 @@ nav: true
 <h3>招待講演</h3>
 <dl>
     <dt>Design and Implementation of a Post-Quantum Authenticated Key Exchange Protocol for Signal.</dt>
-    <dd>SCIS/CSS Invited Session in IWSEC, September, 2021.</dd>
+    <dd>SCIS/CSS Invited Session in IWSEC, 2021年9月.</dd>
 </dl>
 
 
