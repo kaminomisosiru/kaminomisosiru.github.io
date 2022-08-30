@@ -1,10 +1,116 @@
-I"�^<div class="publications">
+I"e<div class="publications">
 
 
   
   <h2 class="pubtype">論文誌、国際会議、プレプリント</h2>
   
   <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-3 abbr">
+  
+    
+    <abbr class="badge">CCS:HKP22</abbr>
+    
+  
+  </div>
+
+  <div id="CCS:HKP22" class="col-sm-9">
+    
+      <div class="title">How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Keitaro Hashimoto</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sites.google.com/view/shuichi-katsumata" target="_blank">Shuichi Katsumata</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                   and  <a href="https://tprest.github.io/" target="_blank">Thomas Prest</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>To appear at ACM CCS 2022,</em>
+      
+      
+      
+        2022
+      
+      </div>
+
+      <div class="periodical">
+        
+      </div>
+    
+
+    <div class="links">
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
   <div class="col-sm-3 abbr">
   
     

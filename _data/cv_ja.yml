@@ -100,9 +100,9 @@
 - title: 好きなもの
   type: nested_list
   contents:
-    - title: 本を読むこと（<a href="https://bookmeter.com/users/854245">本棚</a>）
+    - title: 本を読むこと（<a href="https://bookmeter.com/users/854245/books/read">本棚</a>）
       items:
-        - 夏目漱石、寺田寅彦、坂口安吾
+        - 夏目漱石、寺田寅彦、坂口安吾、太田光
         - 「よつばと！」、「それでも町は廻っている」、「ご注文はうさぎですか？」
     - title: 音楽を聞くこと（<a href="https://soundcloud.com/misosirunokami/sets/vjzhaplcxbva">プレイリスト</a>）
       items:
