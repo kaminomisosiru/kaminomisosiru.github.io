@@ -16,6 +16,8 @@ nav_order: 4
 
 <h3>招待講演</h3>
 <dl>
+    <dt>A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs.</dt>
+    <dd>2022年 暗号と情報セキュリティワークショップ, 2022年9月.</dd>
     <dt>Design and Implementation of a Post-Quantum Authenticated Key Exchange Protocol for Signal.</dt>
     <dd>SCIS/CSS Invited Session in IWSEC, 2021年9月.</dd>
 </dl>

@@ -16,6 +16,8 @@ nav_order: 4
 
 <h3>Talks</h3>
 <dl>
+    <dt>A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs.</dt>
+    <dd>Workshop on Cryptography and Information Security (WCIS) 2022, September, 2022.</dd>
     <dt>Design and Implementation of a Post-Quantum Authenticated Key Exchange Protocol for Signal.</dt>
     <dd>SCIS/CSS Invited Session in IWSEC, September, 2021.</dd>
 </dl>
