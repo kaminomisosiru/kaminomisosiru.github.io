@@ -1,8 +1,8 @@
-I"e<div class="publications">
+I"�n<div class="publications">
 
 
   
-  <h2 class="pubtype">論文誌、国際会議、プレプリント</h2>
+  <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
   
   <ol class="bibliography"><li><div class="row">
   <div class="col-sm-3 abbr">
@@ -75,7 +75,7 @@
 
       <div class="periodical">
       
-        <em>To appear at ACM CCS 2022,</em>
+        <em>ACM CCS 2022,</em>
       
       
       
@@ -91,6 +91,14 @@
     <div class="links">
     
       
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      
+      
+        <a href="https://doi.org/10.1145/3548606.3560679" class="btn btn-sm z-depth-0" role="button" target="_blank">ACM DL</a>
+      
+      
+      
+        <a href="https://eprint.iacr.org/2022/1533" class="btn btn-sm z-depth-0" role="button" target="_blank">ePrint</a>
       
       
       
@@ -98,7 +106,9 @@
       
       
       
-      
+        
+        <a href="/assets/pdf/HKP-CCS2022.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+        
       
       
       
@@ -106,6 +116,15 @@
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Secure group messaging (SGM) protocols allow large groups of users to communicate in a secure and asynchronous manner. In recent years, continuous group key agreements (CGKAs) have provided a powerful abstraction to reason on the security properties we expect from SGM protocols. While robust techniques have been developed to protect the contents of conversations in this context, it is in general more challenging to protect metadata (e.g. the identity and social relationships of group members), since their knowledge is often needed by the server in order to ensure the proper function of the SGM protocol.
+  
+  <br /><br />In this work, we provide a simple and generic wrapper protocol that upgrades non-metadata-hiding CGKAs into metadata-hiding CGKAs. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared among the group members.
+  We use this key to perform a group membership authentication protocol that convinces the server in an anonymous manner that a user is a legitimate group member. Our technique only uses a standard signature scheme, and thus, the wrapper protocol can be instantiated from a wide range of assumptions, including post-quantum ones. It is also very efficient, as it increases the bandwidth cost of the underlying CGKA operations by at most a factor of two.
+  
+  <br /><br />To formally prove the security of our protocol, we use the universal composability (UC) framework and model a new ideal functionality F^mh_CGKA capturing the correctness and security guarantee of metadata-hiding CGKA. To capture the above intuition of a “wrapper” protocol, we also define a restricted ideal functionality F^ctxt_CGKA, which roughly captures a non-metadata-hiding CGKA. We then show that our wrapper protocol UC-realizes F^mh_CGKA in the F^ctxt_CGKA-hybrid model, which in particular formalizes the intuition that any non-metadata-hiding CGKA can be modularly bootstrapped into metadata-hiding CGKA.</p>
+    </div>
     
   </div>
 </div>
@@ -775,7 +794,7 @@
 </li></ol>
 
   
-  <h2 class="pubtype">国内会議</h2>
+  <h2 class="pubtype">Domestic Symsioum/Conference/Workshop</h2>
   
   <ol class="bibliography"><li><div class="row">
   <div class="col-sm-3 abbr">
