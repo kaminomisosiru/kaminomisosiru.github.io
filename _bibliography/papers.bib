@@ -2,6 +2,24 @@
 ---
 
 @inproceedings{CCS:HKP22,
+  abbr      = {RWC:HKP23},
+  author    = {Keitaro Hashimoto and Shuichi Katsumata and Thomas Prest},
+  title     = {Metadata Protection for MLS and Its Variants},
+  booktitle = {Real World Crypto 2023},
+  year      = {2023},
+  %url       = {https://doi.org/10.1145/3548606.3560679},
+  %html      = {https://doi.org/10.1145/3548606.3560679},
+  %publisher = {ACM DL},
+  %video    = {https://dl.acm.org/doi/},
+  %code     = {},
+  %slides    = {CCS-HKP22.pdf},
+  %eprint    = {2022/1533},
+  selected  = {true},
+  note = {A version of [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>]},
+  pubtype   = {international}
+}
+
+@inproceedings{CCS:HKP22,
   abbr      = {CCS:HKP22},
   author    = {Keitaro Hashimoto and Shuichi Katsumata and Thomas Prest},
   title     = {How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum},
@@ -18,7 +36,7 @@
   publisher = {ACM DL},
   %video     = {https://dl.acm.org/doi/},
   %code      = {},
-  slides    = {HKP-CCS2022.pdf},
+  slides    = {CCS-HKP22.pdf},
   eprint    = {2022/1533},
   selected  = {true},
   pubtype   = {international}
@@ -40,7 +58,7 @@
   publisher = {ACM DL},
   video={https://dl.acm.org/doi/10.1145/3460120.3484817#sec-supp},
   code={https://github.com/PQShield/chained-cmpke},
-  slides={HKPPW-CCS2021.pdf},
+  slides={CCS-HKPPW21.pdf},
   eprint={2021/1407},
   selected={true},
   pubtype = {international}
@@ -65,9 +83,9 @@
   publisher = {Springer},
   video={https://youtu.be/VO4fw0UHdMI},
   code={https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake},
-  slides={HKKP-PKC2021.pdf},
+  slides={PKC-HKKP21.pdf},
   eprint={2021/616},
-  selected={false},
+  selected={true},
   pubtype = {international}
 }
 
@@ -81,7 +99,7 @@
   year     = {2022},
   html      = {https://doi.org/10.1007/s00145-022-09427-1},
   publisher = {Springer},
-  selected={true},
+  selected={false},
   note = {Full version of [<a href="/publications/#PKC:HKKP21">PKC:HKKP21</a>]},
   pubtype = {international},
   abstract  = {The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype,Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt’19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited. In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior works on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol based on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong(or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to progressively strengthen it using ring signatures and/or non-interactive zero-knowledge proof systems. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available},
@@ -102,7 +120,7 @@
   author    = {Keitaro Hashimoto and Wakaha Ogata},
   keywords  = {Information security, Message authentication, Digital signature, Certificateless signature, Aggregate signature},
   abstract  = {A certificateless aggregate signature (CLAS) scheme employing a reduced signature size eliminates the complexity of certificate management in a traditional public key cryptosystem. A compact aggregate signature, where the size does not depend on the aggregate number, is desirable when the objective is to reduce storage cost and bandwidth. However, in conventional compact CLAS schemes, aggregation of signatures is restricted. The state information is meant to be used only once for security; it is generally used to restrict aggregation to signatures generated with the same state information. This paper proposes the first unrestricted and compact CLAS scheme where the signature size is constant and any combination of signatures can be aggregated. Aside from convenient storage and communication costs, our scheme is also equipped with a secure system against realistic adversaries. Moreover, we evaluate the performance of our CLAS scheme and demonstrate its effectiveness. Finally, this paper reveals that it is not possible to construct an unrestricted and compact CLAS scheme for a widely used structure with constant pairing computation.},
-  selected  = {true},
+  selected  = {false},
   pubtype   = {international}
 }
 
