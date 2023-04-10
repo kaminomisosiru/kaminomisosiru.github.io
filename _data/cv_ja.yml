@@ -35,12 +35,15 @@
 - title: 職歴
   type: time_table
   contents:
+    - title: 研究員
+      institution: 産業技術総合研究所
+      year: 2023.4 - 
     - title: 訪問インターンシップ
       institution: PQShield SAS, パリ, フランス
       year: 2022.7
     - title: 日本学術振興会特別研究員 (DC2)
       institution: 東京工業大学
-      year: 2022.4 - 
+      year: 2022.4 - 2023.3
     - title: リサーチアシスタント
       institution: 産業技術総合研究所
       year: 2020.6 - 2023.3
@@ -92,8 +95,8 @@
   contents:
     - title: 実世界の暗号技術
       items:
+        - 鍵交換
         - セキュアメッセージング
-        - Bluetooth
     - title: 高機能暗号
       items:
         - 集約署名、マルチ署名、しきい値署名
@@ -113,3 +116,4 @@
         - ミカヅキbigwave、CHANCE デラソウル
     - title: 歩くこと
     - title: お酒を飲むこと
+    - title: 卓球

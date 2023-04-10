@@ -1,11 +1,11 @@
-This is upBibTeX, Version 0.99d-j0.34-u1.28 (utf8.uptex) (TeX Live 2022)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: misc.aux
 The style file: alpha.bst
 Database file #1: ./bib/misc.bib
 You've used 1 entry,
             2543 wiz_defined-function locations,
-            564 strings with 4677 characters,
+            563 strings with 4664 characters,
 and the built_in function-call counts, 391 in all, are:
 = -- 35
 > -- 25
@@ -44,4 +44,3 @@ warning$ -- 0
 while$ -- 3
 width$ -- 2
 write$ -- 14
-is.kanji.str$ -- 0

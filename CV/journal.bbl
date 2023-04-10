@@ -2,8 +2,7 @@
 
 \bibitem[HKKP22]{JoC:HKKP22}
 Keitaro Hashimoto, Shuichi Katsumata, Kris Kwiatkowski, and Thomas Prest.
-\newblock An efficient and generic construction for signal's handshake (x3dh):
-  Post-quantum, state leakage secure, and deniable.
+\newblock An efficient and generic construction for signal's handshake (x3dh): Post-quantum, state leakage secure, and deniable.
 \newblock {\em Journal of Cryptology}, 35:78 pages, 2022.
 
 \bibitem[HO19]{InfSci:HO19}

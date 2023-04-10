@@ -1,50 +1,49 @@
-This is upBibTeX, Version 0.99d-j0.34-u1.28 (utf8.uptex) (TeX Live 2022)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: conference.aux
 The style file: alpha.bst
 Database file #1: ./bib/conference.bib
 Warning--I'm ignoring PKC:HKKP21's extra "publisher" field
---line 39 of file ./bib/conference.bib
-You've used 3 entries,
+--line 46 of file ./bib/conference.bib
+You've used 4 entries,
             2543 wiz_defined-function locations,
-            581 strings with 5190 characters,
-and the built_in function-call counts, 1556 in all, are:
-= -- 151
-> -- 95
+            585 strings with 5265 characters,
+and the built_in function-call counts, 1949 in all, are:
+= -- 186
+> -- 120
 < -- 1
-+ -- 37
-- -- 35
-* -- 112
-:= -- 266
-add.period$ -- 12
-call.type$ -- 3
-change.case$ -- 24
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 60
-empty$ -- 106
-format.name$ -- 37
-if$ -- 321
++ -- 46
+- -- 44
+* -- 138
+:= -- 332
+add.period$ -- 15
+call.type$ -- 4
+change.case$ -- 31
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 77
+empty$ -- 137
+format.name$ -- 47
+if$ -- 401
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 19
-num.names$ -- 11
-pop$ -- 29
+missing$ -- 4
+newline$ -- 24
+num.names$ -- 14
+pop$ -- 39
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 35
 quote$ -- 0
-skip$ -- 43
+skip$ -- 55
 stack$ -- 0
-substring$ -- 55
-swap$ -- 14
+substring$ -- 62
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 32
 warning$ -- 0
-while$ -- 13
-width$ -- 5
-write$ -- 44
-is.kanji.str$ -- 0
+while$ -- 16
+width$ -- 6
+write$ -- 56
 (There was 1 warning)

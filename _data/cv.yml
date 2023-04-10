@@ -13,7 +13,7 @@
   contents:
     - title: Doctor of Engineering, Ph. D.
       institution: Tokyo Institute of Technology, Tokyo, Japan
-      year: 2023 (expected)
+      year: 2023
     - title:  Master of Engineering
       institution: Tokyo Institute of Technology, Tokyo, Japan
       year: 2020
@@ -27,12 +27,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Researcher
+      institution: National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
+      year: 2023.4 -
     - title: Visiting Internship
       institution: PQShield SAS, Paris, France
       year: 2022.7
     - title: Research fellowship for young scientists
       institution: Tokyo Institute of Technology, Tokyo, Japan
-      year: 2022.4 - 
+      year: 2022.4 - 2023.3
     - title: Research assistant
       institution: National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
       year: 2020.6 - 2023.3
@@ -68,21 +71,24 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+      items: 
+        - Tsujii Shigeo Security Award 2022
     - year: 2021
       items: 
         - Tsujii Shigeo Security Award 2021
         - Best Paper Award in Symposium on Cryptography and Information Security 2021 (SCIS 2021) 
     - year: 2020
       items: 
-        - Outstanding Student Award 
+        - Outstanding Student Award at Tokyo Institute of Technology
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Real-world protocol
       items:
+        - Key exchange
         - Secure messaging
-        - Bluetooth
     - title: Advanced signature
       items:
         - Aggregate signature
@@ -92,4 +98,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Reading, Listening to music, Walking, Drinking, etc.
+    - <u>Hobbies:</u> Reading, Listening to music, Walking, Drinking, Teble Tennis etc.
