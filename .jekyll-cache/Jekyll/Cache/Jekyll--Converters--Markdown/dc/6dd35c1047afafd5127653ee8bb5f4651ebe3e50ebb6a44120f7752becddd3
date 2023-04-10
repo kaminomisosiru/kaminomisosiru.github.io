@@ -1,8 +1,8 @@
-I"Ru<div class="publications">
+I"bu<div class="publications">
 
 
   
-  <h2 class="pubtype">論文誌、国際会議、プレプリント</h2>
+  <h2 class="pubtype">Journals, Conferences, and Preprints</h2>
   
   <ol class="bibliography"><li><div class="row">
   <div class="col-sm-3 abbr">
@@ -13,7 +13,7 @@
   
   </div>
 
-  <div id="CCS:HKP22" class="col-sm-9">
+  <div id="RWC:HKP23" class="col-sm-9">
     
       <div class="title">Metadata Protection for MLS and Its Variants</div>
       <div class="author">
@@ -121,7 +121,7 @@
   
   </div>
 
-  <div id="CCS:HKP23" class="col-sm-9">
+  <div id="CCS:HKP22" class="col-sm-9">
     
       <div class="title">How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum</div>
       <div class="author">
@@ -902,7 +902,7 @@
 </li></ol>
 
   
-  <h2 class="pubtype">国内会議</h2>
+  <h2 class="pubtype">Domestic Symsioum/Conference/Workshop</h2>
   
   <ol class="bibliography"><li><div class="row">
   <div class="col-sm-3 abbr">
