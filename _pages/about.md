@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student at Tokyo Tech | Researching cryptography to realize a secure world!
+subtitle: Researcher at AIST | Researching cryptography to realize a secure world!
 lang: en
 nav_order: 1
 
@@ -23,7 +23,7 @@ I received my Bachelor's degree in Engineering, Master's degree in Engineering a
 Furthermore, I completed Progressive Graduate Minor in Cybersecurity in 2020.
 I worked as a research assistant at AIST from June 2020 to March 2023, and as a [research fellowship for young scientists](https://www.jsps.go.jp/english/e-pd/index.html) from April 2022 to March 2023.
 
-I am skilled at provable security in cryptography. My research interests include real-world cryptraphic technologies such as secure messaging and how to propote social implementation of such technologies.
+I am skilled at provable security in cryptography. My research interests are board range of cryptography and information security, especially real-world cryptraphic technologies such as secure messaging and how to propote social implementation of such technologies.
 
 I am a compassionate and cooperative professional.
 I received the Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021 and 2022.
