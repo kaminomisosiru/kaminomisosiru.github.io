@@ -1,0 +1,47 @@
+This is upBibTeX, Version 0.99d-j0.34-u1.28 (utf8.uptex) (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: misc.aux
+The style file: alpha.bst
+Database file #1: ./bib/misc.bib
+You've used 1 entry,
+            2543 wiz_defined-function locations,
+            564 strings with 4677 characters,
+and the built_in function-call counts, 391 in all, are:
+= -- 35
+> -- 25
+< -- 0
++ -- 9
+- -- 9
+* -- 25
+:= -- 74
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 7
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 10
+empty$ -- 26
+format.name$ -- 10
+if$ -- 76
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 3
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 7
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 14
+is.kanji.str$ -- 0

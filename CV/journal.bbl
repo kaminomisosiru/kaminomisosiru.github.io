@@ -1,0 +1,14 @@
+\begin{thebibliography}{HKKP22}
+
+\bibitem[HKKP22]{JoC:HKKP22}
+Keitaro Hashimoto, Shuichi Katsumata, Kris Kwiatkowski, and Thomas Prest.
+\newblock An efficient and generic construction for signal's handshake (x3dh):
+  Post-quantum, state leakage secure, and deniable.
+\newblock {\em Journal of Cryptology}, 35:78 pages, 2022.
+
+\bibitem[HO19]{InfSci:HO19}
+Keitaro Hashimoto and Wakaha Ogata.
+\newblock Unrestricted and compact certificateless aggregate signature scheme.
+\newblock {\em Information Sciences}, 487:97--114, 2019.
+
+\end{thebibliography}
