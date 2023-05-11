@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem "jekyll-polyglot"
+    gem 'jekyll-sass-converter','2.2.0'
 end
 group :other_plugins do
     gem 'httparty'
