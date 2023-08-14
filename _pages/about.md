@@ -26,4 +26,4 @@ I worked as a research assistant at AIST from June 2020 to March 2023, and as a 
 I am skilled at provable security in cryptography. My research interests are board range of cryptography and information security, especially real-world cryptraphic technologies such as secure messaging and how to propote social implementation of such technologies.
 
 I am a compassionate and cooperative professional.
-I received the Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021 and 2022.
+I received the Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021, 2022 and 2023.

@@ -10,12 +10,14 @@ nav_order: 4
 
 <h3>学術</h3>
 <ul>
-  <li><strong>論文査読 :</strong> ACNS 2021, PKC 2022, PKC 2023</li>
+  <li><strong>論文査読 :</strong> ACNS 2021, PKC 2022, PKC 2023, ASIACRYPT 2023</li>
   <li><strong>学生スタッフ :</strong> IWSEC 2019</li>
 </ul>
 
 <h3>招待講演</h3>
 <dl>
+    <dt>How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum.</dt>
+    <dd>第22回情報科学技術フォーラム（FIT2023）, 2023年9月.</dd>
     <dt>A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs.</dt>
     <dd>2022年 暗号と情報セキュリティワークショップ, 2022年9月.</dd>
     <dt>Design and Implementation of a Post-Quantum Authenticated Key Exchange Protocol for Signal.</dt>
