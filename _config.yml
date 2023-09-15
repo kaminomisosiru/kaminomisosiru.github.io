@@ -231,7 +231,7 @@ scholar:
 
   style: ieee
   locale: en
-  sort_by: year
+  sort_by: year,month
   order: descending
 
   source: /_bibliography/

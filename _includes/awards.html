@@ -11,6 +11,9 @@
           <td>
             {% if item.link %}
               <a class="news-title" target="_blank" href="{{ item.link }}">{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</a>
+              {% if item.target %}
+              for [<a href="/publications/#{{ item.target }}">{{ item.target }}</a>]
+              {% endif %}
             {% else %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {% endif %}

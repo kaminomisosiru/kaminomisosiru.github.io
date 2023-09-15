@@ -10,11 +10,13 @@
   %url       = {https://doi.org/10.1145/3548606.3560679},
   %html      = {https://doi.org/10.1145/3548606.3560679},
   %publisher = {ACM DL},
-  %video    = {https://dl.acm.org/doi/},
+  video    = {https://youtu.be/sthXs4zJ5XU?t=4522},
   %code     = {},
-  %slides    = {CCS-HKP22.pdf},
+  slides    = {https://iacr.org/submit/files/slides/2023/rwc/rwc2023/59/slides.pdf},
   %eprint    = {2022/1533},
-  selected  = {true},
+    abstract  = {In this talk, we first systematically analyze the privacy offered by Signal and MLS and observe a critical shortcoming of MLS compared to Signal. In short, MLS leaks much more _metadata_ than Signal. In privacy-critical scenarios, dismissing this metadata leakage puts at risk the users who may otherwise believe that MLS offers the exact same level of security as Signal. We then propose an efficient and provably secure solution to bootstrap the current MLS to be as metadata-hiding (or, in some metrics, even more) as Signal. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared by the group to perform an anonymous membership authentication protocol.},
+  month = {March},
+  selected  = {false},
   note = {A version of [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>]},
   pubtype   = {international}
 }
@@ -25,6 +27,7 @@
   title     = {How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum},
   booktitle = {ACM CCS 2022},
   year      = {2022},
+  month = {November},
   abstract  = {Secure group messaging (SGM) protocols allow large groups of users to communicate in a secure and asynchronous manner. In recent years, continuous group key agreements (CGKAs) have provided a powerful abstraction to reason on the security properties we expect from SGM protocols. While robust techniques have been developed to protect the contents of conversations in this context, it is in general more challenging to protect metadata (e.g. the identity and social relationships of group members), since their knowledge is often needed by the server in order to ensure the proper function of the SGM protocol.
   
   <br><br>In this work, we provide a simple and generic wrapper protocol that upgrades non-metadata-hiding CGKAs into metadata-hiding CGKAs. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared among the group members.
@@ -48,6 +51,7 @@
   title     = {A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs},
   booktitle = {ACM CCS 2021},
   year      = {2021},
+  month = {November},
   abstract  = {Continuous group key agreements (CGKAs) are a class of protocols that can provide strong security guarantees to secure group messaging protocols such as Signal and MLS. Protection against device compromise is provided by commit messages: at a regular rate, each group member may refresh their key material by uploading a commit message, which is then downloaded and processed by all the other members. In practice, propagating commit messages dominates the bandwidth consumption of existing CGKAs.
   
   <br><br>We propose Chained CmPKE, a CGKA with an asymmetric band- width cost: in a group of N members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
@@ -71,6 +75,7 @@
   title     = {An Efficient and Generic Construction for Signal's Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable},
   booktitle = {Public-Key Cryptography -- PKC 2021},
   year      = {2021},
+  month = {May},
   publisher = {Springer International Publishing},
   address   = {Cham},
   pages     = {410--440},
@@ -95,8 +100,9 @@
   title     = {An Efficient and Generic Construction for Signal's Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable},
   journal  = {Journal of Cryptology},
   volume   = {35},
-  pages    = {???},
+  pages    = {},
   year     = {2022},
+  month = {May},
   html      = {https://doi.org/10.1007/s00145-022-09427-1},
   publisher = {Springer},
   selected={false},
@@ -113,6 +119,7 @@
   volume    = {487},
   pages     = {97-114},
   year      = {2019},
+  month = {June},
   issn      = {0020-0255},
   html      = {https://doi.org/10.1016/j.ins.2019.03.005},
   publisher = {Elsevier},
@@ -130,6 +137,7 @@
   title        = {Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption},
   howpublished = {Cryptology ePrint Archive, Report 2019/1367},
   year         = {2019},
+  month = {November},
   eprint         = {2019/1367},
   abstract = {Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme.However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme.},
   pubtype = {international}
@@ -141,7 +149,8 @@
   author    = {橋本啓太郎 and 尾形わかは},
   title     = {Certificateless Aggregate Signature Scheme の構成法と安全性に関する研究},
   booktitle = {2018年暗号と情報セキュリティシンポジウム (SCIS2018)},
-  year      = {2018},
+  year      = {2018年},
+  month = {1月},
   publisher = {電子情報通信学会},
   address   = {新潟, 日本},
   prenum = {2C3-5},
@@ -155,7 +164,8 @@
   author    = {橋本啓太郎 and 尾形わかは and 冨田斗威},
   title     = {Certificateless signature の一般的構成法に対するタイトな帰着とDDH仮定に基づく構成},
   booktitle = {2020年暗号と情報セキュリティシンポジウム (SCIS2020)},
-  year      = {2020},
+  year      = {2020年},
+  month = {1月},
   publisher = {電子情報通信学会},
   address   = {高知, 日本},
   prenum = {2A2-1},
@@ -169,7 +179,8 @@
   author    = {橋本啓太郎 and 勝又秀一 and Kris Kwiatkowski and Thomas Prest},
   title     = {Signal に適用可能な耐量子認証鍵交換プロトコルの設計と実装},
   booktitle = {2021年暗号と情報セキュリティシンポジウム (SCIS2021)},
-  year      = {2021},
+  year      = {2021年},
+  month = {1月},
   publisher = {電子情報通信学会},
   address   = {オンライン},
   note = {See also [<a href="#PKC:HKKP21">PKC:HKKP21</a>]},
