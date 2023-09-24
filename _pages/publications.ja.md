@@ -4,8 +4,7 @@ permalink: /publications/
 title: 研究業績
 description: 業績は年代が新しいものから順に並んでいます。
 lang: ja
-years: [2021, 2020, 2019, 2018]
-pubtype: [international, domestic]
+pubtype: [international, eprint, domestic]
 nav: true
 nav_order: 3
 ---
@@ -14,7 +13,9 @@ nav_order: 3
 
 {% for t in page.pubtype %}
   {% if t=="international" %}
-  <h2 class="pubtype">論文誌、国際会議、プレプリント</h2>
+  <h2 class="pubtype">論文誌、国際会議</h2>
+  {% elsif t=="eprint" %}
+  <h2 class="pubtype">プレプリント</h2>
   {% else %}
   <h2 class="pubtype">国内会議</h2>
   {% endif %}

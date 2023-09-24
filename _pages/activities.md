@@ -8,10 +8,11 @@ nav: true
 nav_order: 4
 ---
 
-<h3>Academic</h3>
+<h3>Academic Services</h3>
 <ul>
-  <li><strong>Sub-reviewer :</strong> ACNS 2021, PKC 2022, PKC 2023, ASIACRYPT 2023</li>
-  <li><strong>Student Volunteer :</strong> IWSEC 2019</li>
+  <li><strong>Reviewer :</strong>IEICE Transactions</li>
+  <li><strong>Sub-reviewer :</strong>ACNS 2021, PKC 2022, PKC 2023, ASIACRYPT 2023</li>
+  <li><strong>Student Volunteer :</strong>IWSEC 2019</li>
 </ul>
 
 <h3>Talks</h3>

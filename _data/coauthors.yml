@@ -17,6 +17,15 @@
 "Postlethwaite":
   - firstname: ["Eamonn", "Eamonn W."]
     url: https://www.cwi.nl/people/eamonn-walter-postlethwaite
+
 "Ogata":
   - firstname: ["Wakaha", "W."]
     url: http://www.crypt.ict.e.titech.ac.jp/users/wakaha/index.html
+
+"Hara":
+  - firstname: ["Keisuke", "K."]
+    url: https://www.cpsec.aist.go.jp/team/cprt/researcher/hara/index_en.html
+
+"Shikata":
+  - firstname: ["Junji", "J."]
+    url: https://er-web.ynu.ac.jp/html/SHIKATA_Junji/en.html
