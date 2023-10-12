@@ -10,7 +10,8 @@ nav_order: 4
 
 <h3>学術サービス</h3>
 <ul>
-  <li><strong>論文査読 :</strong> ACNS 2021, PKC 2022, PKC 2023, ASIACRYPT 2023</li>
+  <li><strong>論文査読 (論文誌) :</strong> IEICE Fundamentals</li>
+  <li><strong>論文査読 (国際会議) :</strong> ACNS 2021, PKC 2022, PKC 2023, ASIACRYPT 2023</li>
   <li><strong>学生スタッフ :</strong> IWSEC 2019</li>
 </ul>
 
