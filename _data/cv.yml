@@ -71,6 +71,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - Grand prize of Tsujii Shigeo Security Award 2022
     - year: 2022
       items: 
         - Tsujii Shigeo Security Award 2022
@@ -87,13 +90,13 @@
   contents:
     - title: Real-world protocol
       items:
-        - Key exchange
-        - Secure messaging
-    - title: Advanced signature
+        - Authenticated key exchange (AKE)
+        - Secure group messaging
+    - title: Theoretical aspect of advanced cryptographic primitives
       items:
-        - Aggregate signature
-        - Multi signature
-        - Threshold signature
+        - Signature schemes with anonimity
+        - Encryption schemes with authenticity
+        - Registoration-based cryptography
 
 - title: Other Interests
   type: list

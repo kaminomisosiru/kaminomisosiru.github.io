@@ -227,7 +227,7 @@ sass:
 scholar:
 
   last_name: Hashimoto
-  first_name: ["Keitaro", "K."]
+  first_name: ["Keitaro", "K.", "橋本啓太郎"]
 
   style: ieee
   locale: en
