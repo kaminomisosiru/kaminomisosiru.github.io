@@ -17,7 +17,26 @@
   abstract  = {In this talk, we first systematically analyze the privacy offered by Signal and MLS and observe a critical shortcoming of MLS compared to Signal. In short, MLS leaks much more _metadata_ than Signal. In privacy-critical scenarios, dismissing this metadata leakage puts at risk the users who may otherwise believe that MLS offers the exact same level of security as Signal. We then propose an efficient and provably secure solution to bootstrap the current MLS to be as metadata-hiding (or, in some metrics, even more) as Signal. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared by the group to perform an anonymous membership authentication protocol.},
   month = {March},
   selected  = {false},
-  note = {A version of [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>]},
+  note = {Talk based on  [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>]},
+  pubtype   = {international}
+}
+
+@inproceedings{RWC:HKPPW24,
+  abbr      = {RWC:HKPPW24},
+  author    = {Keitaro Hashimoto and Shuichi Katsumata and Eamonn W. Postlethwaite and Thomas Prest and Bas Westerbaan},
+  title     = {More Efficient Protocols for Post-Quantum Secure Messaging},
+  booktitle = {Real World Crypto 2024},
+  year      = {2024},
+  video     = {},
+  slides    = {},
+  abstract  = {The past year has marked significant progress in secure messaging technologies. In March 2023, the Messaging Layer Security (MLS) protocol was standardized by the IETF, followed by Signal's introduction in May 2023 of PQXDH, a post-quantum alternative to the X3DH handshake.
+
+  <br><br>In the first part of this presentation, we identify scalability challenges that may hinder the widespread adoption of MLS and Signal in a post-quantum context, particularly in regions with limited mobile data plans. This analysis is backed by real-world quantitative data.
+
+  <br><br>In the second part of this talk, we propose a novel protocol with improved bandwidth consumption. It incorporates efficient post-quantum primitives, specifically multi-recipient public key encryption (mPKEs), optimized for secure messaging. We anticipate that our approach will be an order of magnitude more efficient than direct adaptations of existing protocols in practical scenarios.},
+  month     = {March},
+  selected  = {false},
+  note      = {Talk based on [<a href="/publications/#CCS:HKPPW21">CCS:HKPPW21</a>] and [<a href="https://eprint.iacr.org/2020/1107">AC:KKPP20</a>]},
   pubtype   = {international}
 }
 
