@@ -7,17 +7,12 @@
   title     = {Metadata Protection for MLS and Its Variants},
   booktitle = {Real World Crypto 2023},
   year      = {2023},
-  %url       = {https://doi.org/10.1145/3548606.3560679},
-  %html      = {https://doi.org/10.1145/3548606.3560679},
-  %publisher = {ACM DL},
   video    = {https://youtu.be/sthXs4zJ5XU?t=4522},
-  %code     = {},
   slides    = {https://iacr.org/submit/files/slides/2023/rwc/rwc2023/59/slides.pdf},
-  %eprint    = {2022/1533},
   abstract  = {In this talk, we first systematically analyze the privacy offered by Signal and MLS and observe a critical shortcoming of MLS compared to Signal. In short, MLS leaks much more _metadata_ than Signal. In privacy-critical scenarios, dismissing this metadata leakage puts at risk the users who may otherwise believe that MLS offers the exact same level of security as Signal. We then propose an efficient and provably secure solution to bootstrap the current MLS to be as metadata-hiding (or, in some metrics, even more) as Signal. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared by the group to perform an anonymous membership authentication protocol.},
   month = {March},
   selected  = {false},
-  note = {Talk based on  [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>]},
+  note = {Talk based on  [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>].},
   pubtype   = {international}
 }
 
@@ -27,12 +22,9 @@
   title     = {More Efficient Protocols for Post-Quantum Secure Messaging},
   booktitle = {Real World Crypto 2024},
   year      = {2024},
-  video     = {},
-  slides    = {},
-  abstract  = {},
   month     = {March},
   selected  = {false},
-  note      = {Talk based on [<a href="/publications/#CCS:HKPPW21">CCS:HKPPW21</a>] and [<a href="https://eprint.iacr.org/2020/1107">AC:KKPP20</a>]},
+  note      = {Talk based on [<a href="/publications/#CCS:HKPPW21">CCS:HKPPW21</a>] and [<a href="https://eprint.iacr.org/2020/1107">AC:KKPP20</a>].},
   pubtype   = {international}
 }
 
@@ -53,7 +45,6 @@
   html      = {https://doi.org/10.1145/3548606.3560679},
   publisher = {ACM DL},
   %video     = {https://dl.acm.org/doi/},
-  %code      = {},
   slides    = {CCS-HKP22.pdf},
   eprint    = {2022/1533},
   selected  = {true},
@@ -122,7 +113,6 @@
   html      = {https://doi.org/10.1007/s10623-023-01309-2},
   publisher = {Springer},
   selected  = {true},
-  note      = {},
   pubtype   = {international},
   abstract  = {Threshold public-key encryption (threshold PKE) has various useful applications. A lot of threshold PKE schemes are proposed based on RSA, Diffie-Hellman and lattice, but to the best of our knowledge, code-based threshold PKEs have not been proposed. In this paper, we provide three IND-CCA secure code-based threshold PKE schemes. The first scheme is the concrete instantiation of Dodis-Katz conversion (Dodis and Katz, TCC'05) that converts an IND-CCA secure PKE into an IND-CCA secure threshold PKE using parallel encryption and a signature scheme. This approach provides non-interactive threshold decryption, but ciphertexts are large (about 16 kilobytes for 128-bit security) due to long code-based signatures even in the state-of-the-art one. The second scheme is a new parallel encryption-based construction without signature schemes. Unlike the Dodis-Katz conversion, our parallel encryption converts an OW-CPA secure PKE into an OW-CPA secure threshold PKE. To enhance security, we use Cong et al.'s conversion (Cong et al., ASIACRYPT'21). Thanks to eliminating signatures, its ciphertext is 512 bytes, which is only 3\% of the first scheme. The decryption process needs an MPC for computing hash functions, but decryption of OW-CPA secure PKE can be done locally. The third scheme is an MPC-based threshold PKE scheme from code-based assumption. We take the same approach Cong et al.\ took to construct efficient lattice-based threshold PKEs. We build an MPC for the decryption algorithm of OW-CPA secure Classic McEliece PKE. This scheme has the shortest ciphertext among the three schemes at just 192 bytes. Compared to the regular CCA secure Classic McEliece PKE, the additional ciphertext length is only 100 bytes. The cons are heavy distributed computation in the decryption process.},
 }
@@ -133,13 +123,12 @@
   title     = {An Efficient and Generic Construction for Signal's Handshake (X3DH): Post-Quantum, State Leakage Secure, and Deniable},
   journal  = {Journal of Cryptology},
   volume   = {35},
-  pages    = {},
   year     = {2022},
   month = {May},
   html      = {https://doi.org/10.1007/s00145-022-09427-1},
   publisher = {Springer},
   selected  = {true},
-  note = {Full version of [<a href="/publications/#PKC:HKKP21">PKC:HKKP21</a>]},
+  note = {Full version of [<a href="/publications/#PKC:HKKP21">PKC:HKKP21</a>].},
   pubtype = {international},
   abstract  = {The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype,Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt'19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited. In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior works on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol based on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong(or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to progressively strengthen it using ring signatures and/or non-interactive zero-knowledge proof systems. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available},
   code={https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake},
@@ -172,7 +161,7 @@
   year         = {2019},
   month = {November},
   eprint         = {2019/1367},
-  abstract = {Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme.However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme.},
+  abstract = {Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme. However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme.},
   pubtype = {eprint}
 }
 
@@ -249,7 +238,7 @@
   month     = {1月},
   publisher = {電子情報通信学会},
   address   = {長崎, 日本},
-  prenum    = {xxx-x},
+  prenum    = {3C1-3},
   note      = {See also [<a href="#EPRINT:CHHS23">EPRINT:CHHS23</a>].},
   pubtype   = {domestic}
 }
@@ -264,7 +253,7 @@
   month     = {1月},
   publisher = {電子情報通信学会},
   address   = {長崎, 日本},
-  prenum    = {xxx-x},
+  prenum    = {2D1-4},
   note      = {},
   pubtype   = {domestic}
 }
@@ -279,8 +268,8 @@
   month     = {1月},
   publisher = {電子情報通信学会},
   address   = {長崎, 日本},
-  prenum    = {xxx-x},
-  note      = {},
+  prenum    = {4E2-5},
+  note      = {The improved version of this paper is under submission.},
   pubtype   = {domestic}
 }
 
@@ -294,7 +283,7 @@
   month     = {1月},
   publisher = {電子情報通信学会},
   address   = {長崎, 日本},
-  prenum    = {xxx-x},
+  prenum    = {1F1-2},
   note      = {},
   pubtype   = {domestic}
 }

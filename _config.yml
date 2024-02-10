@@ -39,7 +39,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1200px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -229,10 +229,12 @@ scholar:
   last_name: Hashimoto
   first_name: ["Keitaro", "K.", "橋本啓太郎"]
 
-  style: ieee
+  style: apa
   locale: en
   sort_by: year,month
   order: descending
+  bibtex_options:
+    parse_months: false
 
   source: /_bibliography/
   bibliography: papers.bib
