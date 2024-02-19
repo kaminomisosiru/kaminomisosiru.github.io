@@ -71,9 +71,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - Seiichi Tejima Research Award Doctoral Dissertation Award
     - year: 2023
       items: 
-        - Grand prize of Tsujii Shigeo Security Award 2022
+        - Grand prize of Tsujii Shigeo Security Award 2023
     - year: 2022
       items: 
         - Tsujii Shigeo Security Award 2022
@@ -88,7 +91,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Real-world protocol
+    - title: Real-world cryptographic protocol
       items:
         - Authenticated key exchange (AKE)
         - Secure group messaging

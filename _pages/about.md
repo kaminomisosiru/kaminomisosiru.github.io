@@ -24,6 +24,7 @@ Furthermore, I completed Progressive Graduate Minor in Cybersecurity in 2020.
 I worked as a research assistant at AIST from June 2020 to March 2023, and as a [research fellowship for young scientists](https://www.jsps.go.jp/english/e-pd/index.html) from April 2022 to March 2023.
 
 I am skilled at provable security in cryptography. My research interests are board range of cryptography and information security, especially real-world cryptraphic technologies such as secure messaging and how to propote social implementation of such technologies.
+Also, I love to organize security models and constructability of cryptographic primitives.
 
 I am a compassionate and cooperative professional.
 I received the Outstanding Student Award in 2020 and Tsujii Shigeo Security Award in 2021, 2022 and 2023.

@@ -6,7 +6,7 @@
     - name: 生年月日
       value: 1995年4月14日
     - name: 言語
-      value: 日本語、英語
+      value: 日本語，英語
     - name: 利き手
       value: 左 (マウスのみ右手で操る)
 
@@ -79,6 +79,9 @@
 - title: 受賞
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - 手島精一記念研究論文賞 博士論文賞
     - year: 2023
       items: 
         - 辻井重男セキュリティ論文賞 大賞
@@ -100,7 +103,7 @@
       items:
         - 認証鍵交換 (AKE)
         - セキュアグループメッセージング
-    - title: 高機能暗号の理論的性質
+    - title: 高機能暗号の理論的性質の解析
       items:
         - 匿名性を持つ電子署名
         - 認証付公開鍵暗号
@@ -111,14 +114,14 @@
 - title: 好きなもの
   type: nested_list
   contents:
-    - title: 本を読むこと（<a href="https://bookmeter.com/users/854245/books/read">本棚</a>）
+    - title: 読書（<a href="https://bookmeter.com/users/854245/books/read">本棚</a>）
       items:
-        - 夏目漱石、寺田寅彦、坂口安吾、太田光
-        - 「よつばと！」、「それでも町は廻っている」、「ご注文はうさぎですか？」
+        - 寺田寅彦，坂口安吾，太田光
+        - 「よつばと！」，「それでも町は廻っている」，「ご注文はうさぎですか？」，「スナックバス江」
     - title: 音楽を聞くこと（<a href="https://soundcloud.com/misosirunokami/sets/vjzhaplcxbva">プレイリスト</a>）
       items:
-        - Diverse System、Lost Garden
-        - ミカヅキbigwave、CHANCE デラソウル
-    - title: 歩くこと
-    - title: お酒を飲むこと
+        - Diverse System，Lost Garden
+        - ミカヅキBigwave，CHANCE デラソウル
+    - title: 散歩
+    - title: 飲酒
     - title: 卓球

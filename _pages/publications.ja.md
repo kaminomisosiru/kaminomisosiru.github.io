@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: 研究業績
-description: 業績は年代が新しいものから順に並んでいます。
+description: 業績は年代が新しいものから順に並んでいます．
 lang: ja
 pubtype: [international, eprint, domestic, thesis]
 nav: true
@@ -13,7 +13,7 @@ nav_order: 3
 
 {% for t in page.pubtype %}
   {% if t=="international" %}
-  <h2 class="pubtype">国際論文誌、国際会議</h2>
+  <h2 class="pubtype">国際論文誌，国際会議</h2>
   {% elsif t=="eprint" %}
   <h2 class="pubtype">プレプリント</h2>
   {% elsif t=="domestic" %}
