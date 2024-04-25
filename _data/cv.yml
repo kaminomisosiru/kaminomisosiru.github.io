@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 14th April 1995
     - name: Languages
-      value: Japanese, English
+      value: Japanese (Native), English (Intermediate), French (Beginner), Chinese (Beginner)
 
 - title: Education
   type: time_table
