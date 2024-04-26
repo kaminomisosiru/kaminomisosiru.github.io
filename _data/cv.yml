@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 14th April 1995
     - name: Languages
-      value: Japanese (Native), English (Intermediate), French (Beginner), Chinese (Beginner)
+      value: Japanese (Native), English (Intermediate), French (Beginner), Taiwanese Mandarin (Beginner)
 
 - title: Education
   type: time_table
@@ -35,7 +35,7 @@
   contents:
     - title: Researcher
       institution: National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
-      year: 2023.4 -
+      year: 2023.4 - Current
     - title: Visiting Internship
       institution: PQShield SAS, Paris, France
       year: 2022.7

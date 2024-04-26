@@ -6,7 +6,7 @@
     - name: 生年月日
       value: 1995年4月14日
     - name: 言語
-      value: 日本語 (母国語)，英語 (中級), フランス語 (初級), 中国語 (初級)
+      value: 日本語 (母国語)，英語 (中級), フランス語 (初級), 台湾華語 (初級)
     - name: 利き手
       value: 左 (マウスのみ右手で操る)
 
@@ -37,7 +37,7 @@
   contents:
     - title: 研究員
       institution: 産業技術総合研究所
-      year: 2023.4 - 
+      year: 2023.4 - 現在
     - title: 訪問インターンシップ
       institution: PQShield SAS, パリ, フランス
       year: 2022.7
@@ -116,7 +116,7 @@
   contents:
     - title: 読書（<a href="https://bookmeter.com/users/854245/books/read">本棚</a>）
       items:
-        - 寺田寅彦，坂口安吾，太田光
+        - 寺田寅彦，坂口安吾，夏目漱石，太田光
         - 「よつばと！」，「それでも町は廻っている」，「ご注文はうさぎですか？」，「スナックバス江」
     - title: 音楽を聞くこと（<a href="https://soundcloud.com/misosirunokami/sets/vjzhaplcxbva">プレイリスト</a>）
       items:
