@@ -80,20 +80,20 @@
   type: time_table
   contents:
     - year: 2024
-      items: 
+      items:
         - 手島精一記念研究論文賞 博士論文賞
     - year: 2023
-      items: 
+      items:
         - 辻井重男セキュリティ論文賞 大賞
     - year: 2022
-      items: 
+      items:
         - 辻井重男セキュリティ論文賞 優秀賞
     - year: 2021
-      items: 
+      items:
         - 辻井重男セキュリティ論文賞 優秀賞
         - SCIS論文賞
     - year: 2020
-      items: 
+      items:
         - 情報通信系優秀学生賞（修士）
 
 - title: 学術的興味
@@ -125,3 +125,11 @@
     - title: 散歩
     - title: 飲酒
     - title: 卓球
+
+- title: 好きな教え
+  type: list
+  contents:
+    - 出会った人は皆出会うべき人
+    - 何もかもただ起こるべくして起きる
+    - 何かが始まるその一瞬一瞬が正しい始まり
+    - 終わったことは終わったこと
