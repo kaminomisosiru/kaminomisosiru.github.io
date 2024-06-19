@@ -1,6 +1,26 @@
 ---
 ---
 
+@inproceedings{CANS:CHHTS24,
+  abbr      = {CANS:CHHTS24},
+  author    = {Sohto Chiku and Keisuke Hara and Keitaro Hashimoto and Toi Tomita and Junji Shikata},
+  editor    = {},
+  title     = {How to Apply Fujisaki-Okamoto Transformation to Registration-Based Encryption},
+  booktitle = {CANS 2024},
+  year      = {2024},
+  month     = {September},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {},
+  abstract  = {I will add later.},
+  isbn      = {},
+  url       = {https://doi.org/},
+  html      = {https://doi.org/},
+  publisher = {Springer},
+  selected  = {true},
+  pubtype   = {international}
+}
+
 @inproceedings{RWC:HKP23,
   abbr      = {RWC:HKP23},
   author    = {Keitaro Hashimoto and Shuichi Katsumata and Thomas Prest},
@@ -36,10 +56,10 @@
   year      = {2022},
   month = {November},
   abstract  = {Secure group messaging (SGM) protocols allow large groups of users to communicate in a secure and asynchronous manner. In recent years, continuous group key agreements (CGKAs) have provided a powerful abstraction to reason on the security properties we expect from SGM protocols. While robust techniques have been developed to protect the contents of conversations in this context, it is in general more challenging to protect metadata (e.g. the identity and social relationships of group members), since their knowledge is often needed by the server in order to ensure the proper function of the SGM protocol.
-  
+
   <br><br>In this work, we provide a simple and generic wrapper protocol that upgrades non-metadata-hiding CGKAs into metadata-hiding CGKAs. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared among the group members.
   We use this key to perform a group membership authentication protocol that convinces the server in an anonymous manner that a user is a legitimate group member. Our technique only uses a standard signature scheme, and thus, the wrapper protocol can be instantiated from a wide range of assumptions, including post-quantum ones. It is also very efficient, as it increases the bandwidth cost of the underlying CGKA operations by at most a factor of two.
-  
+
   <br><br>To formally prove the security of our protocol, we use the universal composability (UC) framework and model a new ideal functionality F^mh_CGKA capturing the correctness and security guarantee of metadata-hiding CGKA. To capture the above intuition of a ``wrapper'' protocol, we also define a restricted ideal functionality F^ctxt_CGKA, which roughly captures a non-metadata-hiding CGKA. We then show that our wrapper protocol UC-realizes F^mh_CGKA in the F^ctxt_CGKA-hybrid model, which in particular formalizes the intuition that any non-metadata-hiding CGKA can be modularly bootstrapped into metadata-hiding CGKA.},
   url       = {https://doi.org/10.1145/3548606.3560679},
   html      = {https://doi.org/10.1145/3548606.3560679},
@@ -59,9 +79,9 @@
   year      = {2021},
   month = {November},
   abstract  = {Continuous group key agreements (CGKAs) are a class of protocols that can provide strong security guarantees to secure group messaging protocols such as Signal and MLS. Protection against device compromise is provided by commit messages: at a regular rate, each group member may refresh their key material by uploading a commit message, which is then downloaded and processed by all the other members. In practice, propagating commit messages dominates the bandwidth consumption of existing CGKAs.
-  
+
   <br><br>We propose Chained CmPKE, a CGKA with an asymmetric band- width cost: in a group of N members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
-  
+
   <br><br>We go one step further and propose post-quantum primitives that are tailored to Chained CmPKE, which allows us to cut the growth rate of uploaded commit messages by two or three orders of magnitude compared to naive instantiations. Finally, we realize a software implementation of Chained CmPKE. Our experiments show that even for groups with a size as large as N=2^10, commit messages can be computed and processed in less than 100 ms.},
   url={https://doi.org/10.1145/3460120.3484817},
   html={https://doi.org/10.1145/3460120.3484817},

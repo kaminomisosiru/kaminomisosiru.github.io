@@ -9,11 +9,11 @@
 "Kwiatkowski":
   - firstname: ["Kris", "K."]
     url: http://www.amongbytes.com/author/
-    
+
 "Westerbaan":
   - firstname: ["Bas", "B."]
     url: https://bas.westerbaan.name/
-    
+
 "Postlethwaite":
   - firstname: ["Eamonn", "Eamonn W."]
     url: https://www.cwi.nl/people/eamonn-walter-postlethwaite
@@ -37,3 +37,7 @@
 "Tomita":
   - firstname: ["Toi", "T."]
     url: https://er-web.ynu.ac.jp/html/TOMITA_Toi/en.html
+
+"Chiku":
+  - firstname: ["Sohto", "S."]
+    url: https://csort99.github.io/

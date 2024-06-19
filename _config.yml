@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Keitaro
-middle_name: 
+middle_name:
 last_name: Hashimoto
 jp_name: 𣘺本 啓太郎
 email: keitaro.hashimoto000@gmail.com
@@ -228,11 +228,10 @@ scholar:
 
   last_name: Hashimoto
   first_name: ["Keitaro", "K.", "橋本啓太郎"]
-
   style: apa
   locale: en
-  sort_by: year,month
-  order: descending
+  sort_by: year
+  order: [descending, ascending]
   bibtex_options:
     parse_months: false
 
