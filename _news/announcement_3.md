@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-01-20 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I presented four technical reports in SCIS 2024. Especially, I talked about "組み込み機器向けファームウェア更新における脅威抽出と課題提起" and "On the Security of Multi-Designated Verifier Signature".
