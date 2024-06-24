@@ -231,7 +231,10 @@ scholar:
   style: apa
   locale: en
   sort_by: year
-  order: [descending, ascending]
+  order: descending
+  group_by: type
+  type_order: [article, inproceedings, techreport, misc, thesis]
+  type_names: { techreport: Preprints }
   bibtex_options:
     parse_months: false
 

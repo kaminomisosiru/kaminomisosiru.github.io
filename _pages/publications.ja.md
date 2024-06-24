@@ -11,17 +11,6 @@ nav_order: 3
 
 <div class="publications">
 
-{% for t in page.pubtype %}
-  {% if t=="international" %}
-  <h2 class="pubtype">国際論文誌，国際会議</h2>
-  {% elsif t=="eprint" %}
-  <h2 class="pubtype">プレプリント</h2>
-  {% elsif t=="domestic" %}
-  <h2 class="pubtype">国内会議</h2>
-  {% else %}
-  <h2 class="pubtype">学位論文</h2>
-  {% endif %}
-  {% bibliography -f papers -q @*[pubtype={{t}}]* %}
-{% endfor %}
+{% bibliography -f papers %}
 
 </div>
