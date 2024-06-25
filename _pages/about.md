@@ -12,7 +12,7 @@ profile:
   address: >
 
 news: true  # includes a list of news items
-awards: true  # includes a list of awards items
+awards: false  # includes a list of awards items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
