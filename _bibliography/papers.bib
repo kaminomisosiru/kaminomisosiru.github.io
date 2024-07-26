@@ -29,10 +29,12 @@
   booktitle = {Conference for Failed Approaches and Insightful Losses in Cryptology (CFAIL)},
   year      = {2024},
   month     = {August},
-  publisher = {},
+  publisher = {CFAIL Web page},
   address   = {},
   pages     = {},
-  abstract  = {I will add later.},
+  url = {https://www.cfail.org/copy-of-cfail-2023},
+  html = {https://www.cfail.org/copy-of-cfail-2023},
+  abstract  = {This paper is a report on how we tackled constructing a digital signature scheme whose multi-user security with corruption can be tightly reduced to search assumptions. First, We reveal two new properties of signature schemes whose security cannot be tightly reduced to standard assumptions. More precisely, we generalize the negative result of Pan and Wagner, which shows that the reduction loss of the concrete signature scheme, called the Parallel-OR signature scheme, is lower bounded by the number of users. From this negative result, we have precious knowledge about designing a signature scheme that is tightly secure in multi-user settings with corruption. Next, we show a concrete construction of signature schemes based on the first result. Our scheme's multi-user security can be reduced to the CDH assumption, and the reduction loss does not depend on the number of users, but, unfortunately, the loss linearly depends on the number of random oracle queries issued by the adversary. So, it remains open whether we can construct a signature scheme whose multi-user security with corruption can be tightly reduced to search assumptions.},
   isbn      = {},
   eprint    = {2024/xxx},
   selected  = {true},
@@ -82,8 +84,11 @@
   year      = {2024},
   month     = {March},
   selected  = {false},
+  video = {https://www.youtube.com/watch?v=0hCPbu1wrhg},
+  slides = {https://iacr.org/submit/files/slides/2024/rwc/rwc2024/122/slides.pdf},
   note      = {Talk based on [<a href="/publications/#CCS:HKPPW21">CCS:HKPPW21</a>] and [<a href="https://eprint.iacr.org/2020/1107">AC:KKPP20</a>].},
-  pubtype   = {international}
+  pubtype   = {international},
+  abstract  = {The past year has marked significant progress in secure messaging technologies. In March 2023, the Messaging Layer Security (MLS) protocol was standardized by the IETF, followed by Signal's introduction in May 2023 of PQXDH, a post-quantum alternative to the X3DH handshake. In the first part of this presentation, we identify scalability challenges that may hinder the widespread adoption of MLS and Signal in a post-quantum context, particularly in regions with limited mobile data plans. This analysis is backed by real-world quantitative data. In the second part of this talk, we propose a novel protocol with improved bandwidth consumption. It incorporates efficient post-quantum primitives, specifically multi-recipient public key encryption (mPKEs), optimized for secure messaging. We anticipate that our approach will be an order of magnitude more efficient than direct adaptations of existing protocols in practical scenarios.},
 }
 
 @inproceedings{CCS:HKP22,
