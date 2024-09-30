@@ -11,7 +11,7 @@ nav_order: 4
 <h3>学術サービス</h3>
 <ul>
   <li><strong>論文査読 (論文誌) :</strong> IEICE Transactions, IPSJ Journal</li>
-  <li><strong>論文査読 (国際会議) :</strong> ACNS 2021, PKC 2022, PKC 2023, ASIACRYPT 2023, EUROCRYPT 2024, CRYPTO 2024</li>
+  <li><strong>論文査読 (国際会議) :</strong>ASIACRYPT 2024, CRYPTO 2024, EUROCRYPT 2024, ASIACRYPT 2023, PKC 2023, PKC 2022, ACNS 2021</li>
   <li><strong>学生スタッフ :</strong> IWSEC 2019</li>
 </ul>
 
@@ -25,6 +25,11 @@ nav_order: 4
     <dd>SCIS/CSS Invited Session in IWSEC, 2021年9月.</dd>
 </dl>
 
+<h3>ポスター発表</h3>
+<dl>
+    <dt>Identity-Based Matchmaking Encryption Revisited: Improved Constructions with Strong Security</dt>
+    <dd>The 19th International Workshop on Security (IWSEC 2024), September, 2024.</dd>
+</dl>
 
 
 <h3>授業</h3>
