@@ -1,6 +1,0 @@
----
-date: 2021-1-20
-link: https://www.ieice.org/~isec/award-SCIS.html
----
-
-Best Paper Award in Symposium on Cryptography and Information Security 2021 (SCIS 2021)
