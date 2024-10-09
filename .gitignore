@@ -1,7 +1,0 @@
-###Jekyll###
-
-_site/
-.sass-cache/
-_drafts/
-Gemfile.lock
-.ruby-version
