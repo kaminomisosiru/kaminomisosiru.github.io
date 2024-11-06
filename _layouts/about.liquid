@@ -43,23 +43,29 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     {% if page.awards %}
       <h2>
-        <a href="{{ '/awards/' | relative_url }}" style="color: inherit">awards</a>
+        <a href="{{ '/awards/' | relative_url }}" style="color: inherit">Awards</a>
       </h2>
       {% include awards.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      {% if site.active_lang == "ja" %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">主な研究業績</a>
       </h2>
+      {% else %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+      </h2>
+      {% endif %}
       {% include selected_papers.liquid %}
     {% endif %}
 

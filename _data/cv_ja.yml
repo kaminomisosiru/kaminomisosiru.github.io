@@ -1,0 +1,135 @@
+- title: 基本情報
+  type: map
+  contents:
+    - name: 氏名
+      value: 𣘺本 啓太郎
+    - name: 生年月日
+      value: 1995年4月14日
+    - name: 言語
+      value: 日本語 (母国語)，英語 (中級), フランス語 (初級), 台湾華語 (初級)
+    - name: 利き手
+      value: 左 (マウスのみ右手で操る)
+
+- title: 学歴
+  type: time_table
+  contents:
+    - title: 博士（工学）
+      institution: 東京工業大学工学院情報通信系 (指導教員： 尾形わかは教授)
+      year: 2020.4 - 2023.3
+    - title:  修士（工学）
+      institution: 東京工業大学工学院情報通信系 (指導教員： 尾形わかは教授)
+      year: 2018.4 - 2020.3
+    - title: 学士（工学）
+      institution: 東京工業大学工学部情報工学科 (指導教員： 尾形わかは教授)
+      year: 2014.4 - 2018.3
+    - title: 後期中等教育
+      institution: 埼玉県立熊谷高等学校
+      year: 2011.4 - 2014.3
+    - title: 前期中等教育
+      institution: 埼玉県深谷市立上柴中学校
+      year: 2008.4 - 2011.3
+    - title: 初等教育
+      institution: 埼玉県深谷市立上柴東小学校
+      year: 2002.4 - 2008.3
+
+- title: 職歴
+  type: time_table
+  contents:
+    - title: 研究員
+      institution: 産業技術総合研究所
+      year: 2023.4 - 現在
+    - title: 訪問インターンシップ
+      institution: PQShield SAS, パリ, フランス
+      year: 2022.7
+    - title: 日本学術振興会特別研究員 (DC2)
+      institution: 東京工業大学
+      year: 2022.4 - 2023.3
+    - title: リサーチアシスタント
+      institution: 産業技術総合研究所
+      year: 2020.6 - 2023.3
+    - title: ティーチングアシスタント
+      institution: 東京工業大学
+      year: 2019.4 - 2019.8
+    - title: 夏季インターンシップ
+      institution: NTTセキュアプラットフォーム研究所
+      year: 2018.8
+    - title: ティーチングアシスタント
+      institution: 東京工業大学
+      year: 2018.6 - 2018.8
+
+- title: 資格等
+  type: time_table
+  contents:
+    - title: Improve Your English Communication Skills
+      institution: ジョージア工科大学 (Coursera)
+      year: 2021
+    - title: Introduction to Mathematical Thinking
+      institution: スタンフォード大学 (Coursera)
+      year: 2021
+    - title: サイバーセキュリティ 特別専門学修プログラム
+      institution: 東京工業大学
+      year: 2020
+    - title: 応用情報技術者
+      institution: 経済産業省
+      year: 2015
+    - title: 基本情報技術者
+      institution: 経済産業省
+      year: 2014
+
+- title: 受賞
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - 手島精一記念研究論文賞 博士論文賞
+    - year: 2023
+      items:
+        - 辻井重男セキュリティ論文賞 大賞
+    - year: 2022
+      items:
+        - 辻井重男セキュリティ論文賞 優秀賞
+    - year: 2021
+      items:
+        - 辻井重男セキュリティ論文賞 優秀賞
+        - SCIS論文賞
+    - year: 2020
+      items:
+        - 情報通信系優秀学生賞（修士）
+
+- title: 学術的興味
+  type: nested_list
+  contents:
+    - title: 実世界の暗号技術
+      items:
+        - 認証鍵交換 (AKE)
+        - セキュアグループメッセージング
+    - title: 高機能暗号の理論的性質の解析
+      items:
+        - 匿名性を持つ電子署名
+        - 認証付公開鍵暗号
+        - 登録ベース暗号
+    - title: 日本語の起源
+    - title: 左利き発生の原因
+
+- title: 好きなもの
+  type: nested_list
+  contents:
+    - title: 読書（<a href="https://bookmeter.com/users/854245/books/read">本棚</a>）
+      items:
+        - 寺田寅彦，坂口安吾，夏目漱石，太田光
+        - 「よつばと！」，「それでも町は廻っている」，「ご注文はうさぎですか？」，「スナックバス江」
+    - title: 音楽を聞くこと（<a href="https://soundcloud.com/misosirunokami/sets/vjzhaplcxbva">プレイリスト</a>）
+      items:
+        - Diverse System，Lost Garden
+        - ミカヅキBigwave，CHANCE デラソウル
+    - title: 散歩
+    - title: 飲酒
+    - title: 卓球
+
+- title: 好きな教え
+  type: list
+  contents:
+    - 出会った人は皆出会うべき人
+    - 何もかもただ起こるべくして起きる
+    - 何かが始まるその一瞬一瞬が正しい始まり
+    - 終わったことは終わったこと

@@ -50,7 +50,7 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 
 # Dimensions
@@ -268,12 +268,13 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-polyglot
 
 # Sitemap settings
 defaults:
@@ -311,6 +312,18 @@ jekyll-archives:
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+
+# -----------------------------------------------------------------------------
+# Polyglot
+# -----------------------------------------------------------------------------
+
+languages: ["en", "ja"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "img", "js"]
+parallel_localization: true
+
+sass:
+  sourcemap: never
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
