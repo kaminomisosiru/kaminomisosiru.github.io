@@ -274,7 +274,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-polyglot
 
 # Sitemap settings
 defaults:
