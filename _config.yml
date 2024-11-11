@@ -314,18 +314,6 @@ display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] #
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
-# Polyglot
-# -----------------------------------------------------------------------------
-
-languages: ["en", "ja"]
-default_lang: "en"
-exclude_from_localization: ["assets/css", "img", "js"]
-parallel_localization: true
-
-sass:
-  sourcemap: never
-
-# -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 

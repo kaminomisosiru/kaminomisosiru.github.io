@@ -126,13 +126,6 @@
               </button>
             </li>
           {% endif %}
-          <li class="nav-item">
-            {% if site.active_lang == "ja" %}
-            <a class="nav-link" {% static_href %}href="{{ page.url }}"{% endstatic_href %}>English</a>
-            {% else %}
-            <a class="nav-link" href="{{ site.baseurl | append: "/ja" | append: page.baseurl }}">日本語</a>
-            {% endif %}
-          </li>
         </ul>
       </div>
     </div>
