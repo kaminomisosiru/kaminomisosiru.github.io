@@ -100,13 +100,14 @@
   contents:
     - title: Real-world cryptographic protocol
       items:
-        - Authenticated key exchange (AKE)
+        - Authenticated key exchange
         - Secure group messaging
     - title: Theoretical aspect of advanced cryptographic primitives
       items:
         - Signature schemes with anonimity
         - Encryption schemes with authenticity
         - Registoration-based cryptography
+        - Tight security
 
 - title: Other Interests
   type: list
