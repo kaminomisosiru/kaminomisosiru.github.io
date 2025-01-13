@@ -74,7 +74,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
-dblp_url: 238/2661 # your DBLP profile url
+dblp_url: https://dblp.org/pid/238/2661.html # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
@@ -206,12 +206,12 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -348,7 +348,7 @@ scholar:
   # group_order: descending
   group_by: type
   type_order: [article, inproceedings, techreport, misc, thesis]
-  type_names: { techreport: Preprints }
+  type_names: { techreport: Preprints, inproceedings: International Conference, misc: Domestic Conference }
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
