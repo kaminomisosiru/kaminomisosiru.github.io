@@ -20,6 +20,25 @@
   google_scholar_id = {}
 }
 
+@inproceedings{USENIX:HKP25,
+  abbr              = {USENIX:HKP25},
+  author            = {Keitaro Hashimoto and Shuichi Katsumata and Guillermo Pascual-Perez},
+  title             = {Exploring How to Authenticate Application Messages in MLS: More  Efficient, Post-Quantum, and Anonymous Blocklistable},
+  booktitle         = {Usenix Security 2025},
+  year              = {2025},
+  month             = {August},
+  publisher         = {USENIX},
+  address           = {Berkeley, California, USA},
+  pages             = {},
+  abstract          = {},
+  url               = {https://doi.org/},
+  html              = {https://doi.org/},
+  eprint            = {2025/xxx},
+  selected          = {true},
+  pubtype           = {international},
+  google_scholar_id = {}
+}
+
 @inproceedings{USENIX:HKW25,
   abbr              = {USENIX:HKW25},
   author            = {Keitaro Hashimoto and Shuichi Katsumata and Thom Wiggers},
@@ -256,11 +275,23 @@
   google_scholar_id={u-x6o8ySG0sC},
 }
 
+@techreport{EPRINT:HOS25,
+  abbr         = {EPRINT:HOS25},
+  author       = {Keitaro Hashimoto and Wakaha Ogata and Yusuke Sakai},
+  title        = {Signatures with Tight Adaptive Corruptions from Search Assumptions},
+  howpublished = {IACR Cryptology ePrint Archive},
+  year         = {2025},
+  month        = {January},
+  eprint       = {2025/115},
+  abstract     = {We construct the first tightly secure signature schemes in the multi-user setting with adaptive corruptions from classical discrete logarithm, RSA, factoring, or post-quantum group action discrete logarithm assumption. In contrast to our scheme, the previous tightly secure schemes are based on the decisional assumption (e.g., (group action) DDH) or interactive search assumptions (e.g., one-more CDH). The security of our schemes is independent of the number of users, signing queries, and RO queries, and forging our signatures is as hard as solving the underlying search problem. Our starting point is an identification scheme with multiple secret keys per public key (e.g., Okamoto identification (CRYPTO'92) and parallel-OR identification (CRYPTO'94)). This property allows a reduction to solve a search problem while answering corruption queries for all users in the signature security game. To convert such an identification scheme into a signature scheme tightly, we employ randomized Fischlin's transformation introduced by Kondi and shelat (Asiacrypt 2022) that provides straight-line extraction. Intuitively, the transformation properties guarantee the tight security of our signature scheme in the programmable random oracle model, but we successfully prove its tight security in the non-programmable random oracle model.},
+  pubtype      = {eprint}
+}
+
 @techreport{EPRINT:HOT19,
   abbr         = {EPRINT:HOT19},
   author       = {Keitaro Hashimoto and Wakaha Ogata and Toi Tomita},
   title        = {Tight reduction for generic construction of certificateless signature and its instantiation from DDH assumption},
-  howpublished = {Cryptology ePrint Archive, Report 2019/1367},
+  howpublished = {IACR Cryptology ePrint Archive},
   year         = {2019},
   month        = {November},
   eprint       = {2019/1367},
@@ -272,7 +303,7 @@
   abbr         = {EPRINT:CHHS23},
   author       = {Sohto Chiku and Keitaro Hashimoto and Keisuke Hara and Junji Shikata},
   title        = {Identity-Based Matchmaking Encryption, Revisited: Improved Constructions with Strong Security},
-  howpublished = {Cryptology ePrint Archive, Report 2023/1435},
+  howpublished = {IACR Cryptology ePrint Archive},
   year         = {2023},
   month        = {September},
   eprint       = {2023/1435},
@@ -531,5 +562,6 @@
   month        = {January},
   publisher    = {電子情報通信学会},
   address      = {福岡, 日本},
+  note         = {Full version is [<a href="#EPRINT:HOS25">EPRINT:HOS25</a>].},
   pubtype      = {domestic}
 }
