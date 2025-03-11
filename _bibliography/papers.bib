@@ -49,10 +49,12 @@
   publisher         = {USENIX},
   address           = {Berkeley, California, USA},
   pages             = {},
-  abstract          = {},
+  abstract          = {The Message Layer Security (MLS) protocol has recently been standardized by the IETF. MLS is a scalable secure group messaging protocol expected to run more efficiently compared to the Signal protocol at scale, while offering a similar level of strong security. Even though MLS has undergone extensive examination by researchers, the majority of the works have focused on confidentiality.
+
+  In this work, we focus on the authenticity of the application messages exchanged in MLS. Currently, MLS authenticates every application message with an EdDSA signature and while manageable, the overhead is greatly amplified in the post-quantum setting as the NIST-recommended Dilithium signature results in a 40x increase in size. We view this as an invitation to explore new authentication modes that can be used instead. We start by taking a systematic view on how application messages are authenticated in MLS and categorize authenticity into four different security notions. We then propose several authentication modes, offering a range of different efficiency and security profiles. For instance, in one of our modes, COSMOS++, we replace signatures with one-time tokens and a MAC tag, offering roughly a 75x savings in the post-quantum communication overhead. While this comes at the cost of weakening security compared to the authentication mode used by MLS, the lower communication overhead seems to make it a worthwhile trade-off with security.},
   url               = {https://doi.org/},
   html              = {https://doi.org/},
-  eprint            = {2025/xxx},
+  eprint            = {2025/426},
   selected          = {true},
   pubtype           = {international},
   google_scholar_id = {}
