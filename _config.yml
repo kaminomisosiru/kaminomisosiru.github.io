@@ -321,8 +321,6 @@ default_lang: "en"
 exclude_from_localization: ["assets/css", "img", "js"]
 parallel_localization: true
 
-sass:
-  sourcemap: never
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
