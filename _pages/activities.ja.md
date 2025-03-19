@@ -17,6 +17,8 @@ nav_order: 4
 
 <h3>招待講演</h3>
 <dl>
+    <dt>Authentication in MLS and Its Variants.</dt>
+    <dd>PEARG in IETF 122, March, 2025.</dd>
     <dt>How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum.</dt>
     <dd>第22回情報科学技術フォーラム（FIT2023）, 2023年9月.</dd>
     <dt>A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs.</dt>
