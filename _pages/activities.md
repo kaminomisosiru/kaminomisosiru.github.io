@@ -33,6 +33,11 @@ nav_order: 4
     <dd>The 19th International Workshop on Security (IWSEC 2024), September, 2024.</dd>
 </dl>
 
+<h3>Students</h3>
+<dl>
+    <dt>Milan Gonzalez-Thauvin (École normale supérieure de Lyon)</dt>
+    <dd>Internship, March--May, 2025</dd>
+</dl>
 
 <h3>Teaching</h3>
 <dl>
