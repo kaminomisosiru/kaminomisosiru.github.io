@@ -11,10 +11,16 @@
   month             = {May},
   publisher         = {Springer},
   pages             = {},
-  abstract          = {},
-  url               = {https://doi.org/},
-  html              = {https://doi.org/},
-  eprint            = {2025/xxxx},
+  abstract          = {Registered Attribute-Based Encryption (RABE) enhances traditional attribute-based encryption by allowing users to register their own public keys, while a key curator transparently aggregates these keys into a compact master public key, addressing key escrow issues. In long-term applications, the compromise of users’ secret keys becomes a significant risk, making key revocation a critical functionality. In this paper, we initiate a formal study of key revocation mechanisms for RABE and introduce two types: Deletable Registered Attribute-Based Encryption (DRABE) and Directly Revocable Registered Attribute-Based Encryption (RRABE). The key distinction between these two approaches lies in how the revocation process is managed. In DRABE, the key curator handles revocation by deleting previously registered keys and updating the master public key. In contrast, RRABE bypasses the need for such updates, allowing the encryptor to directly specify a set of revoked users during encryption.
+  
+  Our primary contribution is the construction of DRABE, where we propose a generic framework based on Slotted Registered Attribute-Based Encryption (sRABE), a primitive introduced by Hohenberger et al. at EUROCRYPT 2023. This generic construction inherits the predicate structure of the underlying sRABE scheme, enabling DRABE to support a wide range of predicates. By instantiating our construction with existing sRABE schemes, we obtain efficient pairing-based DRABE schemes for a bounded number of users, as well as schemes for an unbounded number of users, though the latter relies on non-black-box cryptographic techniques.
+  
+  For RRABE, we propose a semi-generic construction for Boolean formulae, leveraging RABE schemes that support these predicates. This yields RRABE schemes (supporting Boolean formulae) under assumptions similar to those used in the DRABE case.
+  
+  At the core of our generic construction (of DRABE) lies an unexplored interplay between Hohenberger et al.’s “power-of-two” construction and the complete binary tree structure, which may be of independent interest.},
+  url               = {https://doi.org/10.1007/978-3-031-91826-1_4},
+  html              = {https://doi.org/10.1007/978-3-031-91826-1_4},
+  eprint            = {},
   selected          = {true},
   pubtype           = {international},
   google_scholar_id = {}
@@ -52,8 +58,8 @@
   abstract          = {The Message Layer Security (MLS) protocol has recently been standardized by the IETF. MLS is a scalable secure group messaging protocol expected to run more efficiently compared to the Signal protocol at scale, while offering a similar level of strong security. Even though MLS has undergone extensive examination by researchers, the majority of the works have focused on confidentiality.
 
   In this work, we focus on the authenticity of the application messages exchanged in MLS. Currently, MLS authenticates every application message with an EdDSA signature and while manageable, the overhead is greatly amplified in the post-quantum setting as the NIST-recommended Dilithium signature results in a 40x increase in size. We view this as an invitation to explore new authentication modes that can be used instead. We start by taking a systematic view on how application messages are authenticated in MLS and categorize authenticity into four different security notions. We then propose several authentication modes, offering a range of different efficiency and security profiles. For instance, in one of our modes, COSMOS++, we replace signatures with one-time tokens and a MAC tag, offering roughly a 75x savings in the post-quantum communication overhead. While this comes at the cost of weakening security compared to the authentication mode used by MLS, the lower communication overhead seems to make it a worthwhile trade-off with security.},
-  url               = {https://doi.org/},
-  html              = {https://doi.org/},
+  url               = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable},
+  html              = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable},
   eprint            = {2025/426},
   selected          = {true},
   pubtype           = {international},
@@ -71,8 +77,8 @@
   address           = {Berkeley, California, USA},
   pages             = {pp.1--54},
   abstract          = {The Signal protocol relies on a special handshake protocol, formerly X3DH and now PQXDH, to set up secure conversations. Prior analysis of these protocols (or proposals for post-quantum alternatives) has all used highly tailored models to the individual protocols and generally made ad-hoc adaptations to “standard” AKE definitions, making the concrete security attained unclear and hard to compare between similar protocols. Indeed, we observe that some natural Signal handshake protocols cannot be handled by these tailored models. In this work, we introduce Bundled Authenticated Key Exchange (BAKE), a concrete treatment of the Signal handshake protocol. We formally model prekey bundles and states, enabling us to define various levels of security in a unified model. We analyse Signal's classically secure X3DH and harvest- now-decrypt-later-secure PQXDH, and show that they do not achieve what we call optimal security (as is documented). Next, we introduce RingXKEM, a fully post-quantum Signal handshake protocol achieving optimal security; as RingXKEM shares states among many prekey bundles, it could not have been captured by prior models. Lastly, we provide a security and efficiency comparison of X3DH, PQXDH, and RingXKEM.},
-  url               = {https://doi.org/},
-  html              = {https://doi.org/},
+  url               = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange},
+  html              = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange},
   eprint            = {2025/040},
   selected          = {true},
   pubtype           = {international},
