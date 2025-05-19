@@ -11,7 +11,7 @@ nav_order: 4
 <h3>学術サービス</h3>
 <ul>
   <li><strong>論文査読 (論文誌): </strong>ACM Transactions on Privacy and Security, IEICE TRANSACTIONS on Fundamentals of Electronics, Communications and Computer Sciences, IPSJ Journal</li>
-  <li><strong>論文査読 (国際会議): </strong>CRYPT 2025, EUROCRYPT 2025, ASIACRYPT 2024, CRYPTO 2024, EUROCRYPT 2024, ASIACRYPT 2023, PKC 2023, PKC 2022, ACNS 2021</li>
+  <li><strong>論文査読 (国際会議): </strong>CRYPTO 2025, EUROCRYPT 2025, ASIACRYPT 2024, CRYPTO 2024, EUROCRYPT 2024, ASIACRYPT 2023, PKC 2023, PKC 2022, ACNS 2021</li>
   <li><strong>学生スタッフ: </strong>IWSEC 2019</li>
 </ul>
 
