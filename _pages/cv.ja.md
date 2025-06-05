@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: cv_ja
 permalink: /cv/
 title: 経歴
 nav: true
