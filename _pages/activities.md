@@ -33,6 +33,12 @@ nav_order: 4
     <dd>The 19th International Workshop on Security (IWSEC 2024), September, 2024.</dd>
 </dl>
 
+<h3>Patents</h3>
+<dl>
+    <dt>Method for hiding the identity of communication devices in a continuous group key agreement</dt>
+    <dd>K Hashimoto, S Katsumata, T Prest, US Patent App. 19/033,305</dd>
+</dl>
+
 <h3>Students</h3>
 <dl>
     <dt>Milan Gonzalez-Thauvin (École normale supérieure de Lyon)</dt>
