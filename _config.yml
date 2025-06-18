@@ -350,6 +350,9 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
+  sort_by: month
+  order: descending
+
   query: "@*"
   group_by: year
   group_order: descending
@@ -357,8 +360,6 @@ scholar:
   # type_order: [article, inproceedings, techreport, misc, thesis]
   # type_names: { techreport: Preprints, inproceedings: International Conference, misc: Domestic Conference }
 
-  sort_by: month
-  order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
