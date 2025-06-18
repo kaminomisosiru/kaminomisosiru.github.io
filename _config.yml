@@ -333,9 +333,6 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
-
   bibtex_options:
     parse_months: false
 
@@ -354,11 +351,14 @@ scholar:
   details_link: Details
 
   query: "@*"
-  # group_by: year
-  # group_order: descending
-  group_by: type
-  type_order: [article, inproceedings, techreport, misc, thesis]
-  type_names: { techreport: Preprints, inproceedings: International Conference, misc: Domestic Conference }
+  group_by: year
+  group_order: descending
+  # group_by: type
+  # type_order: [article, inproceedings, techreport, misc, thesis]
+  # type_names: { techreport: Preprints, inproceedings: International Conference, misc: Domestic Conference }
+
+  sort_by: month
+  order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
