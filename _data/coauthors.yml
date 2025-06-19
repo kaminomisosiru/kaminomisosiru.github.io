@@ -24,7 +24,7 @@
 
 "hara":
   - firstname: ["Keisuke", "K."]
-    url: https://dblp.org/pid/130/0877.html
+    url: https://www.cpsec.aist.go.jp/group/sprg/researcher/hara/index_en.html
 
 "yamashita":
   - firstname: ["Kyosuke", "K."]
@@ -44,7 +44,7 @@
 
 "watanabe":
   - firstname: ["Yohei", "Y."]
-    url: https://iw-lab.jp/users/watanabe/ja/
+    url: https://iw-lab.jp/users/watanabe/
 
 "asano":
   - firstname: ["Kyoichi", "K."]
@@ -56,7 +56,7 @@
 
 "sakai":
   - firstname: ["Yusuke", "Y."]
-    url: https://www.cpsec.aist.go.jp/team/acrt/researcher/sakai/index_en.html
+    url: https://www.cpsec.aist.go.jp/group/acrg/researcher/sakai/index_en.html
 
 "wiggers":
   - firstname: ["Thom", "T."]
