@@ -11,8 +11,8 @@ nav_order: 4
 <h3>Academic Services</h3>
 <ul>
   <li><strong>Journal Reviewer: </strong>Designs, Codes and Cryptography, ACM Transactions on Privacy and Security, IEICE TRANSACTIONS on Fundamentals of Electronics, Communications and Computer Sciences, IPSJ Journal</li>
-  <li><strong>Conference Reviewer: </strong>ASIACRYPT 2025, CANS 2025, CRYPTO 2025, EUROCRYPT 2025, ASIACRYPT 2024, CRYPTO 2024, EUROCRYPT 2024, ASIACRYPT 2023, PKC 2023, PKC 2022, ACNS 2021</li>
-  <li><strong>Student Volunteer: </strong>IWSEC 2019</li>
+  <li><strong>Conference Reviewer: </strong>PKC 2026, EUROCRYPT 2026, ASIACRYPT 2025, CANS 2025, CRYPTO 2025, EUROCRYPT 2025, ASIACRYPT 2024, CRYPTO 2024, EUROCRYPT 2024, ASIACRYPT 2023, PKC 2023, PKC 2022, ACNS 2021</li>
+  <li><strong>Volunteer: </strong>IWSEC 2019</li>
 </ul>
 
 <h3>Invited Talks</h3>
