@@ -17,6 +17,8 @@ nav_order: 4
 
 <h3>Invited Talks</h3>
 <dl>
+    <dt>Towards Social Implementation of Secure IoT Devices</dt>
+    <dd>New Concepts and Paradigms of Security for Next Generation 2026, January, 2026.</dd>
     <dt>Authentication in MLS and Its Variants.</dt>
     <dd>PEARG in IETF 122, March, 2025.</dd>
     <dt>How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum.</dt>
