@@ -77,7 +77,7 @@ dblp_url: https://dblp.org/pid/238/2661.html # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: kaminomisosiru # your GitHub user name
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
@@ -91,7 +91,7 @@ medium_username: # your Medium username
 orcid_id: 0000-0002-2232-9443 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
-publons_id: AAQ-6801-2020 # your ID on Publons
+publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
 scholar_userid: smdIoD4AAAAJ # your Google Scholar ID
@@ -109,6 +109,7 @@ work_url: https://www.cpsec.aist.go.jp/ # work page URL
 x_username: kaminomisosiru_ # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
+researchmap_id: keitaro-hashimoto 
 
 contact_note: >
   The easiest way to get in contact with me is by email or Linkedin.
