@@ -24,7 +24,7 @@
 
 "hara":
   - firstname: ["Keisuke", "K."]
-    url: https://www.cpsec.aist.go.jp/group/sprg/researcher/hara/index_en.html
+    url: https://www.ist.osaka-u.ac.jp/english/researcher/detail.php?id=210
 
 "yamashita":
   - firstname: ["Kyosuke", "K."]
@@ -52,11 +52,15 @@
 
 "attrapadung":
   - firstname: ["Nuttapong", "N."]
-    url: https://sites.google.com/view/Attrapadung
+    url: https://researchmap.jp/attrapadung?lang=en
 
 "sakai":
   - firstname: ["Yusuke", "Y."]
-    url: https://www.cpsec.aist.go.jp/group/acrg/researcher/sakai/index_en.html
+    url: https://researchmap.jp/sakaiyusuke?lang=en
+
+"matsuda":
+  - firstname: ["Takahiro", "T."]
+    url: https://researchmap.jp/takahiro_matsuda?lang=en
 
 "wiggers":
   - firstname: ["Thom", "T."]
@@ -69,3 +73,11 @@
 "pascual-perez":
   - firstname: ["Guillermo", "G."]
     url: https://www.linkedin.com/in/guillermo-pascual-perez-64b777108/
+
+"gonzalez-thauvin":
+  - firstname: ["Milan", "M."]
+    url: https://foc.ethz.ch/people/milangonzalez-thauvin.html
+
+"takahashi":
+  - firstname: ["Kenta", "K."]
+    url: https://researchmap.jp/kenta-takahashi?lang=en
