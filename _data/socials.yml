@@ -1,0 +1,16 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/cv_en.pdf # path to your CV PDF file
+email: keitaro.hashimoto@aist.go.jp # your email address
+dblp_url: https://dblp.org/pid/238/2661.html # your DBLP profile url
+linkedin_username: keitaro-hashimoto # your LinkedIn user name
+scholar_userid: smdIoD4AAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-2232-9443 # your ORCID ID
+work_url: https://www.cpsec.aist.go.jp/ # work page URL
+x_username: kaminomisosiru_ # your X handle
+
+custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+  logo: http://www.chem.waseda.ac.jp/nakai/wp-content/uploads/2020/09/researchmap.png # can be png, svg, jpg
+  title: researchmap
+  url: https://researchmap.jp/keitaro-hashimoto

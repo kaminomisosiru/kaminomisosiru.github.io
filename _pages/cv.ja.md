@@ -8,4 +8,5 @@ lang: ja
 cv_pdf:
 toc:
   sidebar: left
+cv_format: rendercv # options: rendercv or jsonresume
 ---

@@ -22,7 +22,7 @@
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+        <div class="navbar-brand social">{% social_links %}</div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
@@ -87,7 +87,10 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                        <a
+                          class="dropdown-item {% if page.title == child.title %}active{% endif %}"
+                          href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
+                        >
                           {{- child.title -}}
                         </a>
                       {% endif %}
@@ -97,7 +100,13 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
+                  {%- if p.permalink contains '://' -%}
+                    {%- assign url = p.permalink -%}
+                  {%- elsif p.permalink contains '/blog/' -%}
+                    {%- assign url = '/blog/' -%}
+                  {%- else -%}
+                    {%- assign url = p.url -%}
+                  {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
@@ -126,11 +135,11 @@
               </button>
             </li>
           {% endif %}
-            {% for tongue in site.languages %}
+          {% for tongue in site.languages %}
             <li class="nav-item">
               <a class="nav-link" {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
             </li>
-            {% endfor %}
+          {% endfor %}
         </ul>
       </div>
     </div>

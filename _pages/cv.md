@@ -9,4 +9,5 @@ cv_pdf_version: 06.2025
 description:
 toc:
   sidebar: left
+cv_format: rendercv # options: rendercv or jsonresume
 ---
