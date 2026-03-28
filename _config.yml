@@ -93,7 +93,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: 海外出張の記録 # blog_name will be displayed in your blog page
-blog_description: 現地への行き方や見舞われたトラブルなどを記録しておく
+blog_description: 現地への行き方、宿泊先、出来事を記録しておく
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
