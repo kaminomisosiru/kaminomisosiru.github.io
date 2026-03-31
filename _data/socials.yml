@@ -10,7 +10,7 @@ orcid_id: 0000-0002-2232-9443 # your ORCID ID
 work_url: https://www.cpsec.aist.go.jp/ # work page URL
 x_username: kaminomisosiru_ # your X handle
 
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: http://www.chem.waseda.ac.jp/nakai/wp-content/uploads/2020/09/researchmap.png # can be png, svg, jpg
-  title: researchmap
-  url: https://researchmap.jp/keitaro-hashimoto
+# researchmap: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#   logo: http://www.chem.waseda.ac.jp/nakai/wp-content/uploads/2020/09/researchmap.png # can be png, svg, jpg
+#   title: rm
+#   url: https://researchmap.jp/keitaro-hashimoto
