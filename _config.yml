@@ -283,7 +283,7 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-display_tags: true # these tags will be displayed on the front page of your blog
+display_tags: ["北米", "ヨーロッパ", "東アジア", "東南アジア"] # these tags will be displayed on the front page of your blog
 display_categories:  # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
