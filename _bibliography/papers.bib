@@ -2,7 +2,7 @@
 ---
 
 @inproceedings{Crypto:GH26,
-  abbr      = {Crypt0:GH26},
+  abbr      = {Crypto:GH26},
   author    = {Milan Gonzalez-Thauvin and Keitaro Hashimoto},
   title     = {Asymmetric Message Franking in the Plain Model: Generic and Efficient Constructions},
   booktitle = {Annual International Cryptology Conference (Crypto)},
@@ -15,7 +15,6 @@
   url       = {},
   html      = {},
   pubtype   = {international},
-  abstract  = {TBA},
   note      = {acceptance rate = XXX/XXX (XXX %)}
 }
 
@@ -33,7 +32,6 @@
   url       = {https://privcryptworkshop.github.io./submit.html},
   html      = {https://privcryptworkshop.github.io./submit.html},
   pubtype   = {international},
-  abstract  = {TBA},
   note      = {acceptance rate = 7/21 (33.3%)}
 }
 
@@ -61,10 +59,9 @@
   month             = {May},
   publisher         = {IEEE},
   pages             = {},
-  abstract          = {WireGuard is a VPN based on the Noise protocol, known for its high performance, small code base, and unique security features. Recently, Hülsing et al. (IEEE S&P'21) presented post-quantum (PQ) WireGuard, replacing the Diffie-Hellman (DH) key exchange underlying the Noise protocol with key-encapsulation mechanisms (KEMs). Since WireGuard requires the handshake message to fit in one UDP packet of size roughly 1200 B, they combined Classic McEliece and a modified variant of Saber. However, as Classic McEliece public keys are notoriously large, this comes at the cost of severely increasing the server's memory requirement. This hinders deployment, especially in environments with constraints on memory (allocation), such as a kernel-level implementations. In this work, we revisit PQ WireGuard and improve it on three fronts: design, (computational) security, and efficiency. As KEMs are semantically, but not syntactically, the same as DH key exchange, there are many (in hindsight) ad-hoc design choices being made, further amplified by the recent finding on the binding issues with PQ KEMs (Cremers et al., CCS'24). We redesign PQ WireGuard addressing these issues, and prove it secure in a new computational model by fixing and capturing new security features that were not modeled by Hülsing et al. We further propose 'reinforced KEM' (RKEM) as a natural building block for key exchange protocols, enabling a PQ WireGuard construction where the server no longer needs to store Classical McEliece keys, reducing public key memory by 190 to 390×. In essence, we construct a RKEM named 'Rebar' to compress two ML-KEM-like ciphertexts which may be of an independent interest.},
   eprint            = {2025/1758},
-  aurl              = {},
-  ahtml             = {},
+  url              = {},
+  html             = {},
   selected          = {true},
   pubtype           = {international},
   google_scholar_id = {},
@@ -81,7 +78,6 @@
   month             = {November},
   publisher         = {Splinger},
   pages             = {},
-  abstract          = {Multi-designated verifier ring signatures (MDVRS) are an anonymous signature primitive proposed by Kolby et al. (IACR CIC 2024) in which only designated verifiers can verify signatures. They formalized MDVRS and constructed an MDVRS scheme through a specific intermediate primitive, named provably simulatable designated-verifier ring signatures (PSDVRS). However, PSDVRS is only known from the discrete logarithm assumption. In this paper, we propose a new generic construction of MDVRS from widely-known primitives, public key encryption schemes, one-time signatures, ring signatures, and non-interactive zero-knowledge arguments. As these building blocks can be constructed from various computational assumptions, we can realize MDVRS from them. Namely, we obtain post-quantum MDVRS for the first time. Furthermore, our generic construction achieves stronger security than the original scheme.},
   url               = {https://doi.org/10.1007/978-981-95-4674-9_5},
   html              = {https://doi.org/10.1007/978-981-95-4674-9_5},
   selected          = {false},
@@ -100,17 +96,10 @@
   month             = {May},
   publisher         = {Springer},
   pages             = {},
-  abstract          = {Registered Attribute-Based Encryption (RABE) enhances traditional attribute-based encryption by allowing users to register their own public keys, while a key curator transparently aggregates these keys into a compact master public key, addressing key escrow issues. In long-term applications, the compromise of users’ secret keys becomes a significant risk, making key revocation a critical functionality. In this paper, we initiate a formal study of key revocation mechanisms for RABE and introduce two types: Deletable Registered Attribute-Based Encryption (DRABE) and Directly Revocable Registered Attribute-Based Encryption (RRABE). The key distinction between these two approaches lies in how the revocation process is managed. In DRABE, the key curator handles revocation by deleting previously registered keys and updating the master public key. In contrast, RRABE bypasses the need for such updates, allowing the encryptor to directly specify a set of revoked users during encryption.
-  
-  Our primary contribution is the construction of DRABE, where we propose a generic framework based on Slotted Registered Attribute-Based Encryption (sRABE), a primitive introduced by Hohenberger et al. at EUROCRYPT 2023. This generic construction inherits the predicate structure of the underlying sRABE scheme, enabling DRABE to support a wide range of predicates. By instantiating our construction with existing sRABE schemes, we obtain efficient pairing-based DRABE schemes for a bounded number of users, as well as schemes for an unbounded number of users, though the latter relies on non-black-box cryptographic techniques.
-  
-  For RRABE, we propose a semi-generic construction for Boolean formulae, leveraging RABE schemes that support these predicates. This yields RRABE schemes (supporting Boolean formulae) under assumptions similar to those used in the DRABE case.
-  
-  At the core of our generic construction (of DRABE) lies an unexplored interplay between Hohenberger et al.’s “power-of-two” construction and the complete binary tree structure, which may be of independent interest.},
   url               = {https://doi.org/10.1007/978-3-031-91826-1_4},
   html              = {https://doi.org/10.1007/978-3-031-91826-1_4},
   aeprint            = {},
-  selected          = {true},
+  selected          = {false},
   pubtype           = {international},
   google_scholar_id = {hqOjcs7Dif8C},
   note      = {acceptance rate = 60/199 (30.2%)}
@@ -126,11 +115,10 @@
   month             = {June},
   publisher         = {IEEE},
   pages             = {},
-  abstract          = {A multi-designated verifier signature (MDVS) is a digital signature that empowers a signer to designate specific verifiers capable of verifying signatures. Notably, designated verifiers are allowed to not only verify signatures but also simulate "fake" signatures indistinguishable from real ones produced by the original signer. Since this property is useful for realizing off-the-record (i.e., deniable) communication in group settings, MDVS is attracting attention in secure messaging. Recently, Damgård et al. (TCC'20) and Chakraborty et al. (EUROCRYPT'23) have introduced new MDVS schemes, allowing a subset of designated verifiers to simulate signatures in contrast to the conventional one, which requires all designated verifiers for signature simulation. They also define a stronger notion of security for them. This work delves into this new MDVS and offers a comprehensive formalization. We identify all possible security levels of MDVS schemes in subset simulations and prove that some of them are not feasible. Furthermore, we demonstrate that MDVS schemes meeting the security notion defined by Chakraborty et al. imply IND-CCA secure public-key encryption schemes. Beyond formalization, we present new constructions of MDVS schemes in subset simulation. Notably, we introduce a new construction of strongly secure MDVS schemes based on ring signatures and public-key encryption, accompanied by a generic conversion for achieving consistency through non-interactive zero-knowledge arguments. Finally, we evaluate the efficiency of our MDVS schemes in classical and post-quantum settings, showing their practicality.},
   url               = {https://doi.ieeecomputersociety.org/10.1109/CSF64896.2025.00012},
   html              = {https://doi.ieeecomputersociety.org/10.1109/CSF64896.2025.00012},
   eprint            = {2025/1132},
-  selected          = {true},
+  selected          = {false},
   slides            = {CSF-HYH25.pdf},
   pubtype           = {international},
   google_scholar_id = {UebtZRa9Y70C},
@@ -147,9 +135,6 @@
   publisher         = {USENIX},
   address           = {Berkeley, California, USA},
   pages             = {},
-  abstract          = {The Message Layer Security (MLS) protocol has recently been standardized by the IETF. MLS is a scalable secure group messaging protocol expected to run more efficiently compared to the Signal protocol at scale, while offering a similar level of strong security. Even though MLS has undergone extensive examination by researchers, the majority of the works have focused on confidentiality.
-
-  In this work, we focus on the authenticity of the application messages exchanged in MLS. Currently, MLS authenticates every application message with an EdDSA signature and while manageable, the overhead is greatly amplified in the post-quantum setting as the NIST-recommended Dilithium signature results in a 40x increase in size. We view this as an invitation to explore new authentication modes that can be used instead. We start by taking a systematic view on how application messages are authenticated in MLS and categorize authenticity into four different security notions. We then propose several authentication modes, offering a range of different efficiency and security profiles. For instance, in one of our modes, COSMOS++, we replace signatures with one-time tokens and a MAC tag, offering roughly a 75x savings in the post-quantum communication overhead. While this comes at the cost of weakening security compared to the authentication mode used by MLS, the lower communication overhead seems to make it a worthwhile trade-off with security.},
   url               = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable},
   html              = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable},
   eprint            = {2025/426},
@@ -169,7 +154,6 @@
   publisher         = {USENIX},
   address           = {Berkeley, California, USA},
   pages             = {pp.1--54},
-  abstract          = {The Signal protocol relies on a special handshake protocol, formerly X3DH and now PQXDH, to set up secure conversations. Prior analysis of these protocols (or proposals for post-quantum alternatives) has all used highly tailored models to the individual protocols and generally made ad-hoc adaptations to “standard” AKE definitions, making the concrete security attained unclear and hard to compare between similar protocols. Indeed, we observe that some natural Signal handshake protocols cannot be handled by these tailored models. In this work, we introduce Bundled Authenticated Key Exchange (BAKE), a concrete treatment of the Signal handshake protocol. We formally model prekey bundles and states, enabling us to define various levels of security in a unified model. We analyse Signal's classically secure X3DH and harvest- now-decrypt-later-secure PQXDH, and show that they do not achieve what we call optimal security (as is documented). Next, we introduce RingXKEM, a fully post-quantum Signal handshake protocol achieving optimal security; as RingXKEM shares states among many prekey bundles, it could not have been captured by prior models. Lastly, we provide a security and efficiency comparison of X3DH, PQXDH, and RingXKEM.},
   url               = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange},
   html              = {https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange},
   eprint            = {2025/040},
@@ -189,7 +173,6 @@
   year      = {2024},
   month     = {September},
   pages     = {251--271},
-  abstract  = {Authenticated key exchange (AKE) is a fundamental cryptographic protocol that establishes a secure channel over the Internet. The security for AKE is defined as a security game between an adversary and the challenger. Especially, partners and freshness of the session are used to identify trivial attacks by the adversary. Roughly, partners are instances that derive the same session key, and freshness determines whether an adversary's behavior constitutes trivial attacks. In this work, we reconsider security definitions for AKE and point out the shortcomings of the conventional partners and freshness definition. Then, we propose a new robust and strong security definition. First, we propose a new definition of partners based on round identifiers. Second, we propose a new freshness definition, which captures more non-trivial attacks than the conventional ones. We introduce a new notion of miscommunicators to identify the adversary's behavior more accurately than conventional definitions. This allows, for example, the behavior of sending the first message as-is and tampering with the second message to be viewed as a non-trivial attack, which was considered a trivial attack in conventional definitions. Our new security definition is strictly stronger than the conventional one. As evidence of this, we provide a new construction of AKE that is secure in the conventional definition but insecure in the new definition.},
   url       = {https://doi.org/10.1007/978-3-031-71073-5_12},
   html      = {https://doi.org/10.1007/978-3-031-71073-5_12},
   publisher = {Springer},
@@ -211,7 +194,6 @@
   video     = {https://www.youtube.com/watch?v=Z55oLIfThP4},
   url       = {https://www.cfail.org/copy-of-cfail-2023},
   html      = {https://www.cfail.org/copy-of-cfail-2023},
-  abstract  = {This paper is a report on how we tackled constructing a digital signature scheme whose multi-user security with corruption can be tightly reduced to search assumptions. First, We reveal two new properties of signature schemes whose security cannot be tightly reduced to standard assumptions. More precisely, we generalize the negative result of Pan and Wagner, which shows that the reduction loss of the concrete signature scheme, called the Parallel-OR signature scheme, is lower bounded by the number of users. From this negative result, we have precious knowledge about designing a signature scheme that is tightly secure in multi-user settings with corruption. Next, we show a concrete construction of signature schemes based on the first result. Our scheme's multi-user security can be reduced to the CDH assumption, and the reduction loss does not depend on the number of users, but, unfortunately, the loss linearly depends on the number of random oracle queries issued by the adversary. So, it remains open whether we can construct a signature scheme whose multi-user security with corruption can be tightly reduced to search assumptions.},
   eprint    = {2024/1286},
   selected  = {false},
   slides    = {CFAIL-YOH24.pdf},
@@ -229,7 +211,6 @@
   year      = {2024},
   month     = {September},
   pages     = {145--165},
-  abstract  = {Registration-based encryption (RBE) is a solution for the key-escrow problem in identity-based encryption. Initial RBE schemes are too theoretical and inefficient, but recent advances make RBE schemes efficient enough to be incorporated into real-world systems. On the other hand, from a security point of view, existing schemes are insufficient for such systems because they only consider CPA security. Recently, Glaeser et al. (ACM CCS'23) presented a solution to this problem. They suggested the usage of the original Fujisaki-Okamoto (FO) transformation (CRYPTO'99) to realize CCA-secure RBE. However, they did not provide its formal analysis because they considered it can be applied in a straightforward manner. In this work, we reveal that the FO transformation for RBE is non-trivial, and provide an appropriate one suitable to RBE. The essence of achieving CCA security through FO transformation is that the receiver verifies that the received ciphertext is correctly generated by re-encryption. In RBE, we find that the sender and receiver must share the public parameter used for encryption since the decryption algorithm does not take it by default. Therefore, we make the sender explicitly send the current public parameter as part of the ciphertext. Furthermore, we show that a sufficiently large min-entropy of ciphertexts (so-called well-spreadness) is necessary to apply the FO transformation to RBE, in contrast to PKE or IBE. This property guarantees that no information is leaked from the decryption oracle even if the public parameter in the ciphertext is replaced. Based on these observations, we propose a new FO transformation tailored to RBE, which allows existing CPA-secure RBE schemes to be transformed into CCAsecure ones correctly.},
   url       = {https://doi.org/https://doi.org/10.1007/978-981-97-8016-7_7},
   html      = {https://doi.org/https://doi.org/10.1007/978-981-97-8016-7_7},
   publisher = {Springer},
@@ -247,7 +228,6 @@
   year      = {2023},
   video     = {https://youtu.be/sthXs4zJ5XU?t=4522},
   slides    = {https://iacr.org/submit/files/slides/2023/rwc/rwc2023/59/slides.pdf},
-  abstract  = {In this talk, we first systematically analyze the privacy offered by Signal and MLS and observe a critical shortcoming of MLS compared to Signal. In short, MLS leaks much more _metadata_ than Signal. In privacy-critical scenarios, dismissing this metadata leakage puts at risk the users who may otherwise believe that MLS offers the exact same level of security as Signal. We then propose an efficient and provably secure solution to bootstrap the current MLS to be as metadata-hiding (or, in some metrics, even more) as Signal. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared by the group to perform an anonymous membership authentication protocol.},
   month     = {March},
   selected  = {false},
   note      = {Talk based on  [<a href="/publications/#CCS:HKP22">CCS:HKP22</a>].},
@@ -267,7 +247,6 @@
   slides    = {https://iacr.org/submit/files/slides/2024/rwc/rwc2024/122/slides.pdf},
   note      = {Talk based on [<a href="/publications/#CCS:HKPPW21">CCS:HKPPW21</a>] and [<a href="https://eprint.iacr.org/2020/1107">AC:KKPP20</a>].},
   pubtype   = {international},
-  abstract  = {The past year has marked significant progress in secure messaging technologies. In March 2023, the Messaging Layer Security (MLS) protocol was standardized by the IETF, followed by Signal's introduction in May 2023 of PQXDH, a post-quantum alternative to the X3DH handshake. In the first part of this presentation, we identify scalability challenges that may hinder the widespread adoption of MLS and Signal in a post-quantum context, particularly in regions with limited mobile data plans. This analysis is backed by real-world quantitative data. In the second part of this talk, we propose a novel protocol with improved bandwidth consumption. It incorporates efficient post-quantum primitives, specifically multi-recipient public key encryption (mPKEs), optimized for secure messaging. We anticipate that our approach will be an order of magnitude more efficient than direct adaptations of existing protocols in practical scenarios.}
 }
 
 @inproceedings{CCS:HKP22,
@@ -277,12 +256,6 @@
   booktitle = {The ACM Conference on Computer and Communications Security (ACM CCS)},
   year      = {2022},
   month     = {November},
-  abstract  = {Secure group messaging (SGM) protocols allow large groups of users to communicate in a secure and asynchronous manner. In recent years, continuous group key agreements (CGKAs) have provided a powerful abstraction to reason on the security properties we expect from SGM protocols. While robust techniques have been developed to protect the contents of conversations in this context, it is in general more challenging to protect metadata (e.g. the identity and social relationships of group members), since their knowledge is often needed by the server in order to ensure the proper function of the SGM protocol.
-
-               <br><br>In this work, we provide a simple and generic wrapper protocol that upgrades non-metadata-hiding CGKAs into metadata-hiding CGKAs. Our key insight is to leverage the existence of a unique continuously evolving group secret key shared among the group members.
-               We use this key to perform a group membership authentication protocol that convinces the server in an anonymous manner that a user is a legitimate group member. Our technique only uses a standard signature scheme, and thus, the wrapper protocol can be instantiated from a wide range of assumptions, including post-quantum ones. It is also very efficient, as it increases the bandwidth cost of the underlying CGKA operations by at most a factor of two.
-
-               <br><br>To formally prove the security of our protocol, we use the universal composability (UC) framework and model a new ideal functionality F^mh_CGKA capturing the correctness and security guarantee of metadata-hiding CGKA. To capture the above intuition of a ``wrapper'' protocol, we also define a restricted ideal functionality F^ctxt_CGKA, which roughly captures a non-metadata-hiding CGKA. We then show that our wrapper protocol UC-realizes F^mh_CGKA in the F^ctxt_CGKA-hybrid model, which in particular formalizes the intuition that any non-metadata-hiding CGKA can be modularly bootstrapped into metadata-hiding CGKA.},
   url       = {https://doi.org/10.1145/3548606.3560679},
   html      = {https://doi.org/10.1145/3548606.3560679},
   publisher = {ACM DL},
@@ -302,11 +275,6 @@
   booktitle = {The ACM Conference on Computer and Communications Security (ACM CCS)},
   year      = {2021},
   month     = {November},
-  abstract  = {Continuous group key agreements (CGKAs) are a class of protocols that can provide strong security guarantees to secure group messaging protocols such as Signal and MLS. Protection against device compromise is provided by commit messages: at a regular rate, each group member may refresh their key material by uploading a commit message, which is then downloaded and processed by all the other members. In practice, propagating commit messages dominates the bandwidth consumption of existing CGKAs.
-
-               <br><br>We propose Chained CmPKE, a CGKA with an asymmetric bandwidth cost: in a group of N members, a commit message costs O(N) to upload and O(1) to download, for a total bandwidth cost of O(N). In contrast, TreeKEM [19, 24, 76] costs Ω(logN)in both directions, for a total cost Ω(NlogN). Our protocol relies on generic primitives, and is therefore readily post-quantum.
-
-               <br><br>We go one step further and propose post-quantum primitives that are tailored to Chained CmPKE, which allows us to cut the growth rate of uploaded commit messages by two or three orders of magnitude compared to naive instantiations. Finally, we realize a software implementation of Chained CmPKE. Our experiments show that even for groups with a size as large as N=2^10, commit messages can be computed and processed in less than 100 ms.},
   url       = {https://doi.org/10.1145/3460120.3484817},
   html      = {https://doi.org/10.1145/3460120.3484817},
   publisher = {ACM DL},
@@ -330,9 +298,6 @@
   year      = {2021},
   month     = {May},
   pages     = {410--440},
-  abstract  = {The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype, Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt'19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited.
-
-               <br><br>In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior work on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong (or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to strengthen it using ring signatures. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available.},
   isbn      = {978-3-030-75248-4},
   url       = {https://doi.org/10.1007/978-3-030-75248-4_15},
   html      = {https://doi.org/10.1007/978-3-030-75248-4_15},
@@ -362,7 +327,6 @@
   publisher         = {IACR},
   selected          = {false},
   pubtype           = {international},
-  abstract          = {Privacy-preserving authenticated key exchange (PPAKE) is a cryptographic protocol that enables two users to exchange a session key while protecting users' privacy (i.e., hiding the user's identity) against the machine-in-the-middle adversary. To hide user identities, PPAKE messages are broadcast to the network, increasing communication complexity. In ASIACRYPT2022, Lyu et al. introduced a concept of robustness to reduce communication complexity. Roughly, robust PPAKE allows receivers to decide whether it is the intended user by processing the first message with its long-term secret key. As a result, only the intended user replies to the first message, and thus, messages in the network are reduced. However, if a user's secret key is leaked, an adversary can also use it to determine whether the past first message was intended for the user, and thus, the PPAKE scheme of Lyu et al. does not have full forward privacy. Lyu et al. leave an open problem of constructing a PPAKE scheme with robustness and full forward privacy. In this work, we solve this problem by introducing a new framework called key updatable PPAKE (kuPPAKE). In kuPPAKE schemes, a long-term secret key is updated so that the updated key does not work for past messages. Therefore, robustness no longer conflicts with full forward privacy. We propose a generic construction of a 2-round kuPPAKE and show a concrete scheme in the standard model from DH-style assumptions over bilinear groups.},
   xgoogle_scholar_id = {}
 }
 
@@ -380,7 +344,6 @@
   publisher = {Springer},
   selected  = {false},
   pubtype   = {international},
-  abstract  = {Threshold public-key encryption (threshold PKE) has various useful applications. A lot of threshold PKE schemes are proposed based on RSA, Diffie-Hellman and lattice, but to the best of our knowledge, code-based threshold PKEs have not been proposed. In this paper, we provide three IND-CCA secure code-based threshold PKE schemes. The first scheme is the concrete instantiation of Dodis-Katz conversion (Dodis and Katz, TCC'05) that converts an IND-CCA secure PKE into an IND-CCA secure threshold PKE using parallel encryption and a signature scheme. This approach provides non-interactive threshold decryption, but ciphertexts are large (about 16 kilobytes for 128-bit security) due to long code-based signatures even in the state-of-the-art one. The second scheme is a new parallel encryption-based construction without signature schemes. Unlike the Dodis-Katz conversion, our parallel encryption converts an OW-CPA secure PKE into an OW-CPA secure threshold PKE. To enhance security, we use Cong et al.'s conversion (Cong et al., ASIACRYPT'21). Thanks to eliminating signatures, its ciphertext is 512 bytes, which is only 3\% of the first scheme. The decryption process needs an MPC for computing hash functions, but decryption of OW-CPA secure PKE can be done locally. The third scheme is an MPC-based threshold PKE scheme from code-based assumption. We take the same approach Cong et al.\ took to construct efficient lattice-based threshold PKEs. We build an MPC for the decryption algorithm of OW-CPA secure Classic McEliece PKE. This scheme has the shortest ciphertext among the three schemes at just 192 bytes. Compared to the regular CCA secure Classic McEliece PKE, the additional ciphertext length is only 100 bytes. The cons are heavy distributed computation in the decryption process.},
   google_scholar_id={Y0pCki6q_DkC},
 }
 
@@ -397,7 +360,6 @@
   selected  = {true},
   note      = {Full version of [<a href="/publications/#PKC:HKKP21">PKC:HKKP21</a>].},
   pubtype   = {international},
-  abstract  = {The Signal protocol is a secure instant messaging protocol that underlies the security of numerous applications such as WhatsApp, Skype,Facebook Messenger among many others. The Signal protocol consists of two sub-protocols known as the X3DH protocol and the double ratchet protocol, where the latter has recently gained much attention. For instance, Alwen, Coretti, and Dodis (Eurocrypt'19) provided a concrete security model along with a generic construction based on simple building blocks that are instantiable from versatile assumptions, including post-quantum ones. In contrast, as far as we are aware, works focusing on the X3DH protocol seem limited. In this work, we cast the X3DH protocol as a specific type of authenticated key exchange (AKE) protocol, which we call a Signal-conforming AKE protocol, and formally define its security model based on the vast prior works on AKE protocols. We then provide the first efficient generic construction of a Signal-conforming AKE protocol based on standard cryptographic primitives such as key encapsulation mechanisms (KEM) and signature schemes. Specifically, this results in the first post-quantum secure replacement of the X3DH protocol based on well-established assumptions. Similar to the X3DH protocol, our Signal-conforming AKE protocol offers a strong(or stronger) flavor of security, where the exchanged key remains secure even when all the non-trivial combinations of the long-term secrets and session-specific secrets are compromised. Moreover, our protocol has a weak flavor of deniability and we further show how to progressively strengthen it using ring signatures and/or non-interactive zero-knowledge proof systems. Finally, we provide a full-fledged, generic C implementation of our (weakly deniable) protocol. We instantiate it with several Round 3 candidates (finalists and alternates) to the NIST post-quantum standardization process and compare the resulting bandwidth and computation performances. Our implementation is publicly available},
   code      = {https://github.com/post-quantum-cryptography/post-quantum-state-leakage-secure-ake},
   eprint    = {2021/616},
   google_scholar_id={9yKSN-GCB0IC},
@@ -417,7 +379,6 @@
   url       = {https://www.sciencedirect.com/science/article/pii/S002002551930194X},
   author    = {Keitaro Hashimoto and Wakaha Ogata},
   keywords  = {Information security, Message authentication, Digital signature, Certificateless signature, Aggregate signature},
-  abstract  = {A certificateless aggregate signature (CLAS) scheme employing a reduced signature size eliminates the complexity of certificate management in a traditional public key cryptosystem. A compact aggregate signature, where the size does not depend on the aggregate number, is desirable when the objective is to reduce storage cost and bandwidth. However, in conventional compact CLAS schemes, aggregation of signatures is restricted. The state information is meant to be used only once for security; it is generally used to restrict aggregation to signatures generated with the same state information. This paper proposes the first unrestricted and compact CLAS scheme where the signature size is constant and any combination of signatures can be aggregated. Aside from convenient storage and communication costs, our scheme is also equipped with a secure system against realistic adversaries. Moreover, we evaluate the performance of our CLAS scheme and demonstrate its effectiveness. Finally, this paper reveals that it is not possible to construct an unrestricted and compact CLAS scheme for a widely used structure with constant pairing computation.},
   selected  = {false},
   pubtype   = {international},
   google_scholar_id={u-x6o8ySG0sC},
@@ -431,7 +392,6 @@
   year         = {2025},
   month        = {January},
   eprint       = {2025/115},
-  abstract     = {In this paper, we show that tightly secure signature schemes in the multi-user setting with adaptive corruptions can be achieved from various weak assumptions, such as classical discrete logarithm, RSA, factoring, and even the post-quantum group action discrete logarithm assumption, at the cost of signature length. To this end, we introduce a new framework to construct a signature scheme. Our construction is a combination of an identification scheme with multiple secret keys per public key (with additional specific features) and (randomized) Fischlin transformation.  From the straight-line extractability of the transformation, intuitively unforgeability can be tightly reduced to the soundness of an identification scheme in the programmable random oracle model (PROM). Our careful security proof succeeds in a tight reduction in the non-programmable random oracle model (NPROM). As a complementary study, we analyze the multi-user security of hash-based signatures. Although hash-based signatures seem to be tightly secure in the multi-user setting with adaptive corruptions (at the cost of signature lengths similar to our construction), their security has not been closely analyzed. We show the tight security based on collision resistance of the underlying hash function by modeling the pseudo-random function for key generation as a (programmable) random oracle. By using a hash function whose security is tightly reduced to other assumptions, such as the discrete logarithm problem, we also obtain a tightly secure signature based on them. However, the concrete signature size is larger than our proposal based on an identification scheme, and the security reduction is in the PROM in contrast to our new framework.},
   pubtype      = {eprint}
 }
 
@@ -443,7 +403,6 @@
   year         = {2019},
   month        = {November},
   eprint       = {2019/1367},
-  abstract     = {Certificateless signature was proposed by Al-Riyami and Paterson to eliminate the certificate management in the public-key infrastructures and solve the key escrow problem in the identity-based signature. In 2007, Hu et al. proposed a generic construction of certificateless signature. They construct certificateless signature scheme from any standard identity-based signature and signature scheme. However, their security reduction is loose; the security of the constructed scheme depends on the number of users. In this paper, we give the tight reduction for their construction and instantiate a tightly-secure certificateless signature scheme without pairing from DDH assumption. Best of our knowledge, this scheme is the first tightly-secure certificateless signature scheme.},
   pubtype      = {eprint}
 }
 
@@ -455,7 +414,6 @@
   year         = {2023},
   month        = {September},
   eprint       = {2023/1435},
-  abstract     = {Identity-based matchmaking encryption (IB-ME) proposed by Ateniese et al. [CRYPTO 2019; Journal of Cryptology 2021] enables users to communicate privately, anonymously, and authentically. Following the seminal work of Ateniese et al., considerable research has been conducted on the security and construction of IB-ME schemes, but no scheme with enhanced privacy against chosen-ciphertext attacks is known. In this paper, we propose two IB-ME schemes that simultaneously achieve enhanced privacy against chosen-ciphertext attacks. The first scheme is built on the bilinear Diffie-Hellman assumption in the random oracle model. Inspired by the scheme of Ateniese et al., our construction attains stronger security guarantees while providing more compact decryption keys and ciphertexts than the scheme of Ateniese et al. The second scheme is a generic construction built upon anonymous identity-based encryption, digital signatures, NIZK systems, and reusable extractors. This scheme is obtained by generalizing the specific scheme of Francati et al. [INDOCRYPT 2021] and constitutes the first IB-ME scheme achieving the stronger security notions in the standard model. As an additional contribution, we classify existing authenticity notions for IB-ME into four categories—no message attacks (NMA) and chosen message attacks (CMA), each considered against both insiders and outsiders. This taxonomy enables a precise comparison among existing IB-ME schemes.},
   pubtype      = {eprint}
 }
 
@@ -471,7 +429,6 @@
   pubtype   = {thesis},
   lang      = {en},
   publisher = {Tokyo Tech Research Repository},
-  abstract  = {See <a href="https://t2r2.star.titech.ac.jp/rrws/file/CTT100886152/ATD100000413/">Tokyo Tech Research Repository</a>},
   note      = {This is based on [<a href="#JoC:HKKP22">J. Cryptol.:HKKP22</a>], [<a href="#CCS:HKPPW21">CCS:HKPPW21</a>] and [<a href="#CCS:HKP22">CCS:HKP22</a>]. There are several typos.},
   award     = {Seiichi Tejima Research Award Doctoral Dissertation Award}
 }
@@ -659,6 +616,7 @@
   month        = {January},
   publisher    = {電子情報通信学会},
   address      = {福岡, 日本},
+  note         = {Full version is [<a href="#IWSEC:FHHY25">IWSEC:FHHY25</a>].},
   pubtype      = {domestic}
 }
 
