@@ -17,6 +17,8 @@ nav_order: 4
 
 <h3>Invited Talks</h3>
 <dl>
+    <dt>Computational Security Models for PQ WireGuard</dt>
+    <dd>Secure Key Exchange and Channel Protocols (SKECH), May, 2026.</dd>
     <dt>Towards Social Implementation of Secure IoT Devices</dt>
     <dd>New Concepts and Paradigms of Security for Next Generation 2026, January, 2026.</dd>
     <dt>Authentication in MLS and Its Variants.</dt>
@@ -38,7 +40,7 @@ nav_order: 4
 <h3>Patents</h3>
 <dl>
     <dt>Method for hiding the identity of communication devices in a continuous group key agreement</dt>
-    <dd>K Hashimoto, S Katsumata, T Prest, US Patent App. 19/033,305</dd>
+    <dd>K. Hashimoto, S. Katsumata, T. Prest, US Patent App. 19/033,305</dd>
 </dl>
 
 <h3>Students</h3>

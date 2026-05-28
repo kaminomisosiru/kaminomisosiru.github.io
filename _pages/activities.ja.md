@@ -17,6 +17,8 @@ nav_order: 4
 
 <h3>招待講演</h3>
 <dl>
+    <dt>Computational Security Models for PQ WireGuard</dt>
+    <dd>Secure Key Exchange and Channel Protocols (SKECH), May, 2026.</dd>
     <dt>Towards Social Implementation of Secure IoT Devices</dt>
     <dd>New Concepts and Paradigms of Security for Next Generation 2026, 2026年1月.</dd>
     <dt>Authentication in MLS and Its Variants.</dt>
