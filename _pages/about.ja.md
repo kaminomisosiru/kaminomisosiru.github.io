@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 研究員@AIST | セキュアな社会の実現に向けて暗号を研究中
+subtitle: 暗号研究者 | セキュアな社会の実現に向けて研究中
 lang: ja
 nav_order: 1
 

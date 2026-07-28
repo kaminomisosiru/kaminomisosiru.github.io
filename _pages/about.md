@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher at AIST | Researching cryptography to realize a secure world!
+subtitle: Cryptographic Researcher | Let's realize a secure world!
 lang: en
 nav_order: 1
 
@@ -28,3 +28,5 @@ This is why I’m researching cryptography and information security.
 Especially, I love to systematically analyze the security of real-world cryptographic protocols. I formalize a security model and give a security reduction, demonstrating the protocol is secure against which types of attackers under what assumptions.
 Also, I’m interested in any activities that make fancy cryptographic technologies socially accepted. 
 Recently, I have been attending the IETF meetings to learn how cryptographic technologies will be used on the Internet.
+
+I'm open to any collaborations!
