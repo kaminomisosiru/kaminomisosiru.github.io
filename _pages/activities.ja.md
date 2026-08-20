@@ -18,6 +18,10 @@ nav_order: 4
 
 <h3>招待講演</h3>
 <dl>
+    <dt>Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs.</dt>
+    <dd>第25回情報科学技術フォーラム（FIT2026）, 2026年9月.</dd>
+    <dt>Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs.</dt>
+    <dd>2026年 暗号と情報セキュリティワークショップ (WCIS2026), 2026年9月.</dd>
     <dt>Computational Security Models for PQ WireGuard</dt>
     <dd>Secure Key Exchange and Channel Protocols (SKECH), May, 2026.</dd>
     <dt>Towards Social Implementation of Secure IoT Devices</dt>
@@ -27,7 +31,7 @@ nav_order: 4
     <dt>How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum.</dt>
     <dd>第22回情報科学技術フォーラム（FIT2023）, 2023年9月.</dd>
     <dt>A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs.</dt>
-    <dd>2022年 暗号と情報セキュリティワークショップ, 2022年9月.</dd>
+    <dd>2022年 暗号と情報セキュリティワークショップ (WCIS2023), 2022年9月.</dd>
     <dt>Design and Implementation of a Post-Quantum Authenticated Key Exchange Protocol for Signal.</dt>
     <dd>SCIS/CSS Invited Session in IWSEC, 2021年9月.</dd>
 </dl>

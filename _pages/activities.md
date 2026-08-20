@@ -18,6 +18,10 @@ nav_order: 4
 
 <h3>Invited Talks</h3>
 <dl>
+    <dt>Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs.</dt>
+    <dd>25th Forum on Information Technology （FIT） 2026, September, 2026.</dd>
+    <dt>Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs.</dt>
+    <dd>Workshop on Cryptography and Information Security (WCIS) 2026, September, 2026.</dd>
     <dt>Computational Security Models for PQ WireGuard</dt>
     <dd>Secure Key Exchange and Channel Protocols (SKECH), May, 2026.</dd>
     <dt>Towards Social Implementation of Secure IoT Devices</dt>
