@@ -51,7 +51,7 @@ nav_order: 4
 <h3>学生指導</h3>
 <dl>
     <dt>Milan Gonzalez-Thauvin (École normale supérieure de Lyon)</dt>
-    <dd>インターンシップ, 2025年3月--8月</dd>
+    <dd>インターンシップ, 2025年3月--5月</dd>
 </dl>
 
 <h3>授業</h3>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Usenix Security 2025@アメリカ・シアトル
+title: USENIX Security 2025@アメリカ・シアトル
 date: 2025-08-16 12:00:00
 description: 空港での入国審査が厳しかった
 tags: 北米
@@ -8,7 +8,7 @@ categories:
 lang: ja
 ---
 
-Usenix Securityに論文が採録されたため、発表のためにアメリカ・シアトルへ出張した時の記録。
+USENIX Securityに論文が採録されたため、発表のためにアメリカ・シアトルへ出張した時の記録。
 
 ## シアトルへの移動
 

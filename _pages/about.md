@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Cryptographic Researcher | Let's realize a secure world!
+subtitle: Cryptography Researcher | Let's realize a secure world!
 lang: en
 nav_order: 1
 
@@ -21,10 +21,10 @@ social: true  # includes social icons at the bottom of the page
 I am a researcher at [Security Assurance Scheme Research Group](https://www.cpsec.aist.go.jp/group/sasrg/){:target="\_blank"} in [Cyber Physical Security Research Institute](https://www.cpsec.aist.go.jp/index_en.html){:target="\_blank"}, [National Institute of Advanced Industrial Science and Technology (AIST)](https://www.aist.go.jp/index_en.html){:target="\_blank"}.
 I received my Bachelor's degree in Engineering, Master's degree in Engineering and Ph.D. in Engineering from Tokyo Institute of Technology in 2018, 2020 and 2023, respectively. My adviser is Prof. [Wakaha Ogata](http://www.crypt.ict.e.titech.ac.jp/users/wakaha/index.html){:target="\_blank"}.
 Furthermore, I completed Progressive Graduate Minor in Cybersecurity in 2020.
-Before I become a resercher at AIST, I worked as a research assistant at AIST from June 2020 to March 2023, and as a [research fellowship for young scientists](https://www.jsps.go.jp/english/e-pd/index.html) from April 2022 to March 2023.
+Before becoming a researcher at AIST, I worked as a research assistant at AIST from June 2020 to March 2023, and as a [Research Fellowship for Young Scientists](https://www.jsps.go.jp/english/e-pd/index.html) from April 2022 to March 2023.
 
 My ambition in life is to realize a secure world. 
 This is why I’m researching cryptography and information security. 
-Especially, I love to systematically analyze the security of real-world cryptographic protocols. I formalize a security model and give a security reduction, demonstrating the protocol is secure against which types of attackers under what assumptions.
-Also, I’m interested in any activities that make fancy cryptographic technologies socially accepted. 
+Especially, I love to systematically analyze the security of Real-world cryptographic protocolss. I formalize a security model and give a security reduction, demonstrating the protocol is secure against which types of attackers under what assumptions.
+Also, I’m interested in any activities that make advanced cryptographic technologies accepted by society. 
 Recently, I have been attending the IETF meetings to learn how cryptographic technologies will be used on the Internet.
