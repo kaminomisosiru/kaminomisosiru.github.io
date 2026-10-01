@@ -35,9 +35,12 @@
 - title: 職歴
   type: time_table
   contents:
+    - title: 主任研究員
+      institution: 産業技術総合研究所
+      year: 2026.10 - 現在
     - title: 研究員
       institution: 産業技術総合研究所
-      year: 2023.4 - 現在
+      year: 2023.4 - 2026.9
     - title: 訪問インターンシップ
       institution: PQShield SAS, パリ, フランス
       year: 2022.7
