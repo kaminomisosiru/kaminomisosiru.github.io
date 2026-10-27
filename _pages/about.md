@@ -23,8 +23,6 @@ I received my Bachelor's degree in Engineering, Master's degree in Engineering a
 Furthermore, I completed Progressive Graduate Minor in Cybersecurity in 2020.
 Before becoming a researcher at AIST, I worked as a research assistant at AIST from June 2020 to March 2023, and as a [Research Fellowship for Young Scientists](https://www.jsps.go.jp/english/e-pd/index.html) from April 2022 to March 2023.
 
-My ambition in life is to realize a secure world. 
-This is why I’m researching cryptography and information security. 
-Especially, I love to systematically analyze the security of Real-world cryptographic protocolss. I formalize a security model and give a security reduction, demonstrating the protocol is secure against which types of attackers under what assumptions.
-Also, I’m interested in any activities that make advanced cryptographic technologies accepted by society. 
-Recently, I have been attending the IETF meetings to learn how cryptographic technologies will be used on the Internet.
+My ambition in life is to realize a secure world. This is why I’m researching cryptography and information security. 
+Especially, I love to systematically analyze the security of real-world cryptographic protocolss. I formalize a security model and give a security reduction, demonstrating the protocol is secure against which types of attackers under what assumptions.
+Also, I’m interested in any activities that make advanced cryptographic technologies accepted by society. Recently, I have been attending the IETF meetings to learn how cryptographic technologies will be used on the Internet.
