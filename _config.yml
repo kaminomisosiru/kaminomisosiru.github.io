@@ -306,9 +306,6 @@ scholar:
   style: apa
   locale: en
 
-  bibtex_options:
-    parse_months: false
-
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
