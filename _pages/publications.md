@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications and Presentations
-description: Items in reversed chronological order. 
+title: Publications
+description: The items are listed in order from newest to oldest.
 nav: true
 lang: en
 nav_order: 3
