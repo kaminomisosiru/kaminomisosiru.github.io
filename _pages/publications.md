@@ -11,13 +11,19 @@ nav_order: 3
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<div class="publication-section">
 <h2>Peer-Reviewed Journal Articles</h2>
 {% bibliography -q @article --group_by year --group_order descending --sort_by year,month --order descending %}
+</div>
 
+<div class="publication-section">
 <h2>Peer-Reviewed International Conferences</h2>
 {% bibliography -q @inproceedings[pubtype=international] --group_by year --group_order descending %}
+</div>
 
+<div class="publication-section">
 <h2>Dissertation</h2>
 {% bibliography -q @phdthesis --group_by year --group_order descending %}
+</div>
 
 </div>
