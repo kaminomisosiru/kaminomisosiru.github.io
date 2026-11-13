@@ -20,4 +20,7 @@ nav_order: 3
 <h2>Domestic Conferences</h2>
 {% bibliography -q @*[pubtype=domestic]* --group_by year --group_order descending %}
 
+<h2>Dissertations</h2>
+{% bibliography -q @*[pubtype=thesis]* --group_by year --group_order descending %}
+
 </div>
