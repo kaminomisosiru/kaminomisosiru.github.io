@@ -17,7 +17,7 @@ nav_order: 3
 <h2>Peer-Reviewed International Conferences</h2>
 {% bibliography -q @inproceedings[pubtype=international] --group_by year --group_order descending %}
 
-<h2>Dissertations</h2>
-{% bibliography -q @*[pubtype=thesis]* --group_by year --group_order descending %}
+<h2>Dissertation</h2>
+{% bibliography -q @phdthesis --group_by year --group_order descending %}
 
 </div>
