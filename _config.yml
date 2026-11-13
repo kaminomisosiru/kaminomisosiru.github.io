@@ -303,7 +303,7 @@ scholar:
   last_name: Hashimoto
   first_name: ["Keitaro", "K.", "橋本啓太郎"]
 
-  style: apa
+  style: acm-sig-proceedings
   locale: en
 
   source: /_bibliography/
