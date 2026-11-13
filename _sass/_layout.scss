@@ -46,6 +46,19 @@ body.sticky-bottom-footer {
 
 // TODO: redefine publications layout.
 
+.publication-section {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.publication-section>h2:first-child {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
 /*****************************************************************************
 * Projects
 *****************************************************************************/
