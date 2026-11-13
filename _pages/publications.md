@@ -15,10 +15,10 @@ nav_order: 3
 {% bibliography -q @article --group_by year --group_order descending --sort_by year,month --order descending %}
 
 <h2>International Conferences</h2>
-{% bibliography -q @*[pubtype=international]* --group_by year --group_order descending %}
+{% bibliography -q @inproceedings[pubtype=international] --group_by year --group_order descending %}
 
-<h2>Domestic Conferences</h2>
-{% bibliography -q @*[pubtype=domestic]* --group_by year --group_order descending %}
+<!-- <h2>Domestic Conferences</h2>
+{% bibliography -q @*[pubtype=domestic]* --group_by year --group_order descending %} -->
 
 <h2>Dissertations</h2>
 {% bibliography -q @*[pubtype=thesis]* --group_by year --group_order descending %}
