@@ -12,7 +12,7 @@ nav_order: 3
 <div class="publications">
 
 <h2>Journal Articles</h2>
-{% bibliography -q @*[pubtype=journal]* --group_by year --group_order descending %}
+{% bibliography -q @article --group_by year --group_order descending --sort_by year,month --order descending %}
 
 <h2>International Conferences</h2>
 {% bibliography -q @*[pubtype=international]* --group_by year --group_order descending %}
