@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications and Presentations
-description: publications in reversed chronological order. Items in Japanese are published in domestic conferences.
+description: Items in reversed chronological order. 
 nav: true
 lang: en
 nav_order: 3
@@ -11,6 +11,13 @@ nav_order: 3
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %}
+<h2>Journal Articles</h2>
+{% bibliography -q @*[pubtype=journal]* --group_by year --group_order descending %}
+
+<h2>International Conferences</h2>
+{% bibliography -q @*[pubtype=international]* --group_by year --group_order descending %}
+
+<h2>Domestic Conferences</h2>
+{% bibliography -q @*[pubtype=domestic]* --group_by year --group_order descending %}
 
 </div>
