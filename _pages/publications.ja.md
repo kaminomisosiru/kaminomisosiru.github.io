@@ -11,16 +11,24 @@ nav_order: 3
 
 <div class="publications">
 
+<div class="publication-section">
 <h2>査読付き国際論文誌</h2>
 {% bibliography -q @article --group_by year --group_order descending --sort_by year,month --order descending %}
+</div>
 
+<div class="publication-section">
 <h2>査読付き国際会議</h2>
 {% bibliography -q @inproceedings[pubtype=international] --group_by year --group_order descending %}
+</div>
 
+<div class="publication-section">
 <h2>国内会議</h2>
 {% bibliography -q @*[pubtype=domestic]* --group_by year --group_order descending %}
+</div>
 
+<div class="publication-section">
 <h2>学位論文</h2>
 {% bibliography -q @*[pubtype=thesis]* --group_by year --group_order descending %}
+</div>
 
 </div>
